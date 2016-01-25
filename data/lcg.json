@@ -1,0 +1,1424 @@
+[
+  {
+    "i": 1,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": ">80 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 2,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "46-80 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 3,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "20-45 days",
+    "freq": 5,
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "i": 4,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "20-45 days",
+    "freq": 4,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 5,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "20-45 days",
+    "freq": 3,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 6,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "20-45 days",
+    "freq": 2,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 7,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "20-45 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 8,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "14-19 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 9,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "14-19 days",
+    "freq": 5,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 10,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "14-19 days",
+    "freq": 3,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 11,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "7-13 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 12,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "7-13 days",
+    "freq": 5,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 13,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "7-13 days",
+    "freq": 4,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 14,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "7-13 days",
+    "freq": 2,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 15,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "0-6 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 16,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "0-6 days",
+    "freq": 4,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 17,
+    "FeatureID": "Feature01",
+    "cart": "SKU01",
+    "rec": "0-6 days",
+    "freq": 2,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 18,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": ">80 days",
+    "freq": 1,
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "i": 19,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "46-80 days",
+    "freq": 3,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 20,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "46-80 days",
+    "freq": 2,
+    "quantity": 6,
+    "client": "client"
+  },
+  {
+    "i": 21,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "46-80 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 22,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "20-45 days",
+    "freq": 5,
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "i": 23,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "20-45 days",
+    "freq": 4,
+    "quantity": 4,
+    "client": "client"
+  },
+  {
+    "i": 24,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "20-45 days",
+    "freq": 3,
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "i": 25,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "20-45 days",
+    "freq": 1,
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "i": 26,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "14-19 days",
+    "freq": 5,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 27,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "14-19 days",
+    "freq": 4,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 28,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "14-19 days",
+    "freq": 3,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 29,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "14-19 days",
+    "freq": 2,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 30,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "7-13 days",
+    "freq": 4,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 31,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "7-13 days",
+    "freq": 3,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 32,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "0-6 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 33,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "0-6 days",
+    "freq": 5,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 34,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "0-6 days",
+    "freq": 3,
+    "quantity": 5,
+    "client": "client"
+  },
+  {
+    "i": 35,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02",
+    "rec": "0-6 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 36,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": ">80 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 37,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "46-80 days",
+    "freq": 5,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 38,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "46-80 days",
+    "freq": 3,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 39,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "46-80 days",
+    "freq": 2,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 40,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "46-80 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 41,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "20-45 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 42,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "20-45 days",
+    "freq": 5,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 43,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "20-45 days",
+    "freq": 4,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 44,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "20-45 days",
+    "freq": 3,
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "i": 45,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "20-45 days",
+    "freq": 2,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 46,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "20-45 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 47,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "7-13 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 48,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "7-13 days",
+    "freq": 4,
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "i": 49,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "7-13 days",
+    "freq": 2,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 50,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "0-6 days",
+    "freq": 4,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 51,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "0-6 days",
+    "freq": 3,
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "i": 52,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "0-6 days",
+    "freq": 2,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 53,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU03",
+    "rec": ">80 days",
+    "freq": 2,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 54,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU03",
+    "rec": "46-80 days",
+    "freq": 4,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 55,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU03",
+    "rec": "46-80 days",
+    "freq": 3,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 56,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU03",
+    "rec": "46-80 days",
+    "freq": 2,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 57,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU03",
+    "rec": "20-45 days",
+    "freq": 3,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 58,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU03",
+    "rec": "14-19 days",
+    "freq": 5,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 59,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU03",
+    "rec": "14-19 days",
+    "freq": 4,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 60,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU03",
+    "rec": "14-19 days",
+    "freq": 3,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 61,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU03",
+    "rec": "7-13 days",
+    "freq": 4,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 62,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU03",
+    "rec": "7-13 days",
+    "freq": 2,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 63,
+    "FeatureID": "Feature01",
+    "cart": "SKU01SKU03",
+    "rec": "0-6 days",
+    "freq": 5,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 64,
+    "FeatureID": "Feature01",
+    "cart": "SKU02",
+    "rec": ">80 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 65,
+    "FeatureID": "Feature01",
+    "cart": "SKU02",
+    "rec": "20-45 days",
+    "freq": 4,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 66,
+    "FeatureID": "Feature01",
+    "cart": "SKU02",
+    "rec": "20-45 days",
+    "freq": 3,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 67,
+    "FeatureID": "Feature01",
+    "cart": "SKU02",
+    "rec": "0-6 days",
+    "freq": 3,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 68,
+    "FeatureID": "Feature01",
+    "cart": "SKU02SKU03",
+    "rec": "7-13 days",
+    "freq": 4,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 69,
+    "FeatureID": "Feature01",
+    "cart": "SKU02SKU03",
+    "rec": "0-6 days",
+    "freq": 2,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 70,
+    "FeatureID": "Feature01",
+    "cart": "SKU03",
+    "rec": "7-13 days",
+    "freq": 4,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 71,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": ">80 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 72,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": "46-80 days",
+    "freq": 1,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 73,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": "20-45 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 74,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": "20-45 days",
+    "freq": 5,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 75,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": "20-45 days",
+    "freq": 4,
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "i": 76,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": "20-45 days",
+    "freq": 2,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 77,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": "14-19 days",
+    "freq": ">5",
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 78,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": "14-19 days",
+    "freq": 4,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 79,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": "14-19 days",
+    "freq": 3,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 80,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": "14-19 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 81,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": "7-13 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 82,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": "7-13 days",
+    "freq": 5,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 83,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": "7-13 days",
+    "freq": 4,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 84,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": "7-13 days",
+    "freq": 3,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 85,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": "0-6 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 86,
+    "FeatureID": "Feature02",
+    "cart": "SKU01",
+    "rec": "0-6 days",
+    "freq": 4,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 87,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": ">80 days",
+    "freq": 1,
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "i": 88,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "46-80 days",
+    "freq": 3,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 89,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "46-80 days",
+    "freq": 2,
+    "quantity": 5,
+    "client": "client"
+  },
+  {
+    "i": 90,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "46-80 days",
+    "freq": 1,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 91,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "20-45 days",
+    "freq": ">5",
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "i": 92,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "20-45 days",
+    "freq": 5,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 93,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "20-45 days",
+    "freq": 4,
+    "quantity": 6,
+    "client": "client"
+  },
+  {
+    "i": 94,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "20-45 days",
+    "freq": 3,
+    "quantity": 8,
+    "client": "client"
+  },
+  {
+    "i": 95,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "20-45 days",
+    "freq": 2,
+    "quantity": 5,
+    "client": "client"
+  },
+  {
+    "i": 96,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "14-19 days",
+    "freq": 5,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 97,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "14-19 days",
+    "freq": 3,
+    "quantity": 4,
+    "client": "client"
+  },
+  {
+    "i": 98,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "14-19 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 99,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "7-13 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 100,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "7-13 days",
+    "freq": 5,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 101,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "7-13 days",
+    "freq": 4,
+    "quantity": 5,
+    "client": "client"
+  },
+  {
+    "i": 102,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "7-13 days",
+    "freq": 3,
+    "quantity": 5,
+    "client": "client"
+  },
+  {
+    "i": 103,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "7-13 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 104,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "0-6 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 105,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "0-6 days",
+    "freq": 5,
+    "quantity": 5,
+    "client": "client"
+  },
+  {
+    "i": 106,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "0-6 days",
+    "freq": 4,
+    "quantity": 4,
+    "client": "client"
+  },
+  {
+    "i": 107,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "0-6 days",
+    "freq": 3,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 108,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02",
+    "rec": "0-6 days",
+    "freq": 2,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 109,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "46-80 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 110,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "46-80 days",
+    "freq": 3,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 111,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "46-80 days",
+    "freq": 2,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 112,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "46-80 days",
+    "freq": 1,
+    "quantity": 4,
+    "client": "client"
+  },
+  {
+    "i": 113,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "20-45 days",
+    "freq": 5,
+    "quantity": 4,
+    "client": "client"
+  },
+  {
+    "i": 114,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "20-45 days",
+    "freq": 4,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 115,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "20-45 days",
+    "freq": 3,
+    "quantity": 6,
+    "client": "client"
+  },
+  {
+    "i": 116,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "20-45 days",
+    "freq": 2,
+    "quantity": 5,
+    "client": "client"
+  },
+  {
+    "i": 117,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "20-45 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 118,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "14-19 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 119,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "14-19 days",
+    "freq": 5,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 120,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "14-19 days",
+    "freq": 4,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 121,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "14-19 days",
+    "freq": 2,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 122,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "7-13 days",
+    "freq": ">5",
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 123,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "7-13 days",
+    "freq": 5,
+    "quantity": 4,
+    "client": "client"
+  },
+  {
+    "i": 124,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "7-13 days",
+    "freq": 4,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 125,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "7-13 days",
+    "freq": 3,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 126,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "7-13 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 127,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "0-6 days",
+    "freq": ">5",
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 128,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "0-6 days",
+    "freq": 5,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 129,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "0-6 days",
+    "freq": 4,
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "i": 130,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "0-6 days",
+    "freq": 3,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 131,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "0-6 days",
+    "freq": 2,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 132,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU02SKU03",
+    "rec": "0-6 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 133,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": ">80 days",
+    "freq": 2,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 134,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": ">80 days",
+    "freq": 1,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 135,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "46-80 days",
+    "freq": 3,
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "i": 136,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "46-80 days",
+    "freq": 2,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 137,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "46-80 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 138,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "20-45 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 139,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "20-45 days",
+    "freq": 5,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 140,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "20-45 days",
+    "freq": 2,
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "i": 141,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "20-45 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 142,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "14-19 days",
+    "freq": 5,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 143,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "14-19 days",
+    "freq": 4,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 144,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "14-19 days",
+    "freq": 3,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 145,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "7-13 days",
+    "freq": 4,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 146,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "0-6 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 147,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "0-6 days",
+    "freq": 5,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 148,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "0-6 days",
+    "freq": 4,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 149,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "0-6 days",
+    "freq": 3,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 150,
+    "FeatureID": "Feature02",
+    "cart": "SKU01SKU03",
+    "rec": "0-6 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 151,
+    "FeatureID": "Feature02",
+    "cart": "SKU02",
+    "rec": "20-45 days",
+    "freq": 3,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 152,
+    "FeatureID": "Feature02",
+    "cart": "SKU02",
+    "rec": "7-13 days",
+    "freq": 5,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 153,
+    "FeatureID": "Feature02",
+    "cart": "SKU02",
+    "rec": "7-13 days",
+    "freq": 2,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 154,
+    "FeatureID": "Feature02",
+    "cart": "SKU02SKU03",
+    "rec": "46-80 days",
+    "freq": 1,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 155,
+    "FeatureID": "Feature02",
+    "cart": "SKU02SKU03",
+    "rec": "7-13 days",
+    "freq": ">5",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 156,
+    "FeatureID": "Feature02",
+    "cart": "SKU02SKU03",
+    "rec": "7-13 days",
+    "freq": 4,
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "i": 157,
+    "FeatureID": "Feature02",
+    "cart": "SKU02SKU03",
+    "rec": "7-13 days",
+    "freq": 3,
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "i": 158,
+    "FeatureID": "Feature02",
+    "cart": "SKU03",
+    "rec": "20-45 days",
+    "freq": 4,
+    "quantity": 2,
+    "client": "client"
+  }
+]

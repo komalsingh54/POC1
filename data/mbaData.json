@@ -1,0 +1,730 @@
+[
+  {
+    "CustomerID": 1,
+    "IdentityName": "demo",
+    "SKUID": 1,
+    "FeatureID": 99999,
+    "Usage_Count": 4
+  },
+  {
+    "CustomerID": 1,
+    "IdentityName": "Demo",
+    "SKUID": 1,
+    "FeatureID": 99999,
+    "Usage_Count": 1812
+  },
+  {
+    "CustomerID": 2,
+    "IdentityName": "cam",
+    "SKUID": 2,
+    "FeatureID": 1,
+    "Usage_Count": 47948
+  },
+  {
+    "CustomerID": 2,
+    "IdentityName": "cust1userA",
+    "SKUID": 2,
+    "FeatureID": 1,
+    "Usage_Count": 2
+  },
+  {
+    "CustomerID": 2,
+    "IdentityName": "default",
+    "SKUID": 2,
+    "FeatureID": 1,
+    "Usage_Count": 4290
+  },
+  {
+    "CustomerID": 2,
+    "IdentityName": "default",
+    "SKUID": 2,
+    "FeatureID": 2,
+    "Usage_Count": 564
+  },
+  {
+    "CustomerID": 2,
+    "IdentityName": "fred",
+    "SKUID": 2,
+    "FeatureID": 1,
+    "Usage_Count": 1
+  },
+  {
+    "CustomerID": 2,
+    "IdentityName": "fred",
+    "SKUID": 2,
+    "FeatureID": 2,
+    "Usage_Count": 2
+  },
+  {
+    "CustomerID": 2,
+    "IdentityName": "super",
+    "SKUID": 2,
+    "FeatureID": 1,
+    "Usage_Count": 422
+  },
+  {
+    "CustomerID": 2,
+    "IdentityName": "super",
+    "SKUID": 2,
+    "FeatureID": 2,
+    "Usage_Count": 1
+  },
+  {
+    "CustomerID": 2,
+    "IdentityName": "SUPER",
+    "SKUID": 2,
+    "FeatureID": 1,
+    "Usage_Count": 2516
+  },
+  {
+    "CustomerID": 2,
+    "IdentityName": "SUPER",
+    "SKUID": 2,
+    "FeatureID": 2,
+    "Usage_Count": 499
+  },
+  {
+    "CustomerID": 2,
+    "IdentityName": "unknown",
+    "SKUID": 2,
+    "FeatureID": 1,
+    "Usage_Count": 137
+  },
+  {
+    "CustomerID": 2,
+    "IdentityName": "unknown",
+    "SKUID": 2,
+    "FeatureID": 2,
+    "Usage_Count": 25
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0580",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0581",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0582",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0583",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0584",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0585",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0586",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0587",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0588",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0589",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0590",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0591",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0592",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0593",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0594",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0595",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0596",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0597",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0598",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0599",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0600",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0601",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0602",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0603",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0604",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0605",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0606",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0607",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0608",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0609",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0610",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0611",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0612",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0613",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0614",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0615",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0616",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0617",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0618",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0619",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0620",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0621",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0622",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0623",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0624",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0625",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0626",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0627",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0628",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "AZURECN-0629",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 80
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "default",
+    "SKUID": 3,
+    "FeatureID": 3,
+    "Usage_Count": 1109455
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "default",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 41877
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "FRED",
+    "SKUID": 3,
+    "FeatureID": 3,
+    "Usage_Count": 2635
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "SUPER",
+    "SKUID": 3,
+    "FeatureID": 3,
+    "Usage_Count": 28431
+  },
+  {
+    "CustomerID": 4,
+    "IdentityName": "SUPER",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 8093
+  },
+  {
+    "CustomerID": 5,
+    "IdentityName": "default",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 4918
+  },
+  {
+    "CustomerID": 6,
+    "IdentityName": "default",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 649
+  },
+  {
+    "CustomerID": 6,
+    "IdentityName": "Greg",
+    "SKUID": 1,
+    "FeatureID": 99999,
+    "Usage_Count": 152
+  },
+  {
+    "CustomerID": 6,
+    "IdentityName": "paul",
+    "SKUID": 1,
+    "FeatureID": 99999,
+    "Usage_Count": 5991
+  },
+  {
+    "CustomerID": 6,
+    "IdentityName": "Paul",
+    "SKUID": 1,
+    "FeatureID": 99999,
+    "Usage_Count": 477389
+  },
+  {
+    "CustomerID": 6,
+    "IdentityName": "PaulDesktopTest_1",
+    "SKUID": 1,
+    "FeatureID": 99999,
+    "Usage_Count": 15677
+  },
+  {
+    "CustomerID": 6,
+    "IdentityName": "Sydney_1",
+    "SKUID": 1,
+    "FeatureID": 99999,
+    "Usage_Count": 184441
+  },
+  {
+    "CustomerID": 6,
+    "IdentityName": "USA",
+    "SKUID": 1,
+    "FeatureID": 99999,
+    "Usage_Count": 389057
+  },
+  {
+    "CustomerID": 6,
+    "IdentityName": "USA_Test",
+    "SKUID": 1,
+    "FeatureID": 99999,
+    "Usage_Count": 467
+  },
+  {
+    "CustomerID": 15,
+    "IdentityName": "default",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 9259
+  },
+  {
+    "CustomerID": 17,
+    "IdentityName": "default",
+    "SKUID": 3,
+    "FeatureID": 4,
+    "Usage_Count": 23575
+  },
+  {
+    "CustomerID": 26,
+    "IdentityName": "RAFM",
+    "SKUID": 4,
+    "FeatureID": 4,
+    "Usage_Count": 948135
+  },
+  {
+    "CustomerID": 30,
+    "IdentityName": "RAFM",
+    "SKUID": 4,
+    "FeatureID": 4,
+    "Usage_Count": 101565
+  },
+  {
+    "CustomerID": 31,
+    "IdentityName": "rafm",
+    "SKUID": 4,
+    "FeatureID": 4,
+    "Usage_Count": 101
+  },
+  {
+    "CustomerID": 31,
+    "IdentityName": "RAFM",
+    "SKUID": 4,
+    "FeatureID": 4,
+    "Usage_Count": 1768081
+  },
+  {
+    "CustomerID": 33,
+    "IdentityName": "default",
+    "SKUID": 7,
+    "FeatureID": 5,
+    "Usage_Count": 3432
+  },
+  {
+    "CustomerID": 33,
+    "IdentityName": "Demo",
+    "SKUID": 6,
+    "FeatureID": 555,
+    "Usage_Count": 1411
+  },
+  {
+    "CustomerID": 33,
+    "IdentityName": "testin",
+    "SKUID": 6,
+    "FeatureID": 555,
+    "Usage_Count": 10
+  },
+  {
+    "CustomerID": 33,
+    "IdentityName": "testsafenet",
+    "SKUID": 6,
+    "FeatureID": 555,
+    "Usage_Count": 377433
+  },
+  {
+    "CustomerID": 33,
+    "IdentityName": "testsafenet",
+    "SKUID": 7,
+    "FeatureID": 5,
+    "Usage_Count": 167842
+  },
+  {
+    "CustomerID": 43,
+    "IdentityName": "RAFM",
+    "SKUID": 4,
+    "FeatureID": 4,
+    "Usage_Count": 2232
+  },
+  {
+    "CustomerID": 45,
+    "IdentityName": "SUPER",
+    "SKUID": 3,
+    "FeatureID": 3,
+    "Usage_Count": 162
+  },
+  {
+    "CustomerID": 46,
+    "IdentityName": "RAFM",
+    "SKUID": 4,
+    "FeatureID": 4,
+    "Usage_Count": 60
+  },
+  {
+    "CustomerID": 49,
+    "IdentityName": "RAFM",
+    "SKUID": 4,
+    "FeatureID": 4,
+    "Usage_Count": 220
+  },
+  {
+    "CustomerID": 50,
+    "IdentityName": "RAFM",
+    "SKUID": 4,
+    "FeatureID": 4,
+    "Usage_Count": 45944
+  },
+  {
+    "CustomerID": 51,
+    "IdentityName": "RAFM",
+    "SKUID": 4,
+    "FeatureID": 4,
+    "Usage_Count": 3130
+  },
+  {
+    "CustomerID": 52,
+    "IdentityName": "RAFM",
+    "SKUID": 4,
+    "FeatureID": 4,
+    "Usage_Count": 207
+  },
+  {
+    "CustomerID": 53,
+    "IdentityName": "RAFM",
+    "SKUID": 4,
+    "FeatureID": 4,
+    "Usage_Count": 760467
+  },
+  {
+    "CustomerID": 58,
+    "IdentityName": "RAFM",
+    "SKUID": 4,
+    "FeatureID": 4,
+    "Usage_Count": 5945
+  },
+  {
+    "CustomerID": 59,
+    "IdentityName": "RAFM",
+    "SKUID": 4,
+    "FeatureID": 4,
+    "Usage_Count": 234
+  },
+  {
+    "CustomerID": 60,
+    "IdentityName": "AZURECN-0582",
+    "SKUID": 3,
+    "FeatureID": 5,
+    "Usage_Count": 435646
+  },
+  {
+    "CustomerID": 61,
+    "IdentityName": "AZURECN-0582",
+    "SKUID": 3,
+    "FeatureID": 555,
+    "Usage_Count": 234
+  },
+  {
+    "CustomerID": 62,
+    "IdentityName": "AZURECN-0582",
+    "SKUID": 3,
+    "FeatureID": 99,
+    "Usage_Count": 2334
+  },
+  {
+    "CustomerID": 63,
+    "IdentityName": "Demo",
+    "SKUID": 3,
+    "FeatureID": 222,
+    "Usage_Count": 32345
+  },
+  {
+    "CustomerID": 64,
+    "IdentityName": "Demo",
+    "SKUID": 3,
+    "FeatureID": 222,
+    "Usage_Count": 5776
+  }
+]

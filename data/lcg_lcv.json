@@ -1,0 +1,898 @@
+[
+  {
+    "rec":">80 days",
+    "freq":"2",
+    "quantity":2,
+    "variable":"cac",
+    "value":23
+  },
+  {
+    "rec":">80 days",
+    "freq":"1",
+    "quantity":12,
+    "variable":"cac",
+    "value":146
+  },
+  {
+    "rec":"46-80 days",
+    "freq":">5",
+    "quantity":1,
+    "variable":"cac",
+    "value":14
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"5",
+    "quantity":1,
+    "variable":"cac",
+    "value":10
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"4",
+    "quantity":1,
+    "variable":"cac",
+    "value":11
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"3",
+    "quantity":10,
+    "variable":"cac",
+    "value":126
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"2",
+    "quantity":17,
+    "variable":"cac",
+    "value":204
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"1",
+    "quantity":13,
+    "variable":"cac",
+    "value":170
+  },
+  {
+    "rec":"20-45 days",
+    "freq":">5",
+    "quantity":6,
+    "variable":"cac",
+    "value":74
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"5",
+    "quantity":15,
+    "variable":"cac",
+    "value":184
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"4",
+    "quantity":21,
+    "variable":"cac",
+    "value":269
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"3",
+    "quantity":25,
+    "variable":"cac",
+    "value":318
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"2",
+    "quantity":18,
+    "variable":"cac",
+    "value":219
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"1",
+    "quantity":7,
+    "variable":"cac",
+    "value":80
+  },
+  {
+    "rec":"14-19 days",
+    "freq":">5",
+    "quantity":4,
+    "variable":"cac",
+    "value":48
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"5",
+    "quantity":8,
+    "variable":"cac",
+    "value":100
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"4",
+    "quantity":9,
+    "variable":"cac",
+    "value":111
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"3",
+    "quantity":11,
+    "variable":"cac",
+    "value":141
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"2",
+    "quantity":3,
+    "variable":"cac",
+    "value":36
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"1",
+    "quantity":2,
+    "variable":"cac",
+    "value":29
+  },
+  {
+    "rec":"7-13 days",
+    "freq":">5",
+    "quantity":7,
+    "variable":"cac",
+    "value":88
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"5",
+    "quantity":9,
+    "variable":"cac",
+    "value":115
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"4",
+    "quantity":20,
+    "variable":"cac",
+    "value":246
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"3",
+    "quantity":10,
+    "variable":"cac",
+    "value":125
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"2",
+    "quantity":4,
+    "variable":"cac",
+    "value":49
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"1",
+    "quantity":2,
+    "variable":"cac",
+    "value":27
+  },
+  {
+    "rec":"0-6 days",
+    "freq":">5",
+    "quantity":7,
+    "variable":"cac",
+    "value":85
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"5",
+    "quantity":11,
+    "variable":"cac",
+    "value":134
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"4",
+    "quantity":12,
+    "variable":"cac",
+    "value":140
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"3",
+    "quantity":13,
+    "variable":"cac",
+    "value":158
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"2",
+    "quantity":5,
+    "variable":"cac",
+    "value":59
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"1",
+    "quantity":3,
+    "variable":"cac",
+    "value":34
+  },
+  {
+    "rec":">80 days",
+    "freq":"2",
+    "quantity":2,
+    "variable":"clv",
+    "value":31
+  },
+  {
+    "rec":">80 days",
+    "freq":"1",
+    "quantity":12,
+    "variable":"clv",
+    "value":63
+  },
+  {
+    "rec":"46-80 days",
+    "freq":">5",
+    "quantity":1,
+    "variable":"clv",
+    "value":45
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"5",
+    "quantity":1,
+    "variable":"clv",
+    "value":24
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"4",
+    "quantity":1,
+    "variable":"clv",
+    "value":18
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"3",
+    "quantity":10,
+    "variable":"clv",
+    "value":239
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"2",
+    "quantity":17,
+    "variable":"clv",
+    "value":239
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"1",
+    "quantity":13,
+    "variable":"clv",
+    "value":95
+  },
+  {
+    "rec":"20-45 days",
+    "freq":">5",
+    "quantity":6,
+    "variable":"clv",
+    "value":282
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"5",
+    "quantity":15,
+    "variable":"clv",
+    "value":513
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"4",
+    "quantity":21,
+    "variable":"clv",
+    "value":539
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"3",
+    "quantity":25,
+    "variable":"clv",
+    "value":525
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"2",
+    "quantity":18,
+    "variable":"clv",
+    "value":220
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"1",
+    "quantity":7,
+    "variable":"clv",
+    "value":50
+  },
+  {
+    "rec":"14-19 days",
+    "freq":">5",
+    "quantity":4,
+    "variable":"clv",
+    "value":206
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"5",
+    "quantity":8,
+    "variable":"clv",
+    "value":289
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"4",
+    "quantity":9,
+    "variable":"clv",
+    "value":260
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"3",
+    "quantity":11,
+    "variable":"clv",
+    "value":180
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"2",
+    "quantity":3,
+    "variable":"clv",
+    "value":44
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"1",
+    "quantity":2,
+    "variable":"clv",
+    "value":7
+  },
+  {
+    "rec":"7-13 days",
+    "freq":">5",
+    "quantity":7,
+    "variable":"clv",
+    "value":330
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"5",
+    "quantity":9,
+    "variable":"clv",
+    "value":300
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"4",
+    "quantity":20,
+    "variable":"clv",
+    "value":550
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"3",
+    "quantity":10,
+    "variable":"clv",
+    "value":196
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"2",
+    "quantity":4,
+    "variable":"clv",
+    "value":51
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"1",
+    "quantity":2,
+    "variable":"clv",
+    "value":19
+  },
+  {
+    "rec":"0-6 days",
+    "freq":">5",
+    "quantity":7,
+    "variable":"clv",
+    "value":325
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"5",
+    "quantity":11,
+    "variable":"clv",
+    "value":422
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"4",
+    "quantity":12,
+    "variable":"clv",
+    "value":296
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"3",
+    "quantity":13,
+    "variable":"clv",
+    "value":283
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"2",
+    "quantity":5,
+    "variable":"clv",
+    "value":56
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"1",
+    "quantity":3,
+    "variable":"clv",
+    "value":20
+  },
+  {
+    "rec":">80 days",
+    "freq":"2",
+    "quantity":2,
+    "variable":"cac1",
+    "value":11.5
+  },
+  {
+    "rec":">80 days",
+    "freq":"1",
+    "quantity":12,
+    "variable":"cac1",
+    "value":12.17
+  },
+  {
+    "rec":"46-80 days",
+    "freq":">5",
+    "quantity":1,
+    "variable":"cac1",
+    "value":14
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"5",
+    "quantity":1,
+    "variable":"cac1",
+    "value":10
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"4",
+    "quantity":1,
+    "variable":"cac1",
+    "value":11
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"3",
+    "quantity":10,
+    "variable":"cac1",
+    "value":12.6
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"2",
+    "quantity":17,
+    "variable":"cac1",
+    "value":12
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"1",
+    "quantity":13,
+    "variable":"cac1",
+    "value":13.08
+  },
+  {
+    "rec":"20-45 days",
+    "freq":">5",
+    "quantity":6,
+    "variable":"cac1",
+    "value":12.33
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"5",
+    "quantity":15,
+    "variable":"cac1",
+    "value":12.27
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"4",
+    "quantity":21,
+    "variable":"cac1",
+    "value":12.81
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"3",
+    "quantity":25,
+    "variable":"cac1",
+    "value":12.72
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"2",
+    "quantity":18,
+    "variable":"cac1",
+    "value":12.17
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"1",
+    "quantity":7,
+    "variable":"cac1",
+    "value":11.43
+  },
+  {
+    "rec":"14-19 days",
+    "freq":">5",
+    "quantity":4,
+    "variable":"cac1",
+    "value":12
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"5",
+    "quantity":8,
+    "variable":"cac1",
+    "value":12.5
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"4",
+    "quantity":9,
+    "variable":"cac1",
+    "value":12.33
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"3",
+    "quantity":11,
+    "variable":"cac1",
+    "value":12.82
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"2",
+    "quantity":3,
+    "variable":"cac1",
+    "value":12
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"1",
+    "quantity":2,
+    "variable":"cac1",
+    "value":14.5
+  },
+  {
+    "rec":"7-13 days",
+    "freq":">5",
+    "quantity":7,
+    "variable":"cac1",
+    "value":12.57
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"5",
+    "quantity":9,
+    "variable":"cac1",
+    "value":12.78
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"4",
+    "quantity":20,
+    "variable":"cac1",
+    "value":12.3
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"3",
+    "quantity":10,
+    "variable":"cac1",
+    "value":12.5
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"2",
+    "quantity":4,
+    "variable":"cac1",
+    "value":12.25
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"1",
+    "quantity":2,
+    "variable":"cac1",
+    "value":13.5
+  },
+  {
+    "rec":"0-6 days",
+    "freq":">5",
+    "quantity":7,
+    "variable":"cac1",
+    "value":12.14
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"5",
+    "quantity":11,
+    "variable":"cac1",
+    "value":12.18
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"4",
+    "quantity":12,
+    "variable":"cac1",
+    "value":11.67
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"3",
+    "quantity":13,
+    "variable":"cac1",
+    "value":12.15
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"2",
+    "quantity":5,
+    "variable":"cac1",
+    "value":11.8
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"1",
+    "quantity":3,
+    "variable":"cac1",
+    "value":11.33
+  },
+  {
+    "rec":">80 days",
+    "freq":"2",
+    "quantity":2,
+    "variable":"clv1",
+    "value":15.5
+  },
+  {
+    "rec":">80 days",
+    "freq":"1",
+    "quantity":12,
+    "variable":"clv1",
+    "value":5.25
+  },
+  {
+    "rec":"46-80 days",
+    "freq":">5",
+    "quantity":1,
+    "variable":"clv1",
+    "value":45
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"5",
+    "quantity":1,
+    "variable":"clv1",
+    "value":24
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"4",
+    "quantity":1,
+    "variable":"clv1",
+    "value":18
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"3",
+    "quantity":10,
+    "variable":"clv1",
+    "value":23.9
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"2",
+    "quantity":17,
+    "variable":"clv1",
+    "value":14.06
+  },
+  {
+    "rec":"46-80 days",
+    "freq":"1",
+    "quantity":13,
+    "variable":"clv1",
+    "value":7.31
+  },
+  {
+    "rec":"20-45 days",
+    "freq":">5",
+    "quantity":6,
+    "variable":"clv1",
+    "value":47
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"5",
+    "quantity":15,
+    "variable":"clv1",
+    "value":34.2
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"4",
+    "quantity":21,
+    "variable":"clv1",
+    "value":25.67
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"3",
+    "quantity":25,
+    "variable":"clv1",
+    "value":21
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"2",
+    "quantity":18,
+    "variable":"clv1",
+    "value":12.22
+  },
+  {
+    "rec":"20-45 days",
+    "freq":"1",
+    "quantity":7,
+    "variable":"clv1",
+    "value":7.14
+  },
+  {
+    "rec":"14-19 days",
+    "freq":">5",
+    "quantity":4,
+    "variable":"clv1",
+    "value":51.5
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"5",
+    "quantity":8,
+    "variable":"clv1",
+    "value":36.12
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"4",
+    "quantity":9,
+    "variable":"clv1",
+    "value":28.89
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"3",
+    "quantity":11,
+    "variable":"clv1",
+    "value":16.36
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"2",
+    "quantity":3,
+    "variable":"clv1",
+    "value":14.67
+  },
+  {
+    "rec":"14-19 days",
+    "freq":"1",
+    "quantity":2,
+    "variable":"clv1",
+    "value":3.5
+  },
+  {
+    "rec":"7-13 days",
+    "freq":">5",
+    "quantity":7,
+    "variable":"clv1",
+    "value":47.14
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"5",
+    "quantity":9,
+    "variable":"clv1",
+    "value":33.33
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"4",
+    "quantity":20,
+    "variable":"clv1",
+    "value":27.5
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"3",
+    "quantity":10,
+    "variable":"clv1",
+    "value":19.6
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"2",
+    "quantity":4,
+    "variable":"clv1",
+    "value":12.75
+  },
+  {
+    "rec":"7-13 days",
+    "freq":"1",
+    "quantity":2,
+    "variable":"clv1",
+    "value":9.5
+  },
+  {
+    "rec":"0-6 days",
+    "freq":">5",
+    "quantity":7,
+    "variable":"clv1",
+    "value":46.43
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"5",
+    "quantity":11,
+    "variable":"clv1",
+    "value":38.36
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"4",
+    "quantity":12,
+    "variable":"clv1",
+    "value":24.67
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"3",
+    "quantity":13,
+    "variable":"clv1",
+    "value":21.77
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"2",
+    "quantity":5,
+    "variable":"clv1",
+    "value":11.2
+  },
+  {
+    "rec":"0-6 days",
+    "freq":"1",
+    "quantity":3,
+    "variable":"clv1",
+    "value":6.67
+  }
+]
