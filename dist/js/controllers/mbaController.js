@@ -158,7 +158,7 @@ mbaApp.controller('mbaController', function ($scope, mbaService) {
                         .attr("x", 0)
                         .attr("y", 300)
                         .attr("dy", ".35em")
-                        .text('Consuption of Features in Selected Product')
+                        .text('Consuption of Product in Selected Feature')
                         .style('font-size', 17);
                 });
         }
