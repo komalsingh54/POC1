@@ -22,45 +22,60 @@
             stroke: #DAD2D2;
             shape-rendering: crispEdges;
         }
-        .ui-widget-header,.ui-state-default, ui-button{
-            background:#b9cd6d;
+
+        .ui-widget-header, .ui-state-default, ui-button {
+            background: #b9cd6d;
             border: 1px solid #b9cd6d;
             color: #FFFFFF;
             font-weight: bold;
         }
+
         .axis path,
         .axis line {
             fill: none;
             stroke: black;
             shape-rendering: crispEdges;
         }
+
         .axis text {
             font-family: sans-serif;
             font-size: 9px;
         }
+
         body {
             font-family: "Helvetica", sans-serif;
-           /* font-weight: lighter;*/
+            /* font-weight: lighter;*/
         }
+
         .bar-text {
             font-size: 9px;
-        }
-        div.tooltip {
-            position: absolute;
-            text-align: left;
-            width: 150px;
-            height: auto;
-            padding: 2px;
-            font: 12px sans-serif;
-            background: black;
-            border: 0px;
-            border-radius: 8px;
-            pointer-events: none;
-            color: whitesmoke;
         }
 
         title {
             color: black;
+        }
+
+        rect.bar {
+            fill: #00c0ef;
+        }
+
+        .axis path, .axis line {
+            fill: none;
+            stroke: #DDD;
+            shape-rendering: crispEdges;
+        }
+
+        div.tooltip {
+            position: absolute;
+            text-align: center;
+            width: auto;
+            height: auto;
+            font: 12px sans-serif;
+            background: black;
+            border: 0;
+            border-radius: 8px;
+            pointer-events: none;
+            color: whitesmoke;
         }
     </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -340,16 +355,6 @@
     <aside class="main-sidebar">
         <!-- sidebar: style can be found in sidebar.less -->
         <section class="sidebar">
-            <!-- Sidebar user panel -->
-            <!--<div class="user-panel">
-              <div class="pull-left image">
-                <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-              </div>
-              <div class="pull-left info">
-                <p>Alexander Pierce</p>
-                <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-              </div>
-            </div>-->
             <!-- search form -->
             <form action="#" method="get" class="sidebar-form">
                 <div class="input-group">
@@ -370,7 +375,8 @@
                             class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
+                        <li class="active"><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a>
+                        </li>
                         <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
                     </ul>
                 </li>
@@ -424,7 +430,7 @@
             </h1>
             <ol class="breadcrumb">
                 <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                <li class="active">  Customer Segmentation</li>
+                <li class="active"> Customer Segmentation</li>
             </ol>
         </section>
 
@@ -447,17 +453,44 @@
                             <li><a href="#count" data-toggle="tab">Count Segment</a></li>
                             <li class="pull-left header"><i class="fa fa-inbox"></i> Usage</li>
                         </ul>
+
                         <div class="tab-content no-padding">
                             <div class="chart tab-pane active" id="histogram" style="position: relative; height: 100%;">
                                 <div class="col-lg-12">&nbsp;</div>
                                 <div class="col-lg-12">
+                                    <form>
+                                        <label for="binwidth">Binwidth</label>
+                                        <select id="binwidth">
+                                            <option selected value="5">5</option>
+                                            <option value="10">10</option>
+                                            <option value="15">15</option>
+                                            <option value="20">20</option>
+                                            <option value="25">25</option>
+                                        </select>
+                                    </form>
 
+                                    <histogram id="a" data="tags1" width="700" height="300"></histogram>
+                                </div>
+                                <div class="col-lg-12">
+                                    <form>
+                                        <label for="binwidthf">Binwidth</label>
+                                        <select id="binwidthf">
+                                            <option value="1">1</option>
+                                            <option value="2" selected>2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+
+                                        </select>
+                                    </form>
+                                    <histogram-frequency id="b" data="tags1" width="700"
+                                                         height="300"></histogram-frequency>
                                 </div>
                             </div>
-                            <div class="chart tab-pane active" id="clv" style="position: relative; height: 100%;">
+                            <div class="chart tab-pane" id="clv" style="position: relative; height: 100%;">
                                 <div class="col-lg-12">&nbsp;</div>
                                 <div class="col-lg-12">
-                                    <table style="width: 50%; margin-left: 25px;">
+                                    <table style="width: 550px; margin-left: 25px;">
                                         <tr>
                                             <td>Recencey</td>
                                             <td> > 80 days</td>
@@ -474,32 +507,44 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div1">
-                                                    <bar-graphclc id="barc1" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '1'}" height="60" width="60"></bar-graphclc>
+                                                    <bar-graphclc id="barc1" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '1'}" height="60"
+                                                                  width="60"></bar-graphclc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver;; margin: 3px;" id="div2">
-                                                    <bar-graphclc id="barc2" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '2'}" height="60" width="60"></bar-graphclc>
+                                                    <bar-graphclc id="barc2" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '2'}" height="60"
+                                                                  width="60"></bar-graphclc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div3">
-                                                    <bar-graphclc id="barc3" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '3'}" height="60" width="60"></bar-graphclc>
+                                                    <bar-graphclc id="barc3" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '3'}" height="60"
+                                                                  width="60"></bar-graphclc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver;margin: 3px;" id="div4">
-                                                    <bar-graphclc id="barc4" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '4'}" height="60" width="60"></bar-graphclc>
+                                                    <bar-graphclc id="barc4" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '4'}" height="60"
+                                                                  width="60"></bar-graphclc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div5">
-                                                    <bar-graphclc id="barc5" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '5'}" height="60" width="60"></bar-graphclc>
+                                                    <bar-graphclc id="barc5" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '5'}" height="60"
+                                                                  width="60"></bar-graphclc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div6">
-                                                    <bar-graphclc id="barc6" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '6'}" height="60" width="60"></bar-graphclc>
+                                                    <bar-graphclc id="barc6" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '6'}" height="60"
+                                                                  width="60"></bar-graphclc>
                                                 </div>
                                             </td>
                                             <td>>5</td>
@@ -510,35 +555,49 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div7">
-                                                    <bar-graphclc id="barc7" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '7'}" height="60" width="60"></bar-graphclc>
+                                                    <bar-graphclc id="barc7" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '7'}" height="60"
+                                                                  width="60"></bar-graphclc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div8">
-                                                    <bar-graphclc id="barc8" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '8'}" height="60" width="60"></bar-graphclc>
+                                                    <bar-graphclc id="barc8" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '8'}" height="60"
+                                                                  width="60"></bar-graphclc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div9">
-                                                    <bar-graphclc id="barc9" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '9'}" height="60" width="60"></bar-graphclc>
+                                                    <bar-graphclc id="barc9" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '9'}" height="60"
+                                                                  width="60"></bar-graphclc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div10">
-                                                    <bar-graphclc id="barc10" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '10'}" height="60" width="60"></bar-graphclc>
+                                                    <bar-graphclc id="barc10" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '10'}" height="60"
+                                                                  width="60"></bar-graphclc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div11">
-                                                    <bar-graphclc id="barc11" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '11'}" height="60" width="60"></bar-graphclc>
+                                                    <bar-graphclc id="barc11" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '11'}" height="60"
+                                                                  width="60"></bar-graphclc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div12">
-                                                    <bar-graphclc id="barc12" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '12'}" height="60" width="60"></bar-graphclc>
+                                                    <bar-graphclc id="barc12" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '12'}" height="60"
+                                                                  width="60"></bar-graphclc>
                                                 </div>
                                             </td>
-                                            <td><div>5</div></td>
+                                            <td>
+                                                <div>5</div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -546,27 +605,45 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div13">
-                                                    <bar-graphclc id="barc13" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '13'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc13" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '13'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div14">
-                                                    <bar-graphclc id="barc14" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '14'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc14" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '14'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div15">
-                                                    <bar-graphclc id="barc15" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '15'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc15" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '15'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div16">
-                                                    <bar-graphclc id="barc16" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '16'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc16" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '16'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div17">
-                                                    <bar-graphclc id="barc17" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '17'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc17" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '17'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div18">
-                                                    <bar-graphclc id="barc18" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '18'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc18" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '18'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>4</td>
                                         </tr>
@@ -576,27 +653,45 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc19" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '19'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc19" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '19'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc20" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '20'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc20" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '20'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc21" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '21'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc21" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '21'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc22" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '22'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc22" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '22'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc23" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '23'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc23" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '23'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc24" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '24'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc24" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '24'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>3</td>
                                         </tr>
@@ -606,27 +701,45 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc25" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '25'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc25" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '25'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc26" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '26'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc26" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '26'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc27" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '27'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc27" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '27'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc28" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '28'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc28" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '28'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc29" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '29'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc29" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '29'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc30" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '30'}" height="60" width="60"></bar-graphclc></div>
+                                                    <bar-graphclc id="barc30" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '30'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
                                             </td>
                                             <td>2</td>
                                         </tr>
@@ -636,28 +749,44 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc31" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '31'}" height="60" width="60"></bar-graphclc></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc32" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '32'}" height="60" width="60"></bar-graphclc></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc33" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '33'}" height="60" width="60"></bar-graphclc></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc34" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '34'}" height="60" width="60"></bar-graphclc></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc35" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '35'}" height="60" width="60"></bar-graphclc>
+                                                    <bar-graphclc id="barc31" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '31'}" height="60"
+                                                                  width="60"></bar-graphclc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphclc id="barc36" data="tag3" filtername="'filterDataclc'" filterValue="{'freq': '36'}" height="60" width="60"></bar-graphclc>
+                                                    <bar-graphclc id="barc32" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '32'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphclc id="barc33" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '33'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphclc id="barc34" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '34'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphclc id="barc35" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '35'}" height="60"
+                                                                  width="60"></bar-graphclc>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphclc id="barc36" data="tag3" filtername="'filterDataclc'"
+                                                                  filterValue="{'freq': '36'}" height="60"
+                                                                  width="60"></bar-graphclc>
                                                 </div>
                                             </td>
                                             <td>1</td>
@@ -673,12 +802,22 @@
                                             <td></td>
                                         </tr>
                                     </table>
-                                        <br><br>
+                                    <br><br>
                                     <table style="margin-left: 150px;">
                                         <tr>
-                                            <td><div style="width: 15px;height: 15px;background: #1F77B4"></div></td><td>&nbsp;&nbsp;<label style="font-size: 12px;">Customer Acquisition Cost</label></td>
-                                            <td><div style="width: 30px;"></div></td>
-                                            <td><div style="width: 15px;height: 15px;background: #6baed6"></div></td><td>&nbsp;&nbsp;<label style="font-size: 12px;">Customer Value till Date</label></td>
+                                            <td>
+                                                <div style="width: 15px;height: 15px;background: #1F77B4"></div>
+                                            </td>
+                                            <td>&nbsp;&nbsp;<label style="font-size: 12px;">Customer Acquisition
+                                                Cost</label></td>
+                                            <td>
+                                                <div style="width: 30px;"></div>
+                                            </td>
+                                            <td>
+                                                <div style="width: 15px;height: 15px;background: #6baed6"></div>
+                                            </td>
+                                            <td>&nbsp;&nbsp;<label style="font-size: 12px;">Customer Value till
+                                                Date</label></td>
                                         </tr>
                                     </table>
                                     <br><br>
@@ -704,32 +843,44 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div1">
-                                                    <bar-graphmlc id="barsMLC1" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '1'}" height="60" width="60"></bar-graphmlc>
+                                                    <bar-graphmlc id="barsMLC1" data="tag5" filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '1'}" height="60"
+                                                                  width="60"></bar-graphmlc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver;; margin: 3px;" id="div2">
-                                                    <bar-graphmlc id="barsMLC2" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '2'}" height="60" width="60"></bar-graphmlc>
+                                                    <bar-graphmlc id="barsMLC2" data="tag5" filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '2'}" height="60"
+                                                                  width="60"></bar-graphmlc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div3">
-                                                    <bar-graphmlc id="barsMLC3" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '3'}" height="60" width="60"></bar-graphmlc>
+                                                    <bar-graphmlc id="barsMLC3" data="tag5" filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '3'}" height="60"
+                                                                  width="60"></bar-graphmlc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver;margin: 3px;" id="div4">
-                                                    <bar-graphmlc id="barsMLC4" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '4'}" height="60" width="60"></bar-graphmlc>
+                                                    <bar-graphmlc id="barsMLC4" data="tag5" filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '4'}" height="60"
+                                                                  width="60"></bar-graphmlc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div5">
-                                                    <bar-graphmlc id="barsMLC5" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '5'}" height="60" width="60"></bar-graphmlc>
+                                                    <bar-graphmlc id="barsMLC5" data="tag5" filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '5'}" height="60"
+                                                                  width="60"></bar-graphmlc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div6">
-                                                    <bar-graphmlc id="barsMLC6" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '6'}" height="60" width="60"></bar-graphmlc>
+                                                    <bar-graphmlc id="barsMLC6" data="tag5" filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '6'}" height="60"
+                                                                  width="60"></bar-graphmlc>
                                                 </div>
                                             </td>
                                             <td>>5</td>
@@ -740,35 +891,52 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div7">
-                                                    <bar-graphmlc id="barsMLC7" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '7'}" height="60" width="60"></bar-graphmlc>
+                                                    <bar-graphmlc id="barsMLC7" data="tag5" filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '7'}" height="60"
+                                                                  width="60"></bar-graphmlc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div8">
-                                                    <bar-graphmlc id="barsMLC8" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '8'}" height="60" width="60"></bar-graphmlc>
+                                                    <bar-graphmlc id="barsMLC8" data="tag5" filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '8'}" height="60"
+                                                                  width="60"></bar-graphmlc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div9">
-                                                    <bar-graphmlc id="barsMLC9" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '9'}" height="60" width="60"></bar-graphmlc>
+                                                    <bar-graphmlc id="barsMLC9" data="tag5" filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '9'}" height="60"
+                                                                  width="60"></bar-graphmlc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div10">
-                                                    <bar-graphmlc id="barsMLC10" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '10'}" height="60" width="60"></bar-graphmlc>
+                                                    <bar-graphmlc id="barsMLC10" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '10'}" height="60"
+                                                                  width="60"></bar-graphmlc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div11">
-                                                    <bar-graphmlc id="barsMLC11" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '11'}" height="60" width="60"></bar-graphmlc>
+                                                    <bar-graphmlc id="barsMLC11" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '11'}" height="60"
+                                                                  width="60"></bar-graphmlc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div12">
-                                                    <bar-graphmlc id="barsMLC12" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '12'}" height="60" width="60"></bar-graphmlc>
+                                                    <bar-graphmlc id="barsMLC12" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '12'}" height="60"
+                                                                  width="60"></bar-graphmlc>
                                                 </div>
                                             </td>
-                                            <td><div>5</div></td>
+                                            <td>
+                                                <div>5</div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -776,27 +944,51 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div13">
-                                                    <bar-graphmlc id="barsMLC13" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '13'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC13" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '13'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div14">
-                                                    <bar-graphmlc id="barsMLC14" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '14'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC14" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '14'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div15">
-                                                    <bar-graphmlc id="barsMLC15" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '15'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC15" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '15'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div16">
-                                                    <bar-graphmlc id="barsMLC16" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '16'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC16" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '16'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div17">
-                                                    <bar-graphmlc id="barsMLC17" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '17'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC17" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '17'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div18">
-                                                    <bar-graphmlc id="barsMLC18" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '18'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC18" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '18'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>4</td>
                                         </tr>
@@ -806,27 +998,51 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC19" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '19'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC19" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '19'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC20" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '20'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC20" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '20'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC21" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '21'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC21" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '21'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC22" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '22'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC22" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '22'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC23" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '23'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC23" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '23'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC24" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '24'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC24" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '24'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>3</td>
                                         </tr>
@@ -836,27 +1052,51 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC25" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '25'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC25" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '25'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC26" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '26'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC26" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '26'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC27" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '27'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC27" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '27'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC28" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '28'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC28" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '28'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC29" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '29'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC29" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '29'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC30" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '30'}" height="60" width="60"></bar-graphmlc></div>
+                                                    <bar-graphmlc id="barsMLC30" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '30'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
                                             </td>
                                             <td>2</td>
                                         </tr>
@@ -866,28 +1106,50 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC31" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '31'}" height="60" width="60"></bar-graphmlc></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC32" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '32'}" height="60" width="60"></bar-graphmlc></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC33" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '33'}" height="60" width="60"></bar-graphmlc></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC34" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '34'}" height="60" width="60"></bar-graphmlc></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC35" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '35'}" height="60" width="60"></bar-graphmlc>
+                                                    <bar-graphmlc id="barsMLC31" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '31'}" height="60"
+                                                                  width="60"></bar-graphmlc>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphmlc id="barsMLC36" data="tag5" filtername="'filterDataMLC'" filterValue="{'freq': '36'}" height="60" width="60"></bar-graphmlc>
+                                                    <bar-graphmlc id="barsMLC32" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '32'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphmlc id="barsMLC33" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '33'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphmlc id="barsMLC34" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '34'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphmlc id="barsMLC35" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '35'}" height="60"
+                                                                  width="60"></bar-graphmlc>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphmlc id="barsMLC36" data="tag5"
+                                                                  filtername="'filterDataMLC'"
+                                                                  filterValue="{'freq': '36'}" height="60"
+                                                                  width="60"></bar-graphmlc>
                                                 </div>
                                             </td>
                                             <td>1</td>
@@ -906,15 +1168,26 @@
                                     <br><br>
                                     <table style="margin-left: 150px;">
                                         <tr>
-                                            <td><div style="width: 15px;height: 15px;background: #1F77B4"></div></td><td>&nbsp;&nbsp;<label style="font-size: 12px;">Customer Acquisition Cost</label></td>
-                                            <td><div style="width: 30px;"></div></td>
-                                            <td><div style="width: 15px;height: 15px;background: #FF7F0E"></div></td><td>&nbsp;&nbsp;<label style="font-size: 12px;">Customer Value till Date</label></td>
+                                            <td>
+                                                <div style="width: 15px;height: 15px;background: #1F77B4"></div>
+                                            </td>
+                                            <td>&nbsp;&nbsp;<label style="font-size: 12px;">Customer Acquisition
+                                                Cost</label></td>
+                                            <td>
+                                                <div style="width: 30px;"></div>
+                                            </td>
+                                            <td>
+                                                <div style="width: 15px;height: 15px;background: #FF7F0E"></div>
+                                            </td>
+                                            <td>&nbsp;&nbsp;<label style="font-size: 12px;">Customer Value till
+                                                Date</label></td>
                                         </tr>
                                     </table>
                                     <br><br>
                                 </div>
                             </div>
-                            <div class="chart tab-pane active" id="featureSegment" style="position: relative; height: 100%;">
+                            <div class="chart tab-pane" id="featureSegment"
+                                 style="position: relative; height: 100%;">
                                 <div class="col-lg-12">&nbsp;</div>
                                 <div class="col-lg-12">
                                     <table style="width: 50%; margin-left: 25px;">
@@ -934,32 +1207,44 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div1">
-                                                    <bar-graph id="bar1" data="tags" filtername="'filterData'" filterValue="{'freq': '1'}" height="60" width="60"></bar-graph>
+                                                    <bar-graph id="bar1" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '1'}" height="60"
+                                                               width="60"></bar-graph>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver;; margin: 3px;" id="div2">
-                                                    <bar-graph id="bar2" data="tags" filtername="'filterData'" filterValue="{'freq': '2'}" height="60" width="60"></bar-graph>
+                                                    <bar-graph id="bar2" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '2'}" height="60"
+                                                               width="60"></bar-graph>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div3">
-                                                    <bar-graph id="bar3" data="tags" filtername="'filterData'" filterValue="{'freq': '3'}" height="60" width="60"></bar-graph>
+                                                    <bar-graph id="bar3" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '3'}" height="60"
+                                                               width="60"></bar-graph>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver;margin: 3px;" id="div4">
-                                                    <bar-graph id="bar4" data="tags" filtername="'filterData'" filterValue="{'freq': '4'}" height="60" width="60"></bar-graph>
+                                                    <bar-graph id="bar4" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '4'}" height="60"
+                                                               width="60"></bar-graph>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div5">
-                                                    <bar-graph id="bar5" data="tags" filtername="'filterData'" filterValue="{'freq': '5'}" height="60" width="60"></bar-graph>
+                                                    <bar-graph id="bar5" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '5'}" height="60"
+                                                               width="60"></bar-graph>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div6">
-                                                    <bar-graph id="bar6" data="tags" filtername="'filterData'" filterValue="{'freq': '6'}" height="60" width="60"></bar-graph>
+                                                    <bar-graph id="bar6" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '6'}" height="60"
+                                                               width="60"></bar-graph>
                                                 </div>
                                             </td>
                                             <td>>5</td>
@@ -970,35 +1255,49 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div7">
-                                                    <bar-graph id="bar7" data="tags" filtername="'filterData'" filterValue="{'freq': '7'}" height="60" width="60"></bar-graph>
+                                                    <bar-graph id="bar7" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '7'}" height="60"
+                                                               width="60"></bar-graph>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div8">
-                                                    <bar-graph id="bar8" data="tags" filtername="'filterData'" filterValue="{'freq': '8'}" height="60" width="60"></bar-graph>
+                                                    <bar-graph id="bar8" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '8'}" height="60"
+                                                               width="60"></bar-graph>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div9">
-                                                    <bar-graph id="bar9" data="tags" filtername="'filterData'" filterValue="{'freq': '9'}" height="60" width="60"></bar-graph>
+                                                    <bar-graph id="bar9" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '9'}" height="60"
+                                                               width="60"></bar-graph>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div10">
-                                                    <bar-graph id="bar10" data="tags" filtername="'filterData'" filterValue="{'freq': '10'}" height="60" width="60"></bar-graph>
+                                                    <bar-graph id="bar10" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '10'}" height="60"
+                                                               width="60"></bar-graph>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div11">
-                                                    <bar-graph id="bar11" data="tags" filtername="'filterData'" filterValue="{'freq': '11'}" height="60" width="60"></bar-graph>
+                                                    <bar-graph id="bar11" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '11'}" height="60"
+                                                               width="60"></bar-graph>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div12">
-                                                    <bar-graph id="bar12" data="tags" filtername="'filterData'" filterValue="{'freq': '12'}" height="60" width="60"></bar-graph>
+                                                    <bar-graph id="bar12" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '12'}" height="60"
+                                                               width="60"></bar-graph>
                                                 </div>
                                             </td>
-                                            <td><div>5</div></td>
+                                            <td>
+                                                <div>5</div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -1006,27 +1305,45 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div13">
-                                                    <bar-graph id="bar13" data="tags" filtername="'filterData'" filterValue="{'freq': '13'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar13" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '13'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div14">
-                                                    <bar-graph id="bar14" data="tags" filtername="'filterData'" filterValue="{'freq': '14'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar14" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '14'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div15">
-                                                    <bar-graph id="bar15" data="tags" filtername="'filterData'" filterValue="{'freq': '15'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar15" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '15'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div16">
-                                                    <bar-graph id="bar16" data="tags" filtername="'filterData'" filterValue="{'freq': '16'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar16" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '16'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div17">
-                                                    <bar-graph id="bar17" data="tags" filtername="'filterData'" filterValue="{'freq': '17'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar17" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '17'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div18">
-                                                    <bar-graph id="bar18" data="tags" filtername="'filterData'" filterValue="{'freq': '18'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar18" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '18'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>4</td>
                                         </tr>
@@ -1036,27 +1353,45 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar19" data="tags" filtername="'filterData'" filterValue="{'freq': '19'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar19" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '19'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar20" data="tags" filtername="'filterData'" filterValue="{'freq': '20'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar20" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '20'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar21" data="tags" filtername="'filterData'" filterValue="{'freq': '21'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar21" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '21'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar22" data="tags" filtername="'filterData'" filterValue="{'freq': '22'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar22" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '22'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar23" data="tags" filtername="'filterData'" filterValue="{'freq': '23'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar23" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '23'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar24" data="tags" filtername="'filterData'" filterValue="{'freq': '24'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar24" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '24'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>3</td>
                                         </tr>
@@ -1066,27 +1401,45 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar25" data="tags" filtername="'filterData'" filterValue="{'freq': '25'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar25" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '25'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar26" data="tags" filtername="'filterData'" filterValue="{'freq': '26'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar26" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '26'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar27" data="tags" filtername="'filterData'" filterValue="{'freq': '27'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar27" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '27'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar28" data="tags" filtername="'filterData'" filterValue="{'freq': '28'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar28" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '28'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar29" data="tags" filtername="'filterData'" filterValue="{'freq': '29'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar29" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '29'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar30" data="tags" filtername="'filterData'" filterValue="{'freq': '30'}" height="60" width="60"></bar-graph></div>
+                                                    <bar-graph id="bar30" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '30'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
                                             </td>
                                             <td>2</td>
                                         </tr>
@@ -1096,28 +1449,44 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar31" data="tags" filtername="'filterData'" filterValue="{'freq': '31'}" height="60" width="60"></bar-graph></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar32" data="tags" filtername="'filterData'" filterValue="{'freq': '32'}" height="60" width="60"></bar-graph></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar33" data="tags" filtername="'filterData'" filterValue="{'freq': '33'}" height="60" width="60"></bar-graph></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar34" data="tags" filtername="'filterData'" filterValue="{'freq': '34'}" height="60" width="60"></bar-graph></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar35" data="tags" filtername="'filterData'" filterValue="{'freq': '35'}" height="60" width="60"></bar-graph>
+                                                    <bar-graph id="bar31" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '31'}" height="60"
+                                                               width="60"></bar-graph>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graph id="bar36" data="tags" filtername="'filterData'" filterValue="{'freq': '36'}" height="60" width="60"></bar-graph>
+                                                    <bar-graph id="bar32" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '32'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graph id="bar33" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '33'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graph id="bar34" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '34'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graph id="bar35" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '35'}" height="60"
+                                                               width="60"></bar-graph>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graph id="bar36" data="tags" filtername="'filterData'"
+                                                               filterValue="{'freq': '36'}" height="60"
+                                                               width="60"></bar-graph>
                                                 </div>
                                             </td>
                                             <td>1</td>
@@ -1136,14 +1505,23 @@
                                     <br><br>
                                     <table style="margin-left: 150px;">
                                         <tr>
-                                            <td><div style="width: 15px;height: 15px;background: #AEC7E8"></div></td><td>&nbsp;&nbsp;<label style="font-size: 12px;">Feature 01</label></td>
-                                            <td><div style="width: 30px;"></div></td>
-                                            <td><div style="width: 15px;height: 15px;background: #1F77B4"></div></td><td>&nbsp;&nbsp;<label style="font-size: 12px;">Feature 02</label></td>
+                                            <td>
+                                                <div style="width: 15px;height: 15px;background: #AEC7E8"></div>
+                                            </td>
+                                            <td>&nbsp;&nbsp;<label style="font-size: 12px;">Feature 01</label></td>
+                                            <td>
+                                                <div style="width: 30px;"></div>
+                                            </td>
+                                            <td>
+                                                <div style="width: 15px;height: 15px;background: #1F77B4"></div>
+                                            </td>
+                                            <td>&nbsp;&nbsp;<label style="font-size: 12px;">Feature 02</label></td>
                                         </tr>
                                     </table>
                                 </div>
                             </div>
-                            <div class="chart tab-pane active" id="productSegment" style="position: relative; height: 100%;">
+                            <div class="chart tab-pane" id="productSegment"
+                                 style="position: relative; height: 100%;">
                                 <div class="col-lg-12">&nbsp;</div>
                                 <div class="col-lg-12">
                                     <table style="width: 50%" style="margin-left: 25px;">
@@ -1163,32 +1541,44 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div1">
-                                                    <bar-graphP id="bars1" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '1'}" height="60" width="60"></bar-graphP>
+                                                    <bar-graphP id="bars1" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '1'}" height="60"
+                                                                width="60"></bar-graphP>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver;; margin: 3px;" id="div2">
-                                                    <bar-graphP id="bars2" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '2'}" height="60" width="60"></bar-graphP>
+                                                    <bar-graphP id="bars2" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '2'}" height="60"
+                                                                width="60"></bar-graphP>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div3">
-                                                    <bar-graphP id="bars3" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '3'}" height="60" width="60"></bar-graphP>
+                                                    <bar-graphP id="bars3" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '3'}" height="60"
+                                                                width="60"></bar-graphP>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver;margin: 3px;" id="div4">
-                                                    <bar-graphP id="bars4" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '4'}" height="60" width="60"></bar-graphP>
+                                                    <bar-graphP id="bars4" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '4'}" height="60"
+                                                                width="60"></bar-graphP>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div5">
-                                                    <bar-graphP id="bars5" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '5'}" height="60" width="60"></bar-graphP>
+                                                    <bar-graphP id="bars5" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '5'}" height="60"
+                                                                width="60"></bar-graphP>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div6">
-                                                    <bar-graphP id="bars6" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '6'}" height="60" width="60"></bar-graphP>
+                                                    <bar-graphP id="bars6" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '6'}" height="60"
+                                                                width="60"></bar-graphP>
                                                 </div>
                                             </td>
                                             <td>>5</td>
@@ -1199,35 +1589,49 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div7">
-                                                    <bar-graphP id="bars7" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '7'}" height="60" width="60"></bar-graphP>
+                                                    <bar-graphP id="bars7" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '7'}" height="60"
+                                                                width="60"></bar-graphP>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div8">
-                                                    <bar-graphP id="bars8" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '8'}" height="60" width="60"></bar-graphP>
+                                                    <bar-graphP id="bars8" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '8'}" height="60"
+                                                                width="60"></bar-graphP>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div9">
-                                                    <bar-graphP id="bars9" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '9'}" height="60" width="60"></bar-graphP>
+                                                    <bar-graphP id="bars9" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '9'}" height="60"
+                                                                width="60"></bar-graphP>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div10">
-                                                    <bar-graphP id="bars10" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '10'}" height="60" width="60"></bar-graphP>
+                                                    <bar-graphP id="bars10" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '10'}" height="60"
+                                                                width="60"></bar-graphP>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div11">
-                                                    <bar-graphP id="bars11" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '11'}" height="60" width="60"></bar-graphP>
+                                                    <bar-graphP id="bars11" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '11'}" height="60"
+                                                                width="60"></bar-graphP>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div12">
-                                                    <bar-graphP id="bars12" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '12'}" height="60" width="60"></bar-graphP>
+                                                    <bar-graphP id="bars12" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '12'}" height="60"
+                                                                width="60"></bar-graphP>
                                                 </div>
                                             </td>
-                                            <td><div>5</div></td>
+                                            <td>
+                                                <div>5</div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -1235,27 +1639,45 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div13">
-                                                    <bar-graphP id="bars13" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '13'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars13" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '13'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div14">
-                                                    <bar-graphP id="bars14" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '14'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars14" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '14'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div15">
-                                                    <bar-graphP id="bars15" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '15'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars15" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '15'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div16">
-                                                    <bar-graphP id="bars16" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '16'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars16" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '16'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div17">
-                                                    <bar-graphP id="bars17" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '17'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars17" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '17'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div18">
-                                                    <bar-graphP id="bars18" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '18'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars18" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '18'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>4</td>
                                         </tr>
@@ -1265,27 +1687,45 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars19" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '19'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars19" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '19'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars20" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '20'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars20" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '20'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars21" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '21'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars21" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '21'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars22" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '22'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars22" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '22'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars23" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '23'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars23" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '23'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars24" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '24'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars24" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '24'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>3</td>
                                         </tr>
@@ -1295,27 +1735,45 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars25" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '25'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars25" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '25'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars26" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '26'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars26" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '26'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars27" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '27'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars27" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '27'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars28" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '28'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars28" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '28'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars29" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '29'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars29" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '29'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars30" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '30'}" height="60" width="60"></bar-graphP></div>
+                                                    <bar-graphP id="bars30" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '30'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
                                             </td>
                                             <td>2</td>
                                         </tr>
@@ -1325,28 +1783,44 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars31" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '31'}" height="60" width="60"></bar-graphP></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars32" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '32'}" height="60" width="60"></bar-graphP></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars33" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '33'}" height="60" width="60"></bar-graphP></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars34" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '34'}" height="60" width="60"></bar-graphP></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars35" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '35'}" height="60" width="60"></bar-graphP>
+                                                    <bar-graphP id="bars31" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '31'}" height="60"
+                                                                width="60"></bar-graphP>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphP id="bars36" data="tag2" filtername="'filterDataP'" filterValue="{'freq': '36'}" height="60" width="60"></bar-graphP>
+                                                    <bar-graphP id="bars32" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '32'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphP id="bars33" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '33'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphP id="bars34" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '34'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphP id="bars35" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '35'}" height="60"
+                                                                width="60"></bar-graphP>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphP id="bars36" data="tag2" filtername="'filterDataP'"
+                                                                filterValue="{'freq': '36'}" height="60"
+                                                                width="60"></bar-graphP>
                                                 </div>
                                             </td>
                                             <td>1</td>
@@ -1385,32 +1859,44 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div1">
-                                                    <bar-graphs id="barss1" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '1'}" height="60" width="60"></bar-graphs>
+                                                    <bar-graphs id="barss1" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '1'}" height="60"
+                                                                width="60"></bar-graphs>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver;; margin: 3px;" id="div2">
-                                                    <bar-graphs id="barss2" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '2'}" height="60" width="60"></bar-graphs>
+                                                    <bar-graphs id="barss2" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '2'}" height="60"
+                                                                width="60"></bar-graphs>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div3">
-                                                    <bar-graphs id="barss3" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '3'}" height="60" width="60"></bar-graphs>
+                                                    <bar-graphs id="barss3" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '3'}" height="60"
+                                                                width="60"></bar-graphs>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver;margin: 3px;" id="div4">
-                                                    <bar-graphs id="barss4" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '4'}" height="60" width="60"></bar-graphs>
+                                                    <bar-graphs id="barss4" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '4'}" height="60"
+                                                                width="60"></bar-graphs>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div5">
-                                                    <bar-graphs id="barss5" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '5'}" height="60" width="60"></bar-graphs>
+                                                    <bar-graphs id="barss5" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '5'}" height="60"
+                                                                width="60"></bar-graphs>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div6">
-                                                    <bar-graphs id="barss6" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '6'}" height="60" width="60"></bar-graphs>
+                                                    <bar-graphs id="barss6" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '6'}" height="60"
+                                                                width="60"></bar-graphs>
                                                 </div>
                                             </td>
                                             <td>>5</td>
@@ -1421,35 +1907,49 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div7">
-                                                    <bar-graphs id="barss7" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '7'}" height="60" width="60"></bar-graphs>
+                                                    <bar-graphs id="barss7" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '7'}" height="60"
+                                                                width="60"></bar-graphs>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div8">
-                                                    <bar-graphs id="barss8" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '8'}" height="60" width="60"></bar-graphs>
+                                                    <bar-graphs id="barss8" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '8'}" height="60"
+                                                                width="60"></bar-graphs>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div9">
-                                                    <bar-graphs id="barss9" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '9'}" height="60" width="60"></bar-graphs>
+                                                    <bar-graphs id="barss9" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '9'}" height="60"
+                                                                width="60"></bar-graphs>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div10">
-                                                    <bar-graphs id="barss10" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '1'}" height="60" width="60"></bar-graphs>
+                                                    <bar-graphs id="barss10" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '1'}" height="60"
+                                                                width="60"></bar-graphs>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div11">
-                                                    <bar-graphs id="barss11" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '2'}" height="60" width="60"></bar-graphs>
+                                                    <bar-graphs id="barss11" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '2'}" height="60"
+                                                                width="60"></bar-graphs>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div12">
-                                                    <bar-graphs id="barss12" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '3'}" height="60" width="60"></bar-graphs>
+                                                    <bar-graphs id="barss12" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '3'}" height="60"
+                                                                width="60"></bar-graphs>
                                                 </div>
                                             </td>
-                                            <td><div>5</div></td>
+                                            <td>
+                                                <div>5</div>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -1457,27 +1957,45 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div13">
-                                                    <bar-graphs id="barss13" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '4'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss13" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '4'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div14">
-                                                    <bar-graphs id="barss14" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '5'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss14" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '5'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div15">
-                                                    <bar-graphs id="barss15" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '6'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss15" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '6'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div16">
-                                                    <bar-graphs id="barss16" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '7'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss16" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '7'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div17">
-                                                    <bar-graphs id="barss17" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '8'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss17" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '8'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;" id="div18">
-                                                    <bar-graphs id="barss18" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '9'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss18" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '9'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>4</td>
                                         </tr>
@@ -1487,27 +2005,45 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss19" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '1'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss19" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '1'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss20" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '2'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss20" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '2'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss21" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '3'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss21" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '3'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss22" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '4'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss22" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '4'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss23" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '5'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss23" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '5'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss24" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '6'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss24" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '6'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>3</td>
                                         </tr>
@@ -1517,27 +2053,45 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss25" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '7'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss25" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '7'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss26" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '8'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss26" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '8'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss27" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '9'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss27" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '9'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss28" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '1'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss28" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '1'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss29" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '2'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss29" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '2'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss30" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '3'}" height="60" width="60"></bar-graphs></div>
+                                                    <bar-graphs id="barss30" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '3'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
                                             </td>
                                             <td>2</td>
                                         </tr>
@@ -1547,28 +2101,44 @@
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss31" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '4'}" height="60" width="60"></bar-graphs></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss32" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '5'}" height="60" width="60"></bar-graphs></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss33" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '6'}" height="60" width="60"></bar-graphs></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss34" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '7'}" height="60" width="60"></bar-graphs></div>
-                                            </td>
-                                            <td>
-                                                <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss35" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '8'}" height="60" width="60"></bar-graphs>
+                                                    <bar-graphs id="barss31" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '4'}" height="60"
+                                                                width="60"></bar-graphs>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div style="border: solid 1px silver; margin: 3px;">
-                                                    <bar-graphs id="barss36" data="tags1" filtername="'filterDatas'" filterValue="{'frequency': '9'}" height="60" width="60"></bar-graphs>
+                                                    <bar-graphs id="barss32" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '5'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphs id="barss33" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '6'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphs id="barss34" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '7'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphs id="barss35" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '8'}" height="60"
+                                                                width="60"></bar-graphs>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="border: solid 1px silver; margin: 3px;">
+                                                    <bar-graphs id="barss36" data="tags1" filtername="'filterDatas'"
+                                                                filterValue="{'frequency': '9'}" height="60"
+                                                                width="60"></bar-graphs>
                                                 </div>
                                             </td>
                                             <td>1</td>

@@ -30,9 +30,11 @@ app.factory('avgPerClientCohort', ['$http', function ($http) {
     };
 }]);
 app.controller('cohortController', function ($scope, $http, myService, perClientCohort, avgPerClientCohort) {
+
     myService.get(function (data) {
         $scope.data = data;
     });
+
     perClientCohort.get(function (data) {
         $scope.perClientData = data;
     });

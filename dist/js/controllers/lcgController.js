@@ -3786,8 +3786,10 @@ app.directive('barGraphs', [
                 };
 
                 scope.$watch('data', function (data) {
-                    var filtered_data = $filter(scope.filtername)(data, scope.filtervalue);
-                    scope.render(filtered_data, scope.id);
+                    if(data != undefined) {
+                        var filtered_data = $filter(scope.filtername)(data, scope.filtervalue);
+                        scope.render(filtered_data, scope.id);
+                    }
                 }, true);
             }
         };
@@ -3869,9 +3871,10 @@ app.directive('barGraph', [
 
                 };
                 scope.$watch('data', function (data) {
-                    data = $filter(scope.filtername)(data, scope.filtervalue);
-
-                    scope.render(data, scope.id);
+                    if(data!=undefined) {
+                        data = $filter(scope.filtername)(data, scope.filtervalue);
+                        scope.render(data, scope.id);
+                    }
                 }, true);
             }
         }
@@ -3954,8 +3957,10 @@ app.directive('barGraphp', [
 
                 };
                 scope.$watch('data', function (data) {
-                    data = $filter(scope.filtername)(data, scope.filtervalue);
-                    scope.render(data, scope.id);
+                    if (data != undefined) {
+                        data = $filter(scope.filtername)(data, scope.filtervalue);
+                        scope.render(data, scope.id);
+                    }
                 }, true);
             }
         }
@@ -4028,8 +4033,10 @@ app.directive('barGraphclc', [
 
                 };
                 scope.$watch('data', function (data) {
-                    data = $filter(scope.filtername)(data, scope.filtervalue);
-                    scope.render(data, scope.id);
+                    if(data!=undefined) {
+                        data = $filter(scope.filtername)(data, scope.filtervalue);
+                        scope.render(data, scope.id);
+                    }
                 }, true);
             }
         }
@@ -4104,14 +4111,408 @@ app.directive('barGraphmlc', [
 
                 };
                 scope.$watch('data', function (data) {
-                    data = $filter(scope.filtername)(data, scope.filtervalue);
-                    scope.render(data, scope.id);
+                    if(data != undefined) {
+                        data = $filter(scope.filtername)(data, scope.filtervalue);
+                        scope.render(data, scope.id);
+                    }
                 }, true);
             }
         }
     }
 ]);
 
+app.directive('histogramFrequency', ['$filter', function ($filter) {
+    return {
+        restrict: 'EA',
+        scope: {
+            data: '=',
+            bin: '=',
+            id: '@',
+            width:'@',
+            height:'@'
+        },
+        link: function (scope, element, attrs) {
+            var margin = {top: 20, right: 20, bottom: 50, left: 50},
+                width = attrs.width - margin.left - margin.right,
+                height = attrs.height - margin.top - margin.bottom;
+
+            var div = d3.select(element[0]).append("div")
+                .attr("class", "tooltip")
+                .style("opacity", 0)
+                .style('margin','10px');
+
+            var svg = d3.select(element[0])
+                .append("svg")
+                .attr("id", "chart-" + attrs.id)
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            scope.render = function (data, id) {
+
+                var bin = parseInt(d3.select("#binwidthf").node().value);
+                var map = data.map(function (i) {
+                    return parseInt(i.frequency);
+                });
+
+                var xScale = d3.scale.linear()
+                    .domain([0, d3.max(map)])
+                    .range([0, width]);
+
+                var histogram = d3.layout.histogram()
+                    .bins(d3.range(xScale.domain()[0], xScale.domain()[1]+bin,bin))
+                (map);
+
+                var yScale = d3.scale.linear()
+                    .domain([0, d3.max(histogram.map(function (i) {
+                        return i.length;
+                    }))])
+                    .range([height, 0]);
+
+                var xAxis = d3.svg.axis()
+                    .scale(xScale)
+                    .orient("bottom")
+                    .ticks(bin*2);
+
+                var yAxis = d3.svg.axis()
+                    .scale(yScale)
+                    .orient("left")
+                    .innerTickSize(-width)
+                    .outerTickSize(0)
+                    .ticks(10);
+
+                svg.append("g")
+                    .attr("class", "y1 axis")
+                    .attr("transform", "translate(0,0)")
+                    .call(yAxis);
+
+                var xBinwidth = width / histogram.length - 2;
+
+                svg.append("g")
+                    .attr("class", "x1 axis")
+                    .attr("transform", "translate(0,"+height+")")
+                    .call(xAxis);
+
+                var tmp = svg.selectAll(".bar")
+                    .data(histogram)
+                    .enter()
+                    .append("rect")
+                    .attr("x", function (d) {
+                        return xScale(d.x)
+                    })
+                    .attr('class', 'bar')
+                    .attr("y", height)
+                    .attr("width", function (d) {
+                        return xBinwidth;
+                    })
+                    .attr("height", 0)
+                    .on('mouseover', function(d,i) {
+                        div.transition()
+                            .duration(200)
+                            .style("opacity", .9);
+                        div.html(' &nbsp;&nbsp;Recency Counts : ' + d.y + " &nbsp;&nbsp; <br>")
+                            .style("left", (d3.mouse(this)[0]) + "px")
+                            .style("top", (d3.mouse(this)[1]) + "px");
+                    })
+                    .on('mouseout', function(d,i) {
+                        div.transition()
+                            .duration(500)
+                            .style("opacity", 0);
+                    });
+
+                tmp.transition()
+                    .attr('height', function (d) {
+                        return height - yScale(d.y);
+                    })
+                    .attr('y', function (d) {
+                        return yScale(d.y);
+                    })
+                    .delay(function (d, i) {
+                        return i * 20;
+                    })
+                    .duration(2000)
+                    .ease('elastic');
+
+                svg.append("text")
+                    .attr("text-anchor", "middle")
+                    .attr("transform", "translate(-20," + (height / 2) + ")rotate(-90)")
+                    .text("Total Counts");
+
+                svg.append("text")
+                    .attr("class", "x label")
+                    .attr("text-anchor", "middle")
+                    .attr("x", width / 2)
+                    .attr("y", height + margin.bottom-5)
+                    .text("Frequency");
+
+                d3.selectAll("#binwidthf").on("change", update);
+
+                function update() {
+                    svg.selectAll("rect").remove();
+                    bin = parseInt(d3.select("#binwidthf").node().value);
+
+                    xScale.domain([0, d3.max(map)]);
+
+                    var histogram = d3.layout.histogram()
+                        .bins(d3.range(xScale.domain()[0], xScale.domain()[1]+bin,bin))
+                    (map);
+                    xBinwidth = width / histogram.length - 5;
+
+                    yScale.domain([0, d3.max(histogram.map(function (i) {
+                        return i.length;
+                    }))]);
+
+                    var bin_var;
+
+                    if(bin==1) bin_var=5;
+                    if(bin==2) bin_var=4;
+                    if(bin==3) bin_var=3;
+                    if(bin==4) bin_var=2;
+                    if(bin==5) bin_var=1;
+
+                    var xAxis = d3.svg.axis()
+                        .scale(xScale)
+                        .orient("bottom")
+                        .ticks(bin_var*2);
+
+                    svg.selectAll(".bar").data(histogram)
+                        .enter().append("rect")
+                        .attr("class", "bar");
+
+                    var tmp = svg.selectAll(".bar").data(histogram)
+                        .attr("height", 0)
+                        .attr("width", function (d) {
+                            return xBinwidth;
+                        })
+                        .attr("x", function (d) {
+                            return xScale(d.x)
+                        })
+                        .attr("y", height);
+
+                    tmp.transition()
+                        .attr('height', function (d) {
+                            return height - yScale(d.y);
+                        })
+                        .attr('y', function (d) {
+                            return yScale(d.y);
+                        })
+                        .delay(function (d, i) {
+                            return i * 20;
+                        })
+                        .duration(2000)
+                        .ease('elastic');
+
+                    d3.select(".y1.axis").call(yAxis);
+                    d3.select(".x1.axis").call(xAxis);
+                }
+            };
+
+            scope.$watch('data', function (data) {
+                if(data!=undefined)
+                    scope.render(data, scope.id);
+            }, true);
+        }
+    }
+}]);
+
+app.directive('histogram', ['$filter', function ($filter) {
+    return {
+        restrict: 'EA',
+        scope: {
+            data: '=',
+            bin: '=',
+            id: '@',
+            width:'@',
+            height:'@'
+        },
+        link: function (scope, element, attrs) {
+            var margin = {top: 20, right: 20, bottom: 50, left: 50},
+                width = attrs.width - margin.left - margin.right,
+                height = attrs.height - margin.top - margin.bottom;
+
+            var div = d3.select(element[0]).append("div")
+                .attr("class", "tooltip")
+                .style("opacity", 0)
+                .style('margin','10px');
+
+            var svg = d3.select(element[0])
+                .append("svg")
+                .attr("id", "chart-" + attrs.id)
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            scope.render = function (data, id) {
+
+                var bin = parseInt(d3.select("#binwidth").node().value);
+                var map = data.map(function (i) {
+                    return parseInt(i.recency);
+                });
+
+                var xScale = d3.scale.linear()
+                    .domain([0, d3.max(map)+5])
+                    .range([0, width]);
+
+                var histogram = d3.layout.histogram()
+                    .bins(d3.range(xScale.domain()[0], xScale.domain()[1]+bin,bin))
+                (map);
+
+
+                var yScale = d3.scale.linear()
+                    .domain([0, d3.max(histogram.map(function (i) {
+                        return i.length;
+                    }))])
+                    .range([height, 0]);
+
+                var xAxis = d3.svg.axis()
+                    .scale(xScale)
+                    .orient("bottom")
+                    .ticks(20);
+
+                var yAxis = d3.svg.axis()
+                    .scale(yScale)
+                    .orient("left")
+                    .innerTickSize(-width)
+                    .outerTickSize(0)
+                    .ticks(10);
+
+                svg.append("g")
+                    .attr("class", "y axis")
+                    .attr("transform", "translate(0,0)")
+                    .call(yAxis);
+
+                var xBinwidth = width / histogram.length -1;
+
+                svg.append("g")
+                    .attr("class", "x axis")
+                    .attr("transform", "translate(0,"+height+")")
+                    .call(xAxis);
+
+                var tmp = svg.selectAll(".bar")
+                    .data(histogram)
+                    .enter()
+                    .append("rect")
+                    .attr("x", function (d) {
+                        return xScale(d.x)
+                    })
+                    .attr('class', 'bar')
+                    .attr("y", height)
+                    .attr("width", function (d) {
+                        return xBinwidth;
+                    })
+                    .attr("height", 0)
+                    .on('mouseover', function(d,i) {
+                        div.transition()
+                            .duration(200)
+                            .style("opacity", .9);
+                        div.html(' &nbsp;&nbsp;Recency Counts : ' + d.y + " &nbsp;&nbsp; <br>")
+                            .style("left", (d3.mouse(this)[0]) + "px")
+                            .style("top", (d3.mouse(this)[1]) + "px");
+                    })
+                    .on('mouseout', function(d,i) {
+                        div.transition()
+                            .duration(500)
+                            .style("opacity", 0);
+                    });
+
+                tmp.transition()
+                    .attr('height', function (d) {
+                        return height - yScale(d.y);
+                    })
+                    .attr('y', function (d) {
+                        return yScale(d.y);
+                    })
+                    .delay(function (d, i) {
+                        return i * 20;
+                    })
+                    .duration(2000)
+                    .ease('elastic');
+
+                svg.append("text")
+                    .attr("text-anchor", "middle")
+                    .attr("transform", "translate(-20," + (height / 2) + ")rotate(-90)")
+                    .text("Total Counts");
+
+                svg.append("text")
+                    .attr("class", "x label")
+                    .attr("text-anchor", "middle")
+                    .attr("x", width / 2)
+                    .attr("y", height + margin.bottom-5)
+                    .text("Recency");
+
+                d3.selectAll("#binwidth").on("change", update);
+
+                function update() {
+
+                    svg.selectAll("rect").remove();
+                    bin = parseInt(d3.select("#binwidth").node().value);
+
+                    xScale.domain([0, d3.max(map)+2]);
+
+                    var histogram = d3.layout.histogram()
+                        .bins(d3.range(xScale.domain()[0], xScale.domain()[1]+bin,bin))
+                    (map);
+
+                    xBinwidth = width / histogram.length;
+                    yScale.domain([0, d3.max(histogram.map(function (i) {
+                        return i.length;
+                    }))]);
+
+                    var bin_var;
+
+                    if(bin==25) bin_var=4;
+                    if(bin==20) bin_var=5;
+                    if(bin==15) bin_var=7;
+                    if(bin==10) bin_var=10;
+                    if(bin==5) bin_var=20;
+
+                    var xAxis = d3.svg.axis()
+                        .scale(xScale)
+                        .orient("bottom")
+                        .ticks(bin_var);
+
+
+                    svg.selectAll(".bar").data(histogram)
+                        .enter().append("rect")
+                        .attr("class", "bar");
+
+                    var tmp = svg.selectAll(".bar").data(histogram)
+                        .attr("height", 0)
+                        .attr("width", function (d) {
+                            return xBinwidth-2;
+                        })
+                        .attr("x", function (d) {
+                            return xScale(d.x)
+                        })
+                        .attr("y", height);
+
+                    tmp.transition()
+                        .attr('height', function (d) {
+                            return height - yScale(d.y);
+                        })
+                        .attr('y', function (d) {
+                            return yScale(d.y);
+                        })
+                        .delay(function (d, i) {
+                            return i * 20;
+                        })
+                        .duration(2000)
+                        .ease('elastic');
+
+                    d3.select(".y.axis").call(yAxis);
+                    d3.select(".x.axis").call(xAxis);
+                }
+            };
+
+            scope.$watch('data', function (data) {
+                if(data!=undefined)
+                    scope.render(data, scope.id);
+            }, true);
+        }
+    }
+}]);
 
 app.directive('sample', [function () {
     return {
