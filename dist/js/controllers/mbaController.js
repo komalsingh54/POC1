@@ -32,7 +32,7 @@ mbaApp.filter('filters', function () {
         return nestedData;
     };
 });
-mbaApp.controller('mbaController', function ($scope, mbaService) {
+mbaApp.controller('mbaController', function ($scope, mbaService, $http) {
     mbaService.get(function (data) {
         var nestedData = d3.nest()
             .key(function (d) {
@@ -195,7 +195,14 @@ mbaApp.controller('mbaController', function ($scope, mbaService) {
             });
             var slct = 'FeatureID=' + newVal;
             drawBarChartf(slct);
+            getCustomerDatas(slct);
         }, true);
+        var getCustomerDatas = function (slct) {
+            $http.get('../../data/mbaCustomerData.json').success(function (custmerData) {
+                $scope.customerData = custmerData;
+                $scope.searchText = slct;
+            })
+        };
         function drawBarChartf(slct) {
             var n = 6, // number of layers
                 m = 13; // number of samples per layer
@@ -220,13 +227,12 @@ mbaApp.controller('mbaController', function ($scope, mbaService) {
                 var filtereddsf = dataf.filter(function (d) {
                     return d.CurrentProduct == slct;
                 });
-                console.log(filtereddsf);
+
                 var nestedDataf = d3.nest()
                     .key(function (d) {
                         return d.CurrentProduct;
                     })
                     .entries(filtereddsf);
-                console.log(nestedDataf);
 
                 var headers = ["Support", "Confidence", "Lift"];
 
@@ -277,7 +283,7 @@ mbaApp.controller('mbaController', function ($scope, mbaService) {
                     .scale(y)
                     .orient("left")
                     .innerTickSize(-width)
-                    .outerTickSize(0)
+                    .outerTickSize(0);
                 //.tickFormat(d3.format(".2s"));
 
                 svg.append("g")
@@ -610,7 +616,15 @@ mbaApp.controller('mbaController', function ($scope, mbaService) {
             });
             var slct = 'SKUID=' + newVal;
             drawBarChart(slct);
+            getCustomerDatas1(slct);
         }, true);
+
+        var getCustomerDatas1 = function (slct) {
+            $http.get('../../data/mbaCustomerData.json').success(function (custmerData) {
+                $scope.customerData = custmerData;
+                $scope.searchTextP = slct;
+            })
+        };
 
         function drawBarChart(slct) {
             var n = 6, // number of layers
@@ -881,43 +895,5 @@ mbaApp.controller('mbaController', function ($scope, mbaService) {
         }
     }
 });
-/*mbaApp.directive('dropDownList', [ '$filter',
- function ($filter) {
- return {
- restrict: 'EA',
- scope: {
- data: '=',
- id: '@',
- filterValue:'='
- },
- link: function (scope, element, attrs) {
- scope.render = function (data, id) {
 
- d3.select("#"+id).selectAll('div').remove();
-
- var select = d3.select("#"+id)
- .append("div")
- .attr('class', 'col-md-2')
- .style('display','inline')
- .append("select")
- .attr('class', 'form-control')
- .attr('id',('dd'+id))
- .style('height','29px')
- .attr('ng-model','myModel');
-
- select.selectAll("option")
- .data(data)
- .enter()
- .append("option")
- .attr("value", function (d) { return d.value; })
- .text(function (d) { return d.key; });
- };
- scope.$watch('data', function (data) {
- data = $filter('filters')(data, scope.filterValue);
- scope.render(data, scope.id);
- }, true);
- }
- };
- }]
- );*/
 

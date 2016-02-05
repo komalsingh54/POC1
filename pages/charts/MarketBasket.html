@@ -25,6 +25,7 @@
             margin-left: 20px;
             margin-right: auto;
             margin-top: 20px;
+            width: 47%;
         }
 
         .arc {
@@ -88,14 +89,14 @@
                     <li class="dropdown messages-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="fa fa-envelope-o"></i>
-                            <span class="label label-success">4</span>
+                            <!--<span class="label label-success">4</span>-->
                         </a>
                         <ul class="dropdown-menu">
                             <li class="header">You have 4 messages</li>
                             <li>
                                 <!-- inner menu: contains the actual data -->
                                 <ul class="menu">
-                                    <li><!-- start message -->
+                                   <!-- <li>&lt;!&ndash; start message &ndash;&gt;
                                         <a href="#">
                                             <div class="pull-left">
                                                 <img src="../../dist/img/user2-160x160.jpg" class="img-circle"
@@ -108,7 +109,7 @@
                                             <p>Why not buy a new awesome theme?</p>
                                         </a>
                                     </li>
-                                    <!-- end message -->
+                                    &lt;!&ndash; end message &ndash;&gt;
                                     <li>
                                         <a href="#">
                                             <div class="pull-left">
@@ -160,7 +161,7 @@
                                             </h4>
                                             <p>Why not buy a new awesome theme?</p>
                                         </a>
-                                    </li>
+                                    </li>-->
                                 </ul>
                             </li>
                             <li class="footer"><a href="#">See All Messages</a></li>
@@ -170,7 +171,7 @@
                     <li class="dropdown notifications-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="fa fa-bell-o"></i>
-                            <span class="label label-warning">10</span>
+                           <!-- <span class="label label-warning">10</span>-->
                         </a>
                         <ul class="dropdown-menu">
                             <li class="header">You have 10 notifications</li>
@@ -212,14 +213,14 @@
                     <li class="dropdown tasks-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="fa fa-flag-o"></i>
-                            <span class="label label-danger">9</span>
+                            <!--<span class="label label-danger">9</span>-->
                         </a>
                         <ul class="dropdown-menu">
                             <li class="header">You have 9 tasks</li>
                             <li>
                                 <!-- inner menu: contains the actual data -->
                                 <ul class="menu">
-                                    <li><!-- Task item -->
+                                   <!-- <li>&lt;!&ndash; Task item &ndash;&gt;
                                         <a href="#">
                                             <h3>
                                                 Design some buttons
@@ -234,8 +235,8 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <!-- end task item -->
-                                    <li><!-- Task item -->
+                                    &lt;!&ndash; end task item &ndash;&gt;
+                                    <li>&lt;!&ndash; Task item &ndash;&gt;
                                         <a href="#">
                                             <h3>
                                                 Create a nice theme
@@ -250,8 +251,8 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <!-- end task item -->
-                                    <li><!-- Task item -->
+                                    &lt;!&ndash; end task item &ndash;&gt;
+                                    <li>&lt;!&ndash; Task item &ndash;&gt;
                                         <a href="#">
                                             <h3>
                                                 Some task I need to do
@@ -266,8 +267,8 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <!-- end task item -->
-                                    <li><!-- Task item -->
+                                    &lt;!&ndash; end task item &ndash;&gt;
+                                    <li>&lt;!&ndash; Task item &ndash;&gt;
                                         <a href="#">
                                             <h3>
                                                 Make beautiful transitions
@@ -282,7 +283,7 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <!-- end task item -->
+                                     end task item -->
                                 </ul>
                             </li>
                             <li class="footer">
@@ -467,6 +468,33 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-md-12">
+                                    <div class="col-md-5">
+                                        <table class="table  table-condensed">
+                                            <tr>
+                                                <th>Customer ID</th><th>Customer Name</th><th>Product Name</th>
+                                            </tr>
+                                            <tr ng-repeat="trs in customerData | filter:searchTextP">
+                                                <td>{{trs.ID}}</td>
+                                                <td>{{trs.Customer}}</td>
+                                                <td>{{trs.Feature}}</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <table class="table table-condensed">
+                                            <tr>
+                                                <th>Customer ID</th><th>Customer Name</th><th>Product Name</th>
+                                            </tr>
+                                            <tr ng-repeat="trs in customerData | filter:searchTextP">
+                                                <td>{{trs.ID}}</td>
+                                                <td>{{trs.Customer}}</td>
+                                                <td>{{trs.Feature}}</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-md-2"></div>
+                                </div>
                             </div>
                             <div class="chart tab-pane" id="Feature" style="position: relative; height: 100%;">
                                 <div class="col-lg-12"> &nbsp;</div>
@@ -500,6 +528,33 @@
                                         <div id="bar-chartf" style="width: 500px; height:400px;">
                                         </div>
                                     </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="col-md-5">
+                                        <table class="table  table-condensed">
+                                            <tr>
+                                                <th>Customer ID</th><th>Customer Name</th><th>Product Name</th>
+                                            </tr>
+                                            <tr ng-repeat="trs in customerData | filter:searchText">
+                                                <td>{{trs.ID}}</td>
+                                                <td>{{trs.Customer}}</td>
+                                                <td>{{trs.Feature}}</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <table class="table table-condensed">
+                                            <tr>
+                                                <th>Customer ID</th><th>Customer Name</th><th>Product Name</th>
+                                            </tr>
+                                            <tr ng-repeat="trs in customerData | filter:searchText">
+                                                <td>{{trs.ID}}</td>
+                                                <td>{{trs.Customer}}</td>
+                                                <td>{{trs.Feature}}</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-md-2"></div>
                                 </div>
                             </div>
                         </div>

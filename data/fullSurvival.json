@@ -1,0 +1,1698 @@
+[
+  {
+    "Time": 1,
+    "Risk": 3333,
+    "Event": 1,
+    "Censor": 7,
+    "Surv": 0.999758428,
+    "Cummlative hazard": 0.000241601
+  },
+  {
+    "Time": 2,
+    "Risk": 3325,
+    "Event": 1,
+    "Censor": 0,
+    "Surv": 0.999516444,
+    "Cummlative hazard": 0.000483673
+  },
+  {
+    "Time": 3,
+    "Risk": 3324,
+    "Event": 0,
+    "Censor": 5,
+    "Surv": 0.999516444,
+    "Cummlative hazard": 0.000483673
+  },
+  {
+    "Time": 4,
+    "Risk": 3319,
+    "Event": 0,
+    "Censor": 1,
+    "Surv": 0.999516444,
+    "Cummlative hazard": 0.000483673
+  },
+  {
+    "Time": 5,
+    "Risk": 3318,
+    "Event": 0,
+    "Censor": 1,
+    "Surv": 0.999516444,
+    "Cummlative hazard": 0.000483673
+  },
+  {
+    "Time": 6,
+    "Risk": 3317,
+    "Event": 0,
+    "Censor": 2,
+    "Surv": 0.999516444,
+    "Cummlative hazard": 0.000483673
+  },
+  {
+    "Time": 7,
+    "Risk": 3315,
+    "Event": 0,
+    "Censor": 2,
+    "Surv": 0.999516444,
+    "Cummlative hazard": 0.000483673
+  },
+  {
+    "Time": 8,
+    "Risk": 3313,
+    "Event": 0,
+    "Censor": 1,
+    "Surv": 0.999516444,
+    "Cummlative hazard": 0.000483673
+  },
+  {
+    "Time": 9,
+    "Risk": 3312,
+    "Event": 0,
+    "Censor": 3,
+    "Surv": 0.999516444,
+    "Cummlative hazard": 0.000483673
+  },
+  {
+    "Time": 10,
+    "Risk": 3309,
+    "Event": 0,
+    "Censor": 3,
+    "Surv": 0.999516444,
+    "Cummlative hazard": 0.000483673
+  },
+  {
+    "Time": 11,
+    "Risk": 3306,
+    "Event": 0,
+    "Censor": 4,
+    "Surv": 0.999516444,
+    "Cummlative hazard": 0.000483673
+  },
+  {
+    "Time": 12,
+    "Risk": 3302,
+    "Event": 1,
+    "Censor": 2,
+    "Surv": 0.999272953,
+    "Cummlative hazard": 0.000727311
+  },
+  {
+    "Time": 13,
+    "Risk": 3299,
+    "Event": 1,
+    "Censor": 8,
+    "Surv": 0.999029248,
+    "Cummlative hazard": 0.000971224
+  },
+  {
+    "Time": 15,
+    "Risk": 3290,
+    "Event": 0,
+    "Censor": 3,
+    "Surv": 0.999029248,
+    "Cummlative hazard": 0.000971224
+  },
+  {
+    "Time": 16,
+    "Risk": 3287,
+    "Event": 1,
+    "Censor": 7,
+    "Surv": 0.998784511,
+    "Cummlative hazard": 0.001216229
+  },
+  {
+    "Time": 17,
+    "Risk": 3279,
+    "Event": 2,
+    "Censor": 2,
+    "Surv": 0.998294054,
+    "Cummlative hazard": 0.001707403
+  },
+  {
+    "Time": 18,
+    "Risk": 3275,
+    "Event": 0,
+    "Censor": 2,
+    "Surv": 0.998294054,
+    "Cummlative hazard": 0.001707403
+  },
+  {
+    "Time": 19,
+    "Risk": 3273,
+    "Event": 1,
+    "Censor": 4,
+    "Surv": 0.998048419,
+    "Cummlative hazard": 0.001953488
+  },
+  {
+    "Time": 20,
+    "Risk": 3268,
+    "Event": 0,
+    "Censor": 3,
+    "Surv": 0.998048419,
+    "Cummlative hazard": 0.001953488
+  },
+  {
+    "Time": 21,
+    "Risk": 3265,
+    "Event": 1,
+    "Censor": 7,
+    "Surv": 0.99780235,
+    "Cummlative hazard": 0.002200068
+  },
+  {
+    "Time": 22,
+    "Risk": 3257,
+    "Event": 0,
+    "Censor": 6,
+    "Surv": 0.99780235,
+    "Cummlative hazard": 0.002200068
+  },
+  {
+    "Time": 23,
+    "Risk": 3251,
+    "Event": 2,
+    "Censor": 2,
+    "Surv": 0.997308397,
+    "Cummlative hazard": 0.002695232
+  },
+  {
+    "Time": 24,
+    "Risk": 3247,
+    "Event": 3,
+    "Censor": 5,
+    "Surv": 0.996566088,
+    "Cummlative hazard": 0.003439821
+  },
+  {
+    "Time": 25,
+    "Risk": 3239,
+    "Event": 1,
+    "Censor": 4,
+    "Surv": 0.996318189,
+    "Cummlative hazard": 0.003688605
+  },
+  {
+    "Time": 26,
+    "Risk": 3234,
+    "Event": 0,
+    "Censor": 1,
+    "Surv": 0.996318189,
+    "Cummlative hazard": 0.003688605
+  },
+  {
+    "Time": 27,
+    "Risk": 3233,
+    "Event": 1,
+    "Censor": 8,
+    "Surv": 0.996069782,
+    "Cummlative hazard": 0.003937962
+  },
+  {
+    "Time": 28,
+    "Risk": 3224,
+    "Event": 1,
+    "Censor": 5,
+    "Surv": 0.995820602,
+    "Cummlative hazard": 0.004188156
+  },
+  {
+    "Time": 29,
+    "Risk": 3218,
+    "Event": 1,
+    "Censor": 4,
+    "Surv": 0.995570913,
+    "Cummlative hazard": 0.004438924
+  },
+  {
+    "Time": 30,
+    "Risk": 3213,
+    "Event": 0,
+    "Censor": 8,
+    "Surv": 0.995570913,
+    "Cummlative hazard": 0.004438924
+  },
+  {
+    "Time": 31,
+    "Risk": 3205,
+    "Event": 0,
+    "Censor": 7,
+    "Surv": 0.995570913,
+    "Cummlative hazard": 0.004438924
+  },
+  {
+    "Time": 32,
+    "Risk": 3198,
+    "Event": 0,
+    "Censor": 7,
+    "Surv": 0.995570913,
+    "Cummlative hazard": 0.004438924
+  },
+  {
+    "Time": 33,
+    "Risk": 3191,
+    "Event": 1,
+    "Censor": 9,
+    "Surv": 0.995319497,
+    "Cummlative hazard": 0.004691491
+  },
+  {
+    "Time": 34,
+    "Risk": 3181,
+    "Event": 1,
+    "Censor": 6,
+    "Surv": 0.99506739,
+    "Cummlative hazard": 0.004944816
+  },
+  {
+    "Time": 35,
+    "Risk": 3174,
+    "Event": 1,
+    "Censor": 8,
+    "Surv": 0.994814875,
+    "Cummlative hazard": 0.005198614
+  },
+  {
+    "Time": 36,
+    "Risk": 3165,
+    "Event": 1,
+    "Censor": 13,
+    "Surv": 0.994561761,
+    "Cummlative hazard": 0.00545308
+  },
+  {
+    "Time": 37,
+    "Risk": 3151,
+    "Event": 2,
+    "Censor": 11,
+    "Surv": 0.994053671,
+    "Cummlative hazard": 0.005964079
+  },
+  {
+    "Time": 38,
+    "Risk": 3138,
+    "Event": 1,
+    "Censor": 8,
+    "Surv": 0.993798505,
+    "Cummlative hazard": 0.006220804
+  },
+  {
+    "Time": 39,
+    "Risk": 3129,
+    "Event": 1,
+    "Censor": 6,
+    "Surv": 0.993542789,
+    "Cummlative hazard": 0.006478149
+  },
+  {
+    "Time": 40,
+    "Risk": 3122,
+    "Event": 3,
+    "Censor": 6,
+    "Surv": 0.992774464,
+    "Cummlative hazard": 0.007251767
+  },
+  {
+    "Time": 41,
+    "Risk": 3113,
+    "Event": 1,
+    "Censor": 13,
+    "Surv": 0.992517939,
+    "Cummlative hazard": 0.007510192
+  },
+  {
+    "Time": 42,
+    "Risk": 3099,
+    "Event": 1,
+    "Censor": 9,
+    "Surv": 0.992260201,
+    "Cummlative hazard": 0.007769907
+  },
+  {
+    "Time": 43,
+    "Risk": 3089,
+    "Event": 0,
+    "Censor": 12,
+    "Surv": 0.992260201,
+    "Cummlative hazard": 0.007769907
+  },
+  {
+    "Time": 44,
+    "Risk": 3077,
+    "Event": 4,
+    "Censor": 6,
+    "Surv": 0.991222589,
+    "Cummlative hazard": 0.00881616
+  },
+  {
+    "Time": 45,
+    "Risk": 3067,
+    "Event": 1,
+    "Censor": 12,
+    "Surv": 0.990962411,
+    "Cummlative hazard": 0.009078676
+  },
+  {
+    "Time": 46,
+    "Risk": 3054,
+    "Event": 2,
+    "Censor": 12,
+    "Surv": 0.990440882,
+    "Cummlative hazard": 0.0096051
+  },
+  {
+    "Time": 47,
+    "Risk": 3040,
+    "Event": 1,
+    "Censor": 8,
+    "Surv": 0.990179218,
+    "Cummlative hazard": 0.009869324
+  },
+  {
+    "Time": 48,
+    "Risk": 3031,
+    "Event": 1,
+    "Censor": 16,
+    "Surv": 0.989917133,
+    "Cummlative hazard": 0.010134044
+  },
+  {
+    "Time": 49,
+    "Risk": 3014,
+    "Event": 2,
+    "Censor": 5,
+    "Surv": 0.989389719,
+    "Cummlative hazard": 0.010666971
+  },
+  {
+    "Time": 50,
+    "Risk": 3007,
+    "Event": 2,
+    "Censor": 13,
+    "Surv": 0.988861251,
+    "Cummlative hazard": 0.01120125
+  },
+  {
+    "Time": 51,
+    "Risk": 2992,
+    "Event": 2,
+    "Censor": 13,
+    "Surv": 0.988329444,
+    "Cummlative hazard": 0.011739191
+  },
+  {
+    "Time": 52,
+    "Risk": 2977,
+    "Event": 2,
+    "Censor": 16,
+    "Surv": 0.98779571,
+    "Cummlative hazard": 0.012279374
+  },
+  {
+    "Time": 53,
+    "Risk": 2959,
+    "Event": 2,
+    "Censor": 12,
+    "Surv": 0.9872587,
+    "Cummlative hazard": 0.012823167
+  },
+  {
+    "Time": 54,
+    "Risk": 2945,
+    "Event": 4,
+    "Censor": 13,
+    "Surv": 0.986178033,
+    "Cummlative hazard": 0.01391838
+  },
+  {
+    "Time": 55,
+    "Risk": 2928,
+    "Event": 3,
+    "Censor": 16,
+    "Surv": 0.985363742,
+    "Cummlative hazard": 0.014744425
+  },
+  {
+    "Time": 56,
+    "Risk": 2909,
+    "Event": 2,
+    "Censor": 15,
+    "Surv": 0.984818019,
+    "Cummlative hazard": 0.015298407
+  },
+  {
+    "Time": 57,
+    "Risk": 2892,
+    "Event": 2,
+    "Censor": 17,
+    "Surv": 0.984269926,
+    "Cummlative hazard": 0.015855104
+  },
+  {
+    "Time": 58,
+    "Risk": 2873,
+    "Event": 2,
+    "Censor": 14,
+    "Surv": 0.983718904,
+    "Cummlative hazard": 0.016415089
+  },
+  {
+    "Time": 59,
+    "Risk": 2857,
+    "Event": 0,
+    "Censor": 18,
+    "Surv": 0.983718904,
+    "Cummlative hazard": 0.016415089
+  },
+  {
+    "Time": 60,
+    "Risk": 2839,
+    "Event": 4,
+    "Censor": 13,
+    "Surv": 0.982605828,
+    "Cummlative hazard": 0.017547229
+  },
+  {
+    "Time": 61,
+    "Risk": 2822,
+    "Event": 4,
+    "Censor": 13,
+    "Surv": 0.98148741,
+    "Cummlative hazard": 0.018686093
+  },
+  {
+    "Time": 62,
+    "Risk": 2805,
+    "Event": 5,
+    "Censor": 15,
+    "Surv": 0.980080762,
+    "Cummlative hazard": 0.0201203
+  },
+  {
+    "Time": 63,
+    "Risk": 2785,
+    "Event": 2,
+    "Censor": 25,
+    "Surv": 0.979514601,
+    "Cummlative hazard": 0.020698135
+  },
+  {
+    "Time": 64,
+    "Risk": 2758,
+    "Event": 4,
+    "Censor": 28,
+    "Surv": 0.978374366,
+    "Cummlative hazard": 0.021862895
+  },
+  {
+    "Time": 65,
+    "Risk": 2726,
+    "Event": 3,
+    "Censor": 18,
+    "Surv": 0.977508107,
+    "Cummlative hazard": 0.022748694
+  },
+  {
+    "Time": 66,
+    "Risk": 2705,
+    "Event": 2,
+    "Censor": 19,
+    "Surv": 0.976926702,
+    "Cummlative hazard": 0.023343654
+  },
+  {
+    "Time": 67,
+    "Risk": 2684,
+    "Event": 1,
+    "Censor": 26,
+    "Surv": 0.97663425,
+    "Cummlative hazard": 0.023643057
+  },
+  {
+    "Time": 68,
+    "Risk": 2657,
+    "Event": 6,
+    "Censor": 24,
+    "Surv": 0.974861151,
+    "Cummlative hazard": 0.025460227
+  },
+  {
+    "Time": 69,
+    "Risk": 2627,
+    "Event": 2,
+    "Censor": 15,
+    "Surv": 0.974265033,
+    "Cummlative hazard": 0.026071904
+  },
+  {
+    "Time": 70,
+    "Risk": 2610,
+    "Event": 2,
+    "Censor": 24,
+    "Surv": 0.973665243,
+    "Cummlative hazard": 0.026687728
+  },
+  {
+    "Time": 71,
+    "Risk": 2584,
+    "Event": 5,
+    "Censor": 14,
+    "Surv": 0.97215342,
+    "Cummlative hazard": 0.028241647
+  },
+  {
+    "Time": 72,
+    "Risk": 2565,
+    "Event": 2,
+    "Censor": 23,
+    "Surv": 0.971544506,
+    "Cummlative hazard": 0.0288682
+  },
+  {
+    "Time": 73,
+    "Risk": 2540,
+    "Event": 3,
+    "Censor": 29,
+    "Surv": 0.970623644,
+    "Cummlative hazard": 0.029816482
+  },
+  {
+    "Time": 74,
+    "Risk": 2508,
+    "Event": 5,
+    "Censor": 27,
+    "Surv": 0.969071866,
+    "Cummlative hazard": 0.031416505
+  },
+  {
+    "Time": 75,
+    "Risk": 2476,
+    "Event": 5,
+    "Censor": 27,
+    "Surv": 0.967501165,
+    "Cummlative hazard": 0.03303865
+  },
+  {
+    "Time": 76,
+    "Risk": 2444,
+    "Event": 8,
+    "Censor": 16,
+    "Surv": 0.96495852,
+    "Cummlative hazard": 0.035670163
+  },
+  {
+    "Time": 77,
+    "Risk": 2420,
+    "Event": 6,
+    "Censor": 16,
+    "Surv": 0.963040938,
+    "Cummlative hazard": 0.037659357
+  },
+  {
+    "Time": 78,
+    "Risk": 2398,
+    "Event": 3,
+    "Censor": 28,
+    "Surv": 0.962074633,
+    "Cummlative hazard": 0.03866325
+  },
+  {
+    "Time": 79,
+    "Risk": 2367,
+    "Event": 3,
+    "Censor": 20,
+    "Surv": 0.961097781,
+    "Cummlative hazard": 0.039679126
+  },
+  {
+    "Time": 80,
+    "Risk": 2344,
+    "Event": 4,
+    "Censor": 29,
+    "Surv": 0.959783083,
+    "Cummlative hazard": 0.041047975
+  },
+  {
+    "Time": 81,
+    "Risk": 2311,
+    "Event": 4,
+    "Censor": 21,
+    "Surv": 0.958453951,
+    "Cummlative hazard": 0.04243376
+  },
+  {
+    "Time": 82,
+    "Risk": 2286,
+    "Event": 5,
+    "Censor": 20,
+    "Surv": 0.956776202,
+    "Cummlative hazard": 0.044185769
+  },
+  {
+    "Time": 83,
+    "Risk": 2261,
+    "Event": 1,
+    "Censor": 23,
+    "Surv": 0.956437275,
+    "Cummlative hazard": 0.04454007
+  },
+  {
+    "Time": 84,
+    "Risk": 2237,
+    "Event": 3,
+    "Censor": 24,
+    "Surv": 0.95541012,
+    "Cummlative hazard": 0.045614586
+  },
+  {
+    "Time": 85,
+    "Risk": 2210,
+    "Event": 3,
+    "Censor": 27,
+    "Surv": 0.954372523,
+    "Cummlative hazard": 0.046701198
+  },
+  {
+    "Time": 86,
+    "Risk": 2180,
+    "Event": 2,
+    "Censor": 36,
+    "Surv": 0.953670159,
+    "Cummlative hazard": 0.047437413
+  },
+  {
+    "Time": 87,
+    "Risk": 2142,
+    "Event": 3,
+    "Censor": 39,
+    "Surv": 0.952600873,
+    "Cummlative hazard": 0.048559275
+  },
+  {
+    "Time": 88,
+    "Risk": 2100,
+    "Event": 7,
+    "Censor": 27,
+    "Surv": 0.950056425,
+    "Cummlative hazard": 0.051233901
+  },
+  {
+    "Time": 89,
+    "Risk": 2066,
+    "Event": 5,
+    "Censor": 21,
+    "Surv": 0.94821371,
+    "Cummlative hazard": 0.053175369
+  },
+  {
+    "Time": 90,
+    "Risk": 2040,
+    "Event": 2,
+    "Censor": 37,
+    "Surv": 0.947471371,
+    "Cummlative hazard": 0.053958558
+  },
+  {
+    "Time": 91,
+    "Risk": 2001,
+    "Event": 4,
+    "Censor": 24,
+    "Surv": 0.945966716,
+    "Cummlative hazard": 0.055547894
+  },
+  {
+    "Time": 92,
+    "Risk": 1973,
+    "Event": 6,
+    "Censor": 27,
+    "Surv": 0.943685452,
+    "Cummlative hazard": 0.057962376
+  },
+  {
+    "Time": 93,
+    "Risk": 1940,
+    "Event": 8,
+    "Censor": 32,
+    "Surv": 0.940600622,
+    "Cummlative hazard": 0.061236648
+  },
+  {
+    "Time": 94,
+    "Risk": 1900,
+    "Event": 5,
+    "Censor": 28,
+    "Surv": 0.938637743,
+    "Cummlative hazard": 0.063325664
+  },
+  {
+    "Time": 95,
+    "Risk": 1867,
+    "Event": 6,
+    "Censor": 32,
+    "Surv": 0.936243393,
+    "Cummlative hazard": 0.065879802
+  },
+  {
+    "Time": 96,
+    "Risk": 1829,
+    "Event": 3,
+    "Censor": 23,
+    "Surv": 0.935025671,
+    "Cummlative hazard": 0.067181295
+  },
+  {
+    "Time": 97,
+    "Risk": 1803,
+    "Event": 7,
+    "Censor": 22,
+    "Surv": 0.93214451,
+    "Cummlative hazard": 0.070267423
+  },
+  {
+    "Time": 98,
+    "Risk": 1774,
+    "Event": 6,
+    "Censor": 26,
+    "Surv": 0.92964233,
+    "Cummlative hazard": 0.072955358
+  },
+  {
+    "Time": 99,
+    "Risk": 1742,
+    "Event": 5,
+    "Censor": 31,
+    "Surv": 0.927520359,
+    "Cummlative hazard": 0.075240535
+  },
+  {
+    "Time": 100,
+    "Risk": 1706,
+    "Event": 7,
+    "Censor": 30,
+    "Surv": 0.92449428,
+    "Cummlative hazard": 0.078508416
+  },
+  {
+    "Time": 101,
+    "Risk": 1669,
+    "Event": 5,
+    "Censor": 35,
+    "Surv": 0.922297993,
+    "Cummlative hazard": 0.080886905
+  },
+  {
+    "Time": 102,
+    "Risk": 1629,
+    "Event": 2,
+    "Censor": 21,
+    "Surv": 0.921399614,
+    "Cummlative hazard": 0.081861446
+  },
+  {
+    "Time": 103,
+    "Risk": 1606,
+    "Event": 6,
+    "Censor": 27,
+    "Surv": 0.918664052,
+    "Cummlative hazard": 0.084834781
+  },
+  {
+    "Time": 104,
+    "Risk": 1573,
+    "Event": 1,
+    "Censor": 27,
+    "Surv": 0.918200529,
+    "Cummlative hazard": 0.085339471
+  },
+  {
+    "Time": 105,
+    "Risk": 1545,
+    "Event": 9,
+    "Censor": 34,
+    "Surv": 0.913941635,
+    "Cummlative hazard": 0.089988567
+  },
+  {
+    "Time": 106,
+    "Risk": 1502,
+    "Event": 4,
+    "Censor": 30,
+    "Surv": 0.912004106,
+    "Cummlative hazard": 0.092110786
+  },
+  {
+    "Time": 107,
+    "Risk": 1468,
+    "Event": 3,
+    "Censor": 33,
+    "Surv": 0.910524073,
+    "Cummlative hazard": 0.093734941
+  },
+  {
+    "Time": 108,
+    "Risk": 1432,
+    "Event": 8,
+    "Censor": 22,
+    "Surv": 0.906480554,
+    "Cummlative hazard": 0.098185701
+  },
+  {
+    "Time": 109,
+    "Risk": 1402,
+    "Event": 4,
+    "Censor": 20,
+    "Surv": 0.90442142,
+    "Cummlative hazard": 0.100459854
+  },
+  {
+    "Time": 110,
+    "Risk": 1378,
+    "Event": 3,
+    "Censor": 26,
+    "Surv": 0.902849859,
+    "Cummlative hazard": 0.102199008
+  },
+  {
+    "Time": 111,
+    "Risk": 1349,
+    "Event": 7,
+    "Censor": 22,
+    "Surv": 0.899112027,
+    "Cummlative hazard": 0.10634764
+  },
+  {
+    "Time": 112,
+    "Risk": 1320,
+    "Event": 5,
+    "Censor": 31,
+    "Surv": 0.896388459,
+    "Cummlative hazard": 0.109381412
+  },
+  {
+    "Time": 113,
+    "Risk": 1284,
+    "Event": 8,
+    "Censor": 24,
+    "Surv": 0.89190727,
+    "Cummlative hazard": 0.114393109
+  },
+  {
+    "Time": 114,
+    "Risk": 1252,
+    "Event": 1,
+    "Censor": 22,
+    "Surv": 0.891337673,
+    "Cummlative hazard": 0.115031941
+  },
+  {
+    "Time": 115,
+    "Risk": 1229,
+    "Event": 8,
+    "Censor": 23,
+    "Surv": 0.88669148,
+    "Cummlative hazard": 0.120258181
+  },
+  {
+    "Time": 116,
+    "Risk": 1198,
+    "Event": 4,
+    "Censor": 33,
+    "Surv": 0.884315113,
+    "Cummlative hazard": 0.122941818
+  },
+  {
+    "Time": 117,
+    "Risk": 1161,
+    "Event": 4,
+    "Censor": 28,
+    "Surv": 0.881866427,
+    "Cummlative hazard": 0.125714678
+  },
+  {
+    "Time": 118,
+    "Risk": 1129,
+    "Event": 3,
+    "Censor": 21,
+    "Surv": 0.879994291,
+    "Cummlative hazard": 0.127839859
+  },
+  {
+    "Time": 119,
+    "Risk": 1105,
+    "Event": 9,
+    "Censor": 23,
+    "Surv": 0.874241258,
+    "Cummlative hazard": 0.134398902
+  },
+  {
+    "Time": 120,
+    "Risk": 1073,
+    "Event": 3,
+    "Censor": 32,
+    "Surv": 0.872287657,
+    "Cummlative hazard": 0.136636028
+  },
+  {
+    "Time": 121,
+    "Risk": 1038,
+    "Event": 5,
+    "Censor": 26,
+    "Surv": 0.868943254,
+    "Cummlative hazard": 0.140477456
+  },
+  {
+    "Time": 122,
+    "Risk": 1007,
+    "Event": 6,
+    "Censor": 28,
+    "Surv": 0.864801134,
+    "Cummlative hazard": 0.145255701
+  },
+  {
+    "Time": 123,
+    "Risk": 973,
+    "Event": 4,
+    "Censor": 31,
+    "Surv": 0.861930878,
+    "Cummlative hazard": 0.148580199
+  },
+  {
+    "Time": 124,
+    "Risk": 938,
+    "Event": 3,
+    "Censor": 25,
+    "Surv": 0.859699991,
+    "Cummlative hazard": 0.151171799
+  },
+  {
+    "Time": 125,
+    "Risk": 910,
+    "Event": 6,
+    "Censor": 22,
+    "Surv": 0.855113676,
+    "Cummlative hazard": 0.156520865
+  },
+  {
+    "Time": 126,
+    "Risk": 882,
+    "Event": 5,
+    "Censor": 16,
+    "Surv": 0.851210792,
+    "Cummlative hazard": 0.161095482
+  },
+  {
+    "Time": 127,
+    "Risk": 861,
+    "Event": 5,
+    "Censor": 30,
+    "Surv": 0.847224215,
+    "Cummlative hazard": 0.165789903
+  },
+  {
+    "Time": 128,
+    "Risk": 826,
+    "Event": 4,
+    "Censor": 18,
+    "Surv": 0.843939902,
+    "Cummlative hazard": 0.169673993
+  },
+  {
+    "Time": 129,
+    "Risk": 804,
+    "Event": 2,
+    "Censor": 24,
+    "Surv": 0.842263126,
+    "Cummlative hazard": 0.171662813
+  },
+  {
+    "Time": 130,
+    "Risk": 778,
+    "Event": 4,
+    "Censor": 26,
+    "Surv": 0.838807587,
+    "Cummlative hazard": 0.175773935
+  },
+  {
+    "Time": 131,
+    "Risk": 748,
+    "Event": 3,
+    "Censor": 22,
+    "Surv": 0.83613198,
+    "Cummlative hazard": 0.178968807
+  },
+  {
+    "Time": 132,
+    "Risk": 723,
+    "Event": 4,
+    "Censor": 23,
+    "Surv": 0.832450655,
+    "Cummlative hazard": 0.183381332
+  },
+  {
+    "Time": 133,
+    "Risk": 696,
+    "Event": 6,
+    "Censor": 11,
+    "Surv": 0.826767886,
+    "Cummlative hazard": 0.190231293
+  },
+  {
+    "Time": 134,
+    "Risk": 679,
+    "Event": 2,
+    "Censor": 19,
+    "Surv": 0.82482853,
+    "Cummlative hazard": 0.192579757
+  },
+  {
+    "Time": 135,
+    "Risk": 658,
+    "Event": 3,
+    "Censor": 15,
+    "Surv": 0.821830016,
+    "Cummlative hazard": 0.196221699
+  },
+  {
+    "Time": 136,
+    "Risk": 640,
+    "Event": 4,
+    "Censor": 21,
+    "Surv": 0.817718572,
+    "Cummlative hazard": 0.201237046
+  },
+  {
+    "Time": 137,
+    "Risk": 615,
+    "Event": 3,
+    "Censor": 22,
+    "Surv": 0.814525778,
+    "Cummlative hazard": 0.205149202
+  },
+  {
+    "Time": 138,
+    "Risk": 590,
+    "Event": 4,
+    "Censor": 21,
+    "Surv": 0.810131845,
+    "Cummlative hazard": 0.210558273
+  },
+  {
+    "Time": 139,
+    "Risk": 565,
+    "Event": 3,
+    "Censor": 16,
+    "Surv": 0.806708485,
+    "Cummlative hazard": 0.214792909
+  },
+  {
+    "Time": 140,
+    "Risk": 546,
+    "Event": 1,
+    "Censor": 14,
+    "Surv": 0.805535589,
+    "Cummlative hazard": 0.216247895
+  },
+  {
+    "Time": 141,
+    "Risk": 531,
+    "Event": 1,
+    "Censor": 21,
+    "Surv": 0.804335416,
+    "Cummlative hazard": 0.217738913
+  },
+  {
+    "Time": 142,
+    "Risk": 509,
+    "Event": 0,
+    "Censor": 15,
+    "Surv": 0.804335416,
+    "Cummlative hazard": 0.217738913
+  },
+  {
+    "Time": 143,
+    "Risk": 494,
+    "Event": 2,
+    "Censor": 14,
+    "Surv": 0.801747348,
+    "Cummlative hazard": 0.220961748
+  },
+  {
+    "Time": 144,
+    "Risk": 478,
+    "Event": 3,
+    "Censor": 12,
+    "Surv": 0.797783916,
+    "Cummlative hazard": 0.225917501
+  },
+  {
+    "Time": 145,
+    "Risk": 463,
+    "Event": 2,
+    "Censor": 11,
+    "Surv": 0.795086278,
+    "Cummlative hazard": 0.229304644
+  },
+  {
+    "Time": 146,
+    "Risk": 450,
+    "Event": 2,
+    "Censor": 16,
+    "Surv": 0.792325789,
+    "Cummlative hazard": 0.232782622
+  },
+  {
+    "Time": 147,
+    "Risk": 432,
+    "Event": 4,
+    "Censor": 14,
+    "Surv": 0.786610315,
+    "Cummlative hazard": 0.240022306
+  },
+  {
+    "Time": 148,
+    "Risk": 414,
+    "Event": 2,
+    "Censor": 24,
+    "Surv": 0.783614654,
+    "Cummlative hazard": 0.243837892
+  },
+  {
+    "Time": 149,
+    "Risk": 388,
+    "Event": 3,
+    "Censor": 18,
+    "Surv": 0.778853579,
+    "Cummlative hazard": 0.249932211
+  },
+  {
+    "Time": 150,
+    "Risk": 367,
+    "Event": 2,
+    "Censor": 9,
+    "Surv": 0.77550687,
+    "Cummlative hazard": 0.254238438
+  },
+  {
+    "Time": 151,
+    "Risk": 356,
+    "Event": 1,
+    "Censor": 11,
+    "Surv": 0.77379592,
+    "Cummlative hazard": 0.256447109
+  },
+  {
+    "Time": 152,
+    "Risk": 344,
+    "Event": 3,
+    "Censor": 9,
+    "Surv": 0.768469465,
+    "Cummlative hazard": 0.26335445
+  },
+  {
+    "Time": 153,
+    "Risk": 332,
+    "Event": 1,
+    "Censor": 10,
+    "Surv": 0.766585511,
+    "Cummlative hazard": 0.265809027
+  },
+  {
+    "Time": 154,
+    "Risk": 321,
+    "Event": 3,
+    "Censor": 5,
+    "Surv": 0.760806993,
+    "Cummlative hazard": 0.273375576
+  },
+  {
+    "Time": 155,
+    "Risk": 313,
+    "Event": 1,
+    "Censor": 16,
+    "Surv": 0.758848197,
+    "Cummlative hazard": 0.275953525
+  },
+  {
+    "Time": 156,
+    "Risk": 296,
+    "Event": 0,
+    "Censor": 8,
+    "Surv": 0.758848197,
+    "Cummlative hazard": 0.275953525
+  },
+  {
+    "Time": 157,
+    "Risk": 288,
+    "Event": 0,
+    "Censor": 13,
+    "Surv": 0.758848197,
+    "Cummlative hazard": 0.275953525
+  },
+  {
+    "Time": 158,
+    "Risk": 275,
+    "Event": 0,
+    "Censor": 10,
+    "Surv": 0.758848197,
+    "Cummlative hazard": 0.275953525
+  },
+  {
+    "Time": 159,
+    "Risk": 265,
+    "Event": 4,
+    "Censor": 7,
+    "Surv": 0.749604244,
+    "Cummlative hazard": 0.288209886
+  },
+  {
+    "Time": 160,
+    "Risk": 254,
+    "Event": 1,
+    "Censor": 13,
+    "Surv": 0.747233879,
+    "Cummlative hazard": 0.291377052
+  },
+  {
+    "Time": 161,
+    "Risk": 240,
+    "Event": 6,
+    "Censor": 12,
+    "Surv": 0.732130686,
+    "Cummlative hazard": 0.311796248
+  },
+  {
+    "Time": 162,
+    "Risk": 222,
+    "Event": 3,
+    "Censor": 8,
+    "Surv": 0.724041636,
+    "Cummlative hazard": 0.32290638
+  },
+  {
+    "Time": 163,
+    "Risk": 211,
+    "Event": 1,
+    "Censor": 12,
+    "Surv": 0.721273048,
+    "Cummlative hazard": 0.326737506
+  },
+  {
+    "Time": 164,
+    "Risk": 198,
+    "Event": 0,
+    "Censor": 6,
+    "Surv": 0.721273048,
+    "Cummlative hazard": 0.326737506
+  },
+  {
+    "Time": 165,
+    "Risk": 192,
+    "Event": 0,
+    "Censor": 9,
+    "Surv": 0.721273048,
+    "Cummlative hazard": 0.326737506
+  },
+  {
+    "Time": 166,
+    "Risk": 183,
+    "Event": 1,
+    "Censor": 12,
+    "Surv": 0.718081066,
+    "Cummlative hazard": 0.331172811
+  },
+  {
+    "Time": 167,
+    "Risk": 170,
+    "Event": 2,
+    "Censor": 4,
+    "Surv": 0.711345651,
+    "Cummlative hazard": 0.340596819
+  },
+  {
+    "Time": 168,
+    "Risk": 164,
+    "Event": 1,
+    "Censor": 4,
+    "Surv": 0.7078756,
+    "Cummlative hazard": 0.345486907
+  },
+  {
+    "Time": 169,
+    "Risk": 159,
+    "Event": 1,
+    "Censor": 6,
+    "Surv": 0.704347787,
+    "Cummlative hazard": 0.350483029
+  },
+  {
+    "Time": 170,
+    "Risk": 152,
+    "Event": 2,
+    "Censor": 4,
+    "Surv": 0.69697939,
+    "Cummlative hazard": 0.360999438
+  },
+  {
+    "Time": 171,
+    "Risk": 146,
+    "Event": 1,
+    "Censor": 5,
+    "Surv": 0.693127376,
+    "Cummlative hazard": 0.366541493
+  },
+  {
+    "Time": 172,
+    "Risk": 140,
+    "Event": 2,
+    "Censor": 7,
+    "Surv": 0.685057991,
+    "Cummlative hazard": 0.378251786
+  },
+  {
+    "Time": 173,
+    "Risk": 131,
+    "Event": 1,
+    "Censor": 4,
+    "Surv": 0.68062558,
+    "Cummlative hazard": 0.384742934
+  },
+  {
+    "Time": 174,
+    "Risk": 126,
+    "Event": 1,
+    "Censor": 7,
+    "Surv": 0.676038083,
+    "Cummlative hazard": 0.391505868
+  },
+  {
+    "Time": 175,
+    "Risk": 118,
+    "Event": 0,
+    "Censor": 1,
+    "Surv": 0.676038083,
+    "Cummlative hazard": 0.391505868
+  },
+  {
+    "Time": 176,
+    "Risk": 117,
+    "Event": 0,
+    "Censor": 6,
+    "Surv": 0.676038083,
+    "Cummlative hazard": 0.391505868
+  },
+  {
+    "Time": 177,
+    "Risk": 111,
+    "Event": 2,
+    "Censor": 7,
+    "Surv": 0.665549452,
+    "Cummlative hazard": 0.407142337
+  },
+  {
+    "Time": 178,
+    "Risk": 102,
+    "Event": 1,
+    "Censor": 2,
+    "Surv": 0.659868361,
+    "Cummlative hazard": 0.415714917
+  },
+  {
+    "Time": 179,
+    "Risk": 99,
+    "Event": 1,
+    "Censor": 5,
+    "Surv": 0.654046768,
+    "Cummlative hazard": 0.424576419
+  },
+  {
+    "Time": 180,
+    "Risk": 93,
+    "Event": 1,
+    "Censor": 4,
+    "Surv": 0.647832003,
+    "Cummlative hazard": 0.434123871
+  },
+  {
+    "Time": 181,
+    "Risk": 88,
+    "Event": 1,
+    "Censor": 4,
+    "Surv": 0.641289475,
+    "Cummlative hazard": 0.444274325
+  },
+  {
+    "Time": 182,
+    "Risk": 83,
+    "Event": 2,
+    "Censor": 4,
+    "Surv": 0.62759292,
+    "Cummlative hazard": 0.465863539
+  },
+  {
+    "Time": 183,
+    "Risk": 77,
+    "Event": 0,
+    "Censor": 5,
+    "Surv": 0.62759292,
+    "Cummlative hazard": 0.465863539
+  },
+  {
+    "Time": 184,
+    "Risk": 72,
+    "Event": 1,
+    "Censor": 3,
+    "Surv": 0.620086546,
+    "Cummlative hazard": 0.47789622
+  },
+  {
+    "Time": 185,
+    "Risk": 68,
+    "Event": 0,
+    "Censor": 6,
+    "Surv": 0.620086546,
+    "Cummlative hazard": 0.47789622
+  },
+  {
+    "Time": 186,
+    "Risk": 62,
+    "Event": 0,
+    "Censor": 2,
+    "Surv": 0.620086546,
+    "Cummlative hazard": 0.47789622
+  },
+  {
+    "Time": 188,
+    "Risk": 60,
+    "Event": 1,
+    "Censor": 0,
+    "Surv": 0.611688725,
+    "Cummlative hazard": 0.491531745
+  },
+  {
+    "Time": 189,
+    "Risk": 59,
+    "Event": 0,
+    "Censor": 6,
+    "Surv": 0.611688725,
+    "Cummlative hazard": 0.491531745
+  },
+  {
+    "Time": 190,
+    "Risk": 53,
+    "Event": 0,
+    "Censor": 7,
+    "Surv": 0.611688725,
+    "Cummlative hazard": 0.491531745
+  },
+  {
+    "Time": 191,
+    "Risk": 46,
+    "Event": 0,
+    "Censor": 1,
+    "Surv": 0.611688725,
+    "Cummlative hazard": 0.491531745
+  },
+  {
+    "Time": 192,
+    "Risk": 45,
+    "Event": 0,
+    "Censor": 3,
+    "Surv": 0.611688725,
+    "Cummlative hazard": 0.491531745
+  },
+  {
+    "Time": 193,
+    "Risk": 42,
+    "Event": 1,
+    "Censor": 3,
+    "Surv": 0.599635172,
+    "Cummlative hazard": 0.511433855
+  },
+  {
+    "Time": 194,
+    "Risk": 38,
+    "Event": 0,
+    "Censor": 3,
+    "Surv": 0.599635172,
+    "Cummlative hazard": 0.511433855
+  },
+  {
+    "Time": 195,
+    "Risk": 35,
+    "Event": 0,
+    "Censor": 2,
+    "Surv": 0.599635172,
+    "Cummlative hazard": 0.511433855
+  },
+  {
+    "Time": 196,
+    "Risk": 33,
+    "Event": 0,
+    "Censor": 2,
+    "Surv": 0.599635172,
+    "Cummlative hazard": 0.511433855
+  },
+  {
+    "Time": 197,
+    "Risk": 31,
+    "Event": 1,
+    "Censor": 2,
+    "Surv": 0.585882308,
+    "Cummlative hazard": 0.534636349
+  },
+  {
+    "Time": 199,
+    "Risk": 28,
+    "Event": 0,
+    "Censor": 1,
+    "Surv": 0.585882308,
+    "Cummlative hazard": 0.534636349
+  },
+  {
+    "Time": 200,
+    "Risk": 27,
+    "Event": 0,
+    "Censor": 1,
+    "Surv": 0.585882308,
+    "Cummlative hazard": 0.534636349
+  },
+  {
+    "Time": 201,
+    "Risk": 26,
+    "Event": 1,
+    "Censor": 2,
+    "Surv": 0.570482668,
+    "Cummlative hazard": 0.56127249
+  },
+  {
+    "Time": 202,
+    "Risk": 23,
+    "Event": 0,
+    "Censor": 1,
+    "Surv": 0.570482668,
+    "Cummlative hazard": 0.56127249
+  },
+  {
+    "Time": 204,
+    "Risk": 22,
+    "Event": 0,
+    "Censor": 2,
+    "Surv": 0.570482668,
+    "Cummlative hazard": 0.56127249
+  },
+  {
+    "Time": 205,
+    "Risk": 20,
+    "Event": 0,
+    "Censor": 2,
+    "Surv": 0.570482668,
+    "Cummlative hazard": 0.56127249
+  },
+  {
+    "Time": 208,
+    "Risk": 18,
+    "Event": 1,
+    "Censor": 0,
+    "Surv": 0.549060362,
+    "Cummlative hazard": 0.599546894
+  },
+  {
+    "Time": 209,
+    "Risk": 17,
+    "Event": 1,
+    "Censor": 2,
+    "Surv": 0.524389132,
+    "Cummlative hazard": 0.645521252
+  },
+  {
+    "Time": 210,
+    "Risk": 14,
+    "Event": 0,
+    "Censor": 2,
+    "Surv": 0.524389132,
+    "Cummlative hazard": 0.645521252
+  },
+  {
+    "Time": 212,
+    "Risk": 12,
+    "Event": 1,
+    "Censor": 1,
+    "Surv": 0.473801597,
+    "Cummlative hazard": 0.746966617
+  },
+  {
+    "Time": 215,
+    "Risk": 10,
+    "Event": 0,
+    "Censor": 1,
+    "Surv": 0.473801597,
+    "Cummlative hazard": 0.746966617
+  },
+  {
+    "Time": 217,
+    "Risk": 9,
+    "Event": 0,
+    "Censor": 2,
+    "Surv": 0.473801597,
+    "Cummlative hazard": 0.746966617
+  },
+  {
+    "Time": 221,
+    "Risk": 7,
+    "Event": 0,
+    "Censor": 1,
+    "Surv": 0.473801597,
+    "Cummlative hazard": 0.746966617
+  },
+  {
+    "Time": 224,
+    "Risk": 6,
+    "Event": 1,
+    "Censor": 1,
+    "Surv": 0.375203109,
+    "Cummlative hazard": 0.980287774
+  },
+  {
+    "Time": 225,
+    "Risk": 4,
+    "Event": 1,
+    "Censor": 1,
+    "Surv": 0.25801251,
+    "Cummlative hazard": 1.354747209
+  },
+  {
+    "Time": 232,
+    "Risk": 2,
+    "Event": 0,
+    "Censor": 1,
+    "Surv": 0.25801251,
+    "Cummlative hazard": 1.354747209
+  },
+  {
+    "Time": 243,
+    "Risk": 1,
+    "Event": 0,
+    "Censor": 1,
+    "Surv": 0.25801251,
+    "Cummlative hazard": 1.354747209
+  }
+]

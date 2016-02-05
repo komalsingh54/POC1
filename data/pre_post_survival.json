@@ -1,0 +1,3107 @@
+[
+  {
+    "Time": 1,
+    "Risk": 3010,
+    "Event": 1,
+    "Censor": 7,
+    "Strata": 209,
+    "Surv": 0.999701849,
+    "Cummlative hazard": 0.000298196
+  },
+  {
+    "Time": 3,
+    "Risk": 3002,
+    "Event": 0,
+    "Censor": 4,
+    "Strata": 136,
+    "Surv": 0.999701849,
+    "Cummlative hazard": 0.000298196
+  },
+  {
+    "Time": 5,
+    "Risk": 2998,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.999701849,
+    "Cummlative hazard": 0.000298196
+  },
+  {
+    "Time": 6,
+    "Risk": 2997,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.999701849,
+    "Cummlative hazard": 0.000298196
+  },
+  {
+    "Time": 7,
+    "Risk": 2995,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.999701849,
+    "Cummlative hazard": 0.000298196
+  },
+  {
+    "Time": 8,
+    "Risk": 2993,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.999701849,
+    "Cummlative hazard": 0.000298196
+  },
+  {
+    "Time": 9,
+    "Risk": 2992,
+    "Event": 0,
+    "Censor": 3,
+    "Strata": 209,
+    "Surv": 0.999701849,
+    "Cummlative hazard": 0.000298196
+  },
+  {
+    "Time": 10,
+    "Risk": 2989,
+    "Event": 0,
+    "Censor": 3,
+    "Strata": 136,
+    "Surv": 0.999701849,
+    "Cummlative hazard": 0.000298196
+  },
+  {
+    "Time": 11,
+    "Risk": 2986,
+    "Event": 0,
+    "Censor": 4,
+    "Strata": 209,
+    "Surv": 0.999701849,
+    "Cummlative hazard": 0.000298196
+  },
+  {
+    "Time": 12,
+    "Risk": 2982,
+    "Event": 1,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.999401214,
+    "Cummlative hazard": 0.000598966
+  },
+  {
+    "Time": 13,
+    "Risk": 2980,
+    "Event": 1,
+    "Censor": 8,
+    "Strata": 209,
+    "Surv": 0.999100387,
+    "Cummlative hazard": 0.000900017
+  },
+  {
+    "Time": 15,
+    "Risk": 2971,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.999100387,
+    "Cummlative hazard": 0.000900017
+  },
+  {
+    "Time": 16,
+    "Risk": 2969,
+    "Event": 1,
+    "Censor": 6,
+    "Strata": 209,
+    "Surv": 0.998798278,
+    "Cummlative hazard": 0.001202444
+  },
+  {
+    "Time": 17,
+    "Risk": 2962,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.998495578,
+    "Cummlative hazard": 0.001505554
+  },
+  {
+    "Time": 18,
+    "Risk": 2959,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.998495578,
+    "Cummlative hazard": 0.001505554
+  },
+  {
+    "Time": 19,
+    "Risk": 2957,
+    "Event": 1,
+    "Censor": 3,
+    "Strata": 136,
+    "Surv": 0.998192392,
+    "Cummlative hazard": 0.001809244
+  },
+  {
+    "Time": 20,
+    "Risk": 2953,
+    "Event": 0,
+    "Censor": 3,
+    "Strata": 209,
+    "Surv": 0.998192392,
+    "Cummlative hazard": 0.001809244
+  },
+  {
+    "Time": 21,
+    "Risk": 2950,
+    "Event": 1,
+    "Censor": 7,
+    "Strata": 136,
+    "Surv": 0.997888541,
+    "Cummlative hazard": 0.002113692
+  },
+  {
+    "Time": 22,
+    "Risk": 2942,
+    "Event": 0,
+    "Censor": 6,
+    "Strata": 209,
+    "Surv": 0.997888541,
+    "Cummlative hazard": 0.002113692
+  },
+  {
+    "Time": 23,
+    "Risk": 2936,
+    "Event": 2,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.997278393,
+    "Cummlative hazard": 0.002725317
+  },
+  {
+    "Time": 24,
+    "Risk": 2932,
+    "Event": 3,
+    "Censor": 5,
+    "Strata": 209,
+    "Surv": 0.996362042,
+    "Cummlative hazard": 0.003644592
+  },
+  {
+    "Time": 25,
+    "Risk": 2924,
+    "Event": 1,
+    "Censor": 4,
+    "Strata": 136,
+    "Surv": 0.996055856,
+    "Cummlative hazard": 0.003951943
+  },
+  {
+    "Time": 26,
+    "Risk": 2919,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.996055856,
+    "Cummlative hazard": 0.003951943
+  },
+  {
+    "Time": 27,
+    "Risk": 2918,
+    "Event": 1,
+    "Censor": 8,
+    "Strata": 136,
+    "Surv": 0.995749033,
+    "Cummlative hazard": 0.004260028
+  },
+  {
+    "Time": 28,
+    "Risk": 2909,
+    "Event": 1,
+    "Censor": 5,
+    "Strata": 209,
+    "Surv": 0.995441316,
+    "Cummlative hazard": 0.004569107
+  },
+  {
+    "Time": 29,
+    "Risk": 2903,
+    "Event": 1,
+    "Censor": 3,
+    "Strata": 136,
+    "Surv": 0.995133115,
+    "Cummlative hazard": 0.004878767
+  },
+  {
+    "Time": 30,
+    "Risk": 2899,
+    "Event": 0,
+    "Censor": 8,
+    "Strata": 209,
+    "Surv": 0.995133115,
+    "Cummlative hazard": 0.004878767
+  },
+  {
+    "Time": 31,
+    "Risk": 2891,
+    "Event": 0,
+    "Censor": 7,
+    "Strata": 136,
+    "Surv": 0.995133115,
+    "Cummlative hazard": 0.004878767
+  },
+  {
+    "Time": 32,
+    "Risk": 2884,
+    "Event": 0,
+    "Censor": 7,
+    "Strata": 209,
+    "Surv": 0.995133115,
+    "Cummlative hazard": 0.004878767
+  },
+  {
+    "Time": 33,
+    "Risk": 2877,
+    "Event": 1,
+    "Censor": 7,
+    "Strata": 136,
+    "Surv": 0.994822082,
+    "Cummlative hazard": 0.00519137
+  },
+  {
+    "Time": 34,
+    "Risk": 2869,
+    "Event": 1,
+    "Censor": 6,
+    "Strata": 209,
+    "Surv": 0.99451028,
+    "Cummlative hazard": 0.005504844
+  },
+  {
+    "Time": 35,
+    "Risk": 2862,
+    "Event": 1,
+    "Censor": 8,
+    "Strata": 136,
+    "Surv": 0.994197822,
+    "Cummlative hazard": 0.005819076
+  },
+  {
+    "Time": 36,
+    "Risk": 2853,
+    "Event": 0,
+    "Censor": 13,
+    "Strata": 209,
+    "Surv": 0.994197822,
+    "Cummlative hazard": 0.005819076
+  },
+  {
+    "Time": 37,
+    "Risk": 2840,
+    "Event": 1,
+    "Censor": 9,
+    "Strata": 136,
+    "Surv": 0.993883153,
+    "Cummlative hazard": 0.006135631
+  },
+  {
+    "Time": 38,
+    "Risk": 2830,
+    "Event": 1,
+    "Censor": 8,
+    "Strata": 209,
+    "Surv": 0.993567133,
+    "Cummlative hazard": 0.006453647
+  },
+  {
+    "Time": 39,
+    "Risk": 2821,
+    "Event": 1,
+    "Censor": 6,
+    "Strata": 136,
+    "Surv": 0.993250486,
+    "Cummlative hazard": 0.006772395
+  },
+  {
+    "Time": 40,
+    "Risk": 2814,
+    "Event": 3,
+    "Censor": 4,
+    "Strata": 209,
+    "Surv": 0.992298734,
+    "Cummlative hazard": 0.007731074
+  },
+  {
+    "Time": 41,
+    "Risk": 2807,
+    "Event": 1,
+    "Censor": 13,
+    "Strata": 136,
+    "Surv": 0.991981129,
+    "Cummlative hazard": 0.008051195
+  },
+  {
+    "Time": 42,
+    "Risk": 2793,
+    "Event": 1,
+    "Censor": 8,
+    "Strata": 209,
+    "Surv": 0.991661813,
+    "Cummlative hazard": 0.008373144
+  },
+  {
+    "Time": 43,
+    "Risk": 2784,
+    "Event": 0,
+    "Censor": 11,
+    "Strata": 136,
+    "Surv": 0.991661813,
+    "Cummlative hazard": 0.008373144
+  },
+  {
+    "Time": 44,
+    "Risk": 2773,
+    "Event": 4,
+    "Censor": 5,
+    "Strata": 209,
+    "Surv": 0.990375184,
+    "Cummlative hazard": 0.009671433
+  },
+  {
+    "Time": 45,
+    "Risk": 2764,
+    "Event": 1,
+    "Censor": 12,
+    "Strata": 136,
+    "Surv": 0.99005247,
+    "Cummlative hazard": 0.009997337
+  },
+  {
+    "Time": 46,
+    "Risk": 2751,
+    "Event": 2,
+    "Censor": 12,
+    "Strata": 209,
+    "Surv": 0.989404988,
+    "Cummlative hazard": 0.010651539
+  },
+  {
+    "Time": 47,
+    "Risk": 2737,
+    "Event": 0,
+    "Censor": 8,
+    "Strata": 136,
+    "Surv": 0.989404988,
+    "Cummlative hazard": 0.010651539
+  },
+  {
+    "Time": 48,
+    "Risk": 2729,
+    "Event": 1,
+    "Censor": 16,
+    "Strata": 209,
+    "Surv": 0.989079295,
+    "Cummlative hazard": 0.010980774
+  },
+  {
+    "Time": 49,
+    "Risk": 2712,
+    "Event": 1,
+    "Censor": 5,
+    "Strata": 136,
+    "Surv": 0.988751371,
+    "Cummlative hazard": 0.011312374
+  },
+  {
+    "Time": 50,
+    "Risk": 2706,
+    "Event": 1,
+    "Censor": 12,
+    "Strata": 209,
+    "Surv": 0.988422716,
+    "Cummlative hazard": 0.011644823
+  },
+  {
+    "Time": 51,
+    "Risk": 2693,
+    "Event": 1,
+    "Censor": 12,
+    "Strata": 136,
+    "Surv": 0.988091949,
+    "Cummlative hazard": 0.01197952
+  },
+  {
+    "Time": 52,
+    "Risk": 2680,
+    "Event": 1,
+    "Censor": 16,
+    "Strata": 209,
+    "Surv": 0.987759335,
+    "Cummlative hazard": 0.012316199
+  },
+  {
+    "Time": 53,
+    "Risk": 2663,
+    "Event": 2,
+    "Censor": 12,
+    "Strata": 136,
+    "Surv": 0.987090527,
+    "Cummlative hazard": 0.012993524
+  },
+  {
+    "Time": 54,
+    "Risk": 2649,
+    "Event": 3,
+    "Censor": 11,
+    "Strata": 209,
+    "Surv": 0.986083407,
+    "Cummlative hazard": 0.014014337
+  },
+  {
+    "Time": 55,
+    "Risk": 2635,
+    "Event": 2,
+    "Censor": 13,
+    "Strata": 136,
+    "Surv": 0.985409029,
+    "Cummlative hazard": 0.014698466
+  },
+  {
+    "Time": 56,
+    "Risk": 2620,
+    "Event": 2,
+    "Censor": 14,
+    "Strata": 209,
+    "Surv": 0.984731002,
+    "Cummlative hazard": 0.015386769
+  },
+  {
+    "Time": 57,
+    "Risk": 2604,
+    "Event": 1,
+    "Censor": 15,
+    "Strata": 136,
+    "Surv": 0.984390437,
+    "Cummlative hazard": 0.015732675
+  },
+  {
+    "Time": 58,
+    "Risk": 2588,
+    "Event": 2,
+    "Censor": 13,
+    "Strata": 209,
+    "Surv": 0.983705108,
+    "Cummlative hazard": 0.016429113
+  },
+  {
+    "Time": 59,
+    "Risk": 2573,
+    "Event": 0,
+    "Censor": 17,
+    "Strata": 136,
+    "Surv": 0.983705108,
+    "Cummlative hazard": 0.016429113
+  },
+  {
+    "Time": 60,
+    "Risk": 2556,
+    "Event": 2,
+    "Censor": 12,
+    "Strata": 209,
+    "Surv": 0.983012068,
+    "Cummlative hazard": 0.017133883
+  },
+  {
+    "Time": 61,
+    "Risk": 2542,
+    "Event": 4,
+    "Censor": 10,
+    "Strata": 136,
+    "Surv": 0.98161862,
+    "Cummlative hazard": 0.018552417
+  },
+  {
+    "Time": 62,
+    "Risk": 2528,
+    "Event": 3,
+    "Censor": 15,
+    "Strata": 209,
+    "Surv": 0.980567102,
+    "Cummlative hazard": 0.019624199
+  },
+  {
+    "Time": 63,
+    "Risk": 2510,
+    "Event": 2,
+    "Censor": 22,
+    "Strata": 136,
+    "Surv": 0.979861772,
+    "Cummlative hazard": 0.020343766
+  },
+  {
+    "Time": 64,
+    "Risk": 2486,
+    "Event": 1,
+    "Censor": 26,
+    "Strata": 209,
+    "Surv": 0.979506347,
+    "Cummlative hazard": 0.020706562
+  },
+  {
+    "Time": 65,
+    "Risk": 2459,
+    "Event": 2,
+    "Censor": 18,
+    "Strata": 136,
+    "Surv": 0.978787898,
+    "Cummlative hazard": 0.021440311
+  },
+  {
+    "Time": 66,
+    "Risk": 2439,
+    "Event": 2,
+    "Censor": 18,
+    "Strata": 209,
+    "Surv": 0.978064215,
+    "Cummlative hazard": 0.022179952
+  },
+  {
+    "Time": 67,
+    "Risk": 2419,
+    "Event": 0,
+    "Censor": 25,
+    "Strata": 136,
+    "Surv": 0.978064215,
+    "Cummlative hazard": 0.022179952
+  },
+  {
+    "Time": 68,
+    "Risk": 2394,
+    "Event": 3,
+    "Censor": 23,
+    "Strata": 209,
+    "Surv": 0.97696082,
+    "Cummlative hazard": 0.02330873
+  },
+  {
+    "Time": 69,
+    "Risk": 2368,
+    "Event": 0,
+    "Censor": 15,
+    "Strata": 136,
+    "Surv": 0.97696082,
+    "Cummlative hazard": 0.02330873
+  },
+  {
+    "Time": 70,
+    "Risk": 2353,
+    "Event": 1,
+    "Censor": 24,
+    "Strata": 209,
+    "Surv": 0.976587057,
+    "Cummlative hazard": 0.02369138
+  },
+  {
+    "Time": 71,
+    "Risk": 2328,
+    "Event": 3,
+    "Censor": 14,
+    "Strata": 136,
+    "Surv": 0.975454926,
+    "Cummlative hazard": 0.024851326
+  },
+  {
+    "Time": 72,
+    "Risk": 2311,
+    "Event": 2,
+    "Censor": 22,
+    "Strata": 209,
+    "Surv": 0.974694649,
+    "Cummlative hazard": 0.025631037
+  },
+  {
+    "Time": 73,
+    "Risk": 2287,
+    "Event": 3,
+    "Censor": 29,
+    "Strata": 136,
+    "Surv": 0.973543675,
+    "Cummlative hazard": 0.026812592
+  },
+  {
+    "Time": 74,
+    "Risk": 2255,
+    "Event": 4,
+    "Censor": 27,
+    "Strata": 209,
+    "Surv": 0.971986937,
+    "Cummlative hazard": 0.028412914
+  },
+  {
+    "Time": 75,
+    "Risk": 2224,
+    "Event": 3,
+    "Censor": 25,
+    "Strata": 136,
+    "Surv": 0.970803922,
+    "Cummlative hazard": 0.029630765
+  },
+  {
+    "Time": 76,
+    "Risk": 2196,
+    "Event": 5,
+    "Censor": 16,
+    "Strata": 209,
+    "Surv": 0.968808883,
+    "Cummlative hazard": 0.031687918
+  },
+  {
+    "Time": 77,
+    "Risk": 2175,
+    "Event": 5,
+    "Censor": 16,
+    "Strata": 136,
+    "Surv": 0.966798249,
+    "Cummlative hazard": 0.033765441
+  },
+  {
+    "Time": 78,
+    "Risk": 2154,
+    "Event": 2,
+    "Censor": 28,
+    "Strata": 209,
+    "Surv": 0.965988031,
+    "Cummlative hazard": 0.034603835
+  },
+  {
+    "Time": 79,
+    "Risk": 2124,
+    "Event": 3,
+    "Censor": 19,
+    "Strata": 136,
+    "Surv": 0.964758146,
+    "Cummlative hazard": 0.035877835
+  },
+  {
+    "Time": 80,
+    "Risk": 2102,
+    "Event": 2,
+    "Censor": 27,
+    "Strata": 209,
+    "Surv": 0.963930773,
+    "Cummlative hazard": 0.036735799
+  },
+  {
+    "Time": 81,
+    "Risk": 2073,
+    "Event": 3,
+    "Censor": 18,
+    "Strata": 136,
+    "Surv": 0.962673219,
+    "Cummlative hazard": 0.038041261
+  },
+  {
+    "Time": 82,
+    "Risk": 2052,
+    "Event": 5,
+    "Censor": 19,
+    "Strata": 209,
+    "Surv": 0.960557962,
+    "Cummlative hazard": 0.040240953
+  },
+  {
+    "Time": 83,
+    "Risk": 2028,
+    "Event": 1,
+    "Censor": 21,
+    "Strata": 136,
+    "Surv": 0.960130729,
+    "Cummlative hazard": 0.040685827
+  },
+  {
+    "Time": 84,
+    "Risk": 2006,
+    "Event": 3,
+    "Censor": 23,
+    "Strata": 209,
+    "Surv": 0.958833873,
+    "Cummlative hazard": 0.042037448
+  },
+  {
+    "Time": 85,
+    "Risk": 1980,
+    "Event": 3,
+    "Censor": 23,
+    "Strata": 136,
+    "Surv": 0.957522906,
+    "Cummlative hazard": 0.043405636
+  },
+  {
+    "Time": 86,
+    "Risk": 1954,
+    "Event": 1,
+    "Censor": 35,
+    "Strata": 209,
+    "Surv": 0.95708021,
+    "Cummlative hazard": 0.043868077
+  },
+  {
+    "Time": 87,
+    "Risk": 1918,
+    "Event": 3,
+    "Censor": 35,
+    "Strata": 136,
+    "Surv": 0.955731194,
+    "Cummlative hazard": 0.045278584
+  },
+  {
+    "Time": 88,
+    "Risk": 1880,
+    "Event": 6,
+    "Censor": 26,
+    "Strata": 209,
+    "Surv": 0.952979243,
+    "Cummlative hazard": 0.048162156
+  },
+  {
+    "Time": 89,
+    "Risk": 1848,
+    "Event": 4,
+    "Censor": 19,
+    "Strata": 136,
+    "Surv": 0.951120916,
+    "Cummlative hazard": 0.050114078
+  },
+  {
+    "Time": 90,
+    "Risk": 1825,
+    "Event": 0,
+    "Censor": 36,
+    "Strata": 209,
+    "Surv": 0.951120916,
+    "Cummlative hazard": 0.050114078
+  },
+  {
+    "Time": 91,
+    "Risk": 1789,
+    "Event": 2,
+    "Censor": 21,
+    "Strata": 136,
+    "Surv": 0.950168339,
+    "Cummlative hazard": 0.051116111
+  },
+  {
+    "Time": 92,
+    "Risk": 1766,
+    "Event": 3,
+    "Censor": 23,
+    "Strata": 209,
+    "Surv": 0.948723833,
+    "Cummlative hazard": 0.052637531
+  },
+  {
+    "Time": 93,
+    "Risk": 1740,
+    "Event": 4,
+    "Censor": 30,
+    "Strata": 136,
+    "Surv": 0.946770788,
+    "Cummlative hazard": 0.054698256
+  },
+  {
+    "Time": 94,
+    "Risk": 1706,
+    "Event": 4,
+    "Censor": 24,
+    "Strata": 209,
+    "Surv": 0.944780725,
+    "Cummlative hazard": 0.056802415
+  },
+  {
+    "Time": 95,
+    "Risk": 1678,
+    "Event": 2,
+    "Censor": 32,
+    "Strata": 136,
+    "Surv": 0.943771438,
+    "Cummlative hazard": 0.057871263
+  },
+  {
+    "Time": 96,
+    "Risk": 1644,
+    "Event": 3,
+    "Censor": 22,
+    "Strata": 209,
+    "Surv": 0.942228341,
+    "Cummlative hazard": 0.059507634
+  },
+  {
+    "Time": 97,
+    "Risk": 1619,
+    "Event": 5,
+    "Censor": 21,
+    "Strata": 136,
+    "Surv": 0.939621897,
+    "Cummlative hazard": 0.062277721
+  },
+  {
+    "Time": 98,
+    "Risk": 1593,
+    "Event": 6,
+    "Censor": 23,
+    "Strata": 209,
+    "Surv": 0.936452124,
+    "Cummlative hazard": 0.06565688
+  },
+  {
+    "Time": 99,
+    "Risk": 1564,
+    "Event": 4,
+    "Censor": 29,
+    "Strata": 136,
+    "Surv": 0.934308974,
+    "Cummlative hazard": 0.067948088
+  },
+  {
+    "Time": 100,
+    "Risk": 1531,
+    "Event": 6,
+    "Censor": 27,
+    "Strata": 209,
+    "Surv": 0.931039927,
+    "Cummlative hazard": 0.071453116
+  },
+  {
+    "Time": 101,
+    "Risk": 1498,
+    "Event": 5,
+    "Censor": 32,
+    "Strata": 136,
+    "Surv": 0.928266066,
+    "Cummlative hazard": 0.074436878
+  },
+  {
+    "Time": 102,
+    "Risk": 1461,
+    "Event": 2,
+    "Censor": 19,
+    "Strata": 209,
+    "Surv": 0.927131774,
+    "Cummlative hazard": 0.075659573
+  },
+  {
+    "Time": 103,
+    "Risk": 1440,
+    "Event": 5,
+    "Censor": 25,
+    "Strata": 136,
+    "Surv": 0.92426159,
+    "Cummlative hazard": 0.078760141
+  },
+  {
+    "Time": 104,
+    "Risk": 1410,
+    "Event": 1,
+    "Censor": 25,
+    "Strata": 209,
+    "Surv": 0.923679235,
+    "Cummlative hazard": 0.079390415
+  },
+  {
+    "Time": 105,
+    "Risk": 1384,
+    "Event": 6,
+    "Censor": 32,
+    "Strata": 136,
+    "Surv": 0.920117637,
+    "Cummlative hazard": 0.083253751
+  },
+  {
+    "Time": 106,
+    "Risk": 1346,
+    "Event": 1,
+    "Censor": 30,
+    "Strata": 209,
+    "Surv": 0.919509447,
+    "Cummlative hazard": 0.083914961
+  },
+  {
+    "Time": 107,
+    "Risk": 1315,
+    "Event": 2,
+    "Censor": 30,
+    "Strata": 136,
+    "Surv": 0.918266896,
+    "Cummlative hazard": 0.085267195
+  },
+  {
+    "Time": 108,
+    "Risk": 1283,
+    "Event": 6,
+    "Censor": 22,
+    "Strata": 209,
+    "Surv": 0.914448463,
+    "Cummlative hazard": 0.089434168
+  },
+  {
+    "Time": 109,
+    "Risk": 1255,
+    "Event": 3,
+    "Censor": 18,
+    "Strata": 136,
+    "Surv": 0.912500682,
+    "Cummlative hazard": 0.091566447
+  },
+  {
+    "Time": 110,
+    "Risk": 1234,
+    "Event": 1,
+    "Censor": 26,
+    "Strata": 209,
+    "Surv": 0.911841825,
+    "Cummlative hazard": 0.092288741
+  },
+  {
+    "Time": 111,
+    "Risk": 1207,
+    "Event": 7,
+    "Censor": 22,
+    "Strata": 136,
+    "Surv": 0.907135061,
+    "Cummlative hazard": 0.09746393
+  },
+  {
+    "Time": 112,
+    "Risk": 1178,
+    "Event": 5,
+    "Censor": 29,
+    "Strata": 209,
+    "Surv": 0.903705723,
+    "Cummlative hazard": 0.101251499
+  },
+  {
+    "Time": 113,
+    "Risk": 1144,
+    "Event": 7,
+    "Censor": 22,
+    "Strata": 136,
+    "Surv": 0.898768963,
+    "Cummlative hazard": 0.106729271
+  },
+  {
+    "Time": 114,
+    "Risk": 1115,
+    "Event": 1,
+    "Censor": 21,
+    "Strata": 209,
+    "Surv": 0.898052176,
+    "Cummlative hazard": 0.10752711
+  },
+  {
+    "Time": 115,
+    "Risk": 1093,
+    "Event": 4,
+    "Censor": 22,
+    "Strata": 136,
+    "Surv": 0.895130837,
+    "Cummlative hazard": 0.110785384
+  },
+  {
+    "Time": 116,
+    "Risk": 1067,
+    "Event": 3,
+    "Censor": 31,
+    "Strata": 209,
+    "Surv": 0.892895983,
+    "Cummlative hazard": 0.113285185
+  },
+  {
+    "Time": 117,
+    "Risk": 1033,
+    "Event": 1,
+    "Censor": 26,
+    "Strata": 136,
+    "Surv": 0.892129009,
+    "Cummlative hazard": 0.114144527
+  },
+  {
+    "Time": 118,
+    "Risk": 1006,
+    "Event": 2,
+    "Censor": 18,
+    "Strata": 209,
+    "Surv": 0.890562528,
+    "Cummlative hazard": 0.115901962
+  },
+  {
+    "Time": 119,
+    "Risk": 986,
+    "Event": 6,
+    "Censor": 22,
+    "Strata": 136,
+    "Surv": 0.885761818,
+    "Cummlative hazard": 0.121307192
+  },
+  {
+    "Time": 120,
+    "Risk": 958,
+    "Event": 1,
+    "Censor": 32,
+    "Strata": 209,
+    "Surv": 0.884944758,
+    "Cummlative hazard": 0.122230056
+  },
+  {
+    "Time": 121,
+    "Risk": 925,
+    "Event": 4,
+    "Censor": 25,
+    "Strata": 136,
+    "Surv": 0.881559835,
+    "Cummlative hazard": 0.126062401
+  },
+  {
+    "Time": 122,
+    "Risk": 896,
+    "Event": 4,
+    "Censor": 26,
+    "Strata": 209,
+    "Surv": 0.878083396,
+    "Cummlative hazard": 0.130013705
+  },
+  {
+    "Time": 123,
+    "Risk": 866,
+    "Event": 3,
+    "Censor": 31,
+    "Strata": 136,
+    "Surv": 0.875399466,
+    "Cummlative hazard": 0.133074964
+  },
+  {
+    "Time": 124,
+    "Risk": 832,
+    "Event": 2,
+    "Censor": 24,
+    "Strata": 209,
+    "Surv": 0.873538553,
+    "Cummlative hazard": 0.135203015
+  },
+  {
+    "Time": 125,
+    "Risk": 806,
+    "Event": 3,
+    "Censor": 22,
+    "Strata": 136,
+    "Surv": 0.870661686,
+    "Cummlative hazard": 0.138501798
+  },
+  {
+    "Time": 126,
+    "Risk": 781,
+    "Event": 4,
+    "Censor": 13,
+    "Strata": 209,
+    "Surv": 0.866720853,
+    "Cummlative hazard": 0.143038322
+  },
+  {
+    "Time": 127,
+    "Risk": 764,
+    "Event": 2,
+    "Censor": 26,
+    "Strata": 136,
+    "Surv": 0.864712043,
+    "Cummlative hazard": 0.145358725
+  },
+  {
+    "Time": 128,
+    "Risk": 736,
+    "Event": 2,
+    "Censor": 17,
+    "Strata": 209,
+    "Surv": 0.862637089,
+    "Cummlative hazard": 0.147761199
+  },
+  {
+    "Time": 129,
+    "Risk": 717,
+    "Event": 2,
+    "Censor": 22,
+    "Strata": 136,
+    "Surv": 0.860508137,
+    "Cummlative hazard": 0.150232208
+  },
+  {
+    "Time": 130,
+    "Risk": 693,
+    "Event": 3,
+    "Censor": 26,
+    "Strata": 209,
+    "Surv": 0.857219168,
+    "Cummlative hazard": 0.154061654
+  },
+  {
+    "Time": 131,
+    "Risk": 664,
+    "Event": 1,
+    "Censor": 22,
+    "Strata": 136,
+    "Surv": 0.856083242,
+    "Cummlative hazard": 0.155387662
+  },
+  {
+    "Time": 132,
+    "Risk": 641,
+    "Event": 4,
+    "Censor": 22,
+    "Strata": 209,
+    "Surv": 0.851396866,
+    "Cummlative hazard": 0.160876907
+  },
+  {
+    "Time": 133,
+    "Risk": 615,
+    "Event": 4,
+    "Censor": 10,
+    "Strata": 136,
+    "Surv": 0.846553731,
+    "Cummlative hazard": 0.166581605
+  },
+  {
+    "Time": 134,
+    "Risk": 601,
+    "Event": 2,
+    "Censor": 19,
+    "Strata": 209,
+    "Surv": 0.844078885,
+    "Cummlative hazard": 0.169509323
+  },
+  {
+    "Time": 135,
+    "Risk": 580,
+    "Event": 2,
+    "Censor": 13,
+    "Strata": 136,
+    "Surv": 0.841514911,
+    "Cummlative hazard": 0.172551546
+  },
+  {
+    "Time": 136,
+    "Risk": 565,
+    "Event": 3,
+    "Censor": 16,
+    "Strata": 209,
+    "Surv": 0.837560674,
+    "Cummlative hazard": 0.177261571
+  },
+  {
+    "Time": 137,
+    "Risk": 546,
+    "Event": 0,
+    "Censor": 21,
+    "Strata": 136,
+    "Surv": 0.837560674,
+    "Cummlative hazard": 0.177261571
+  },
+  {
+    "Time": 138,
+    "Risk": 525,
+    "Event": 0,
+    "Censor": 18,
+    "Strata": 209,
+    "Surv": 0.837560674,
+    "Cummlative hazard": 0.177261571
+  },
+  {
+    "Time": 139,
+    "Risk": 507,
+    "Event": 2,
+    "Censor": 15,
+    "Strata": 136,
+    "Surv": 0.834675581,
+    "Cummlative hazard": 0.180712155
+  },
+  {
+    "Time": 140,
+    "Risk": 490,
+    "Event": 1,
+    "Censor": 13,
+    "Strata": 209,
+    "Surv": 0.833189373,
+    "Cummlative hazard": 0.182494325
+  },
+  {
+    "Time": 141,
+    "Risk": 476,
+    "Event": 1,
+    "Censor": 20,
+    "Strata": 136,
+    "Surv": 0.831671777,
+    "Cummlative hazard": 0.184317414
+  },
+  {
+    "Time": 142,
+    "Risk": 455,
+    "Event": 0,
+    "Censor": 13,
+    "Strata": 209,
+    "Surv": 0.831671777,
+    "Cummlative hazard": 0.184317414
+  },
+  {
+    "Time": 143,
+    "Risk": 442,
+    "Event": 2,
+    "Censor": 14,
+    "Strata": 136,
+    "Surv": 0.828388041,
+    "Cummlative hazard": 0.188273586
+  },
+  {
+    "Time": 144,
+    "Risk": 426,
+    "Event": 3,
+    "Censor": 9,
+    "Strata": 209,
+    "Surv": 0.823326169,
+    "Cummlative hazard": 0.19440284
+  },
+  {
+    "Time": 145,
+    "Risk": 414,
+    "Event": 2,
+    "Censor": 10,
+    "Strata": 136,
+    "Surv": 0.819871379,
+    "Cummlative hazard": 0.198607806
+  },
+  {
+    "Time": 146,
+    "Risk": 402,
+    "Event": 2,
+    "Censor": 12,
+    "Strata": 209,
+    "Surv": 0.816323826,
+    "Cummlative hazard": 0.202944157
+  },
+  {
+    "Time": 147,
+    "Risk": 388,
+    "Event": 2,
+    "Censor": 11,
+    "Strata": 136,
+    "Surv": 0.812685338,
+    "Cummlative hazard": 0.207411282
+  },
+  {
+    "Time": 148,
+    "Risk": 375,
+    "Event": 1,
+    "Censor": 21,
+    "Strata": 209,
+    "Surv": 0.810801044,
+    "Cummlative hazard": 0.209732577
+  },
+  {
+    "Time": 149,
+    "Risk": 353,
+    "Event": 2,
+    "Censor": 16,
+    "Strata": 136,
+    "Surv": 0.806787055,
+    "Cummlative hazard": 0.214695518
+  },
+  {
+    "Time": 150,
+    "Risk": 335,
+    "Event": 2,
+    "Censor": 9,
+    "Strata": 209,
+    "Surv": 0.802589399,
+    "Cummlative hazard": 0.21991203
+  },
+  {
+    "Time": 151,
+    "Risk": 324,
+    "Event": 0,
+    "Censor": 10,
+    "Strata": 136,
+    "Surv": 0.802589399,
+    "Cummlative hazard": 0.21991203
+  },
+  {
+    "Time": 152,
+    "Risk": 314,
+    "Event": 1,
+    "Censor": 9,
+    "Strata": 209,
+    "Surv": 0.800380915,
+    "Cummlative hazard": 0.222667521
+  },
+  {
+    "Time": 153,
+    "Risk": 304,
+    "Event": 1,
+    "Censor": 10,
+    "Strata": 136,
+    "Surv": 0.798095388,
+    "Cummlative hazard": 0.225527154
+  },
+  {
+    "Time": 154,
+    "Risk": 293,
+    "Event": 2,
+    "Censor": 5,
+    "Strata": 209,
+    "Surv": 0.793364262,
+    "Cummlative hazard": 0.231472816
+  },
+  {
+    "Time": 155,
+    "Risk": 286,
+    "Event": 1,
+    "Censor": 13,
+    "Strata": 136,
+    "Surv": 0.790944592,
+    "Cummlative hazard": 0.234527362
+  },
+  {
+    "Time": 156,
+    "Risk": 272,
+    "Event": 0,
+    "Censor": 7,
+    "Strata": 209,
+    "Surv": 0.790944592,
+    "Cummlative hazard": 0.234527362
+  },
+  {
+    "Time": 157,
+    "Risk": 265,
+    "Event": 0,
+    "Censor": 12,
+    "Strata": 136,
+    "Surv": 0.790944592,
+    "Cummlative hazard": 0.234527362
+  },
+  {
+    "Time": 158,
+    "Risk": 253,
+    "Event": 0,
+    "Censor": 10,
+    "Strata": 209,
+    "Surv": 0.790944592,
+    "Cummlative hazard": 0.234527362
+  },
+  {
+    "Time": 159,
+    "Risk": 243,
+    "Event": 3,
+    "Censor": 7,
+    "Strata": 136,
+    "Surv": 0.782406591,
+    "Cummlative hazard": 0.245380737
+  },
+  {
+    "Time": 160,
+    "Risk": 233,
+    "Event": 1,
+    "Censor": 13,
+    "Strata": 209,
+    "Surv": 0.779493017,
+    "Cummlative hazard": 0.249111549
+  },
+  {
+    "Time": 161,
+    "Risk": 219,
+    "Event": 5,
+    "Censor": 10,
+    "Strata": 136,
+    "Surv": 0.764020896,
+    "Cummlative hazard": 0.26916014
+  },
+  {
+    "Time": 162,
+    "Risk": 204,
+    "Event": 3,
+    "Censor": 8,
+    "Strata": 209,
+    "Surv": 0.754174695,
+    "Cummlative hazard": 0.282131247
+  },
+  {
+    "Time": 163,
+    "Risk": 193,
+    "Event": 1,
+    "Censor": 11,
+    "Strata": 136,
+    "Surv": 0.750783486,
+    "Cummlative hazard": 0.286637969
+  },
+  {
+    "Time": 164,
+    "Risk": 181,
+    "Event": 0,
+    "Censor": 6,
+    "Strata": 209,
+    "Surv": 0.750783486,
+    "Cummlative hazard": 0.286637969
+  },
+  {
+    "Time": 165,
+    "Risk": 175,
+    "Event": 0,
+    "Censor": 9,
+    "Strata": 136,
+    "Surv": 0.750783486,
+    "Cummlative hazard": 0.286637969
+  },
+  {
+    "Time": 166,
+    "Risk": 166,
+    "Event": 0,
+    "Censor": 10,
+    "Strata": 209,
+    "Surv": 0.750783486,
+    "Cummlative hazard": 0.286637969
+  },
+  {
+    "Time": 167,
+    "Risk": 156,
+    "Event": 2,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.742409442,
+    "Cummlative hazard": 0.297854379
+  },
+  {
+    "Time": 168,
+    "Risk": 152,
+    "Event": 1,
+    "Censor": 4,
+    "Strata": 209,
+    "Surv": 0.738178515,
+    "Cummlative hazard": 0.303569594
+  },
+  {
+    "Time": 169,
+    "Risk": 147,
+    "Event": 1,
+    "Censor": 5,
+    "Strata": 136,
+    "Surv": 0.733874171,
+    "Cummlative hazard": 0.309417694
+  },
+  {
+    "Time": 170,
+    "Risk": 141,
+    "Event": 2,
+    "Censor": 3,
+    "Strata": 209,
+    "Surv": 0.724939776,
+    "Cummlative hazard": 0.321666695
+  },
+  {
+    "Time": 171,
+    "Risk": 136,
+    "Event": 1,
+    "Censor": 5,
+    "Strata": 136,
+    "Surv": 0.720326048,
+    "Cummlative hazard": 0.328051325
+  },
+  {
+    "Time": 172,
+    "Risk": 130,
+    "Event": 2,
+    "Censor": 7,
+    "Strata": 209,
+    "Surv": 0.710609332,
+    "Cummlative hazard": 0.341632464
+  },
+  {
+    "Time": 173,
+    "Risk": 121,
+    "Event": 1,
+    "Censor": 4,
+    "Strata": 136,
+    "Surv": 0.705333049,
+    "Cummlative hazard": 0.349085178
+  },
+  {
+    "Time": 174,
+    "Risk": 116,
+    "Event": 1,
+    "Censor": 7,
+    "Strata": 209,
+    "Surv": 0.699813413,
+    "Cummlative hazard": 0.356941533
+  },
+  {
+    "Time": 175,
+    "Risk": 108,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.699813413,
+    "Cummlative hazard": 0.356941533
+  },
+  {
+    "Time": 176,
+    "Risk": 107,
+    "Event": 0,
+    "Censor": 6,
+    "Strata": 209,
+    "Surv": 0.699813413,
+    "Cummlative hazard": 0.356941533
+  },
+  {
+    "Time": 177,
+    "Risk": 101,
+    "Event": 1,
+    "Censor": 7,
+    "Strata": 136,
+    "Surv": 0.693428723,
+    "Cummlative hazard": 0.366106823
+  },
+  {
+    "Time": 178,
+    "Risk": 93,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.693428723,
+    "Cummlative hazard": 0.366106823
+  },
+  {
+    "Time": 179,
+    "Risk": 91,
+    "Event": 1,
+    "Censor": 4,
+    "Strata": 136,
+    "Surv": 0.686204787,
+    "Cummlative hazard": 0.376579172
+  },
+  {
+    "Time": 180,
+    "Risk": 86,
+    "Event": 1,
+    "Censor": 4,
+    "Strata": 209,
+    "Surv": 0.67848112,
+    "Cummlative hazard": 0.387898626
+  },
+  {
+    "Time": 181,
+    "Risk": 81,
+    "Event": 0,
+    "Censor": 4,
+    "Strata": 136,
+    "Surv": 0.67848112,
+    "Cummlative hazard": 0.387898626
+  },
+  {
+    "Time": 182,
+    "Risk": 77,
+    "Event": 2,
+    "Censor": 4,
+    "Strata": 209,
+    "Surv": 0.661302255,
+    "Cummlative hazard": 0.413544274
+  },
+  {
+    "Time": 183,
+    "Risk": 71,
+    "Event": 0,
+    "Censor": 5,
+    "Strata": 136,
+    "Surv": 0.661302255,
+    "Cummlative hazard": 0.413544274
+  },
+  {
+    "Time": 184,
+    "Risk": 66,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.651693481,
+    "Cummlative hazard": 0.428180948
+  },
+  {
+    "Time": 185,
+    "Risk": 63,
+    "Event": 0,
+    "Censor": 5,
+    "Strata": 136,
+    "Surv": 0.651693481,
+    "Cummlative hazard": 0.428180948
+  },
+  {
+    "Time": 186,
+    "Risk": 58,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.651693481,
+    "Cummlative hazard": 0.428180948
+  },
+  {
+    "Time": 189,
+    "Risk": 56,
+    "Event": 0,
+    "Censor": 6,
+    "Strata": 136,
+    "Surv": 0.651693481,
+    "Cummlative hazard": 0.428180948
+  },
+  {
+    "Time": 190,
+    "Risk": 50,
+    "Event": 0,
+    "Censor": 6,
+    "Strata": 209,
+    "Surv": 0.651693481,
+    "Cummlative hazard": 0.428180948
+  },
+  {
+    "Time": 191,
+    "Risk": 44,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.651693481,
+    "Cummlative hazard": 0.428180948
+  },
+  {
+    "Time": 192,
+    "Risk": 43,
+    "Event": 0,
+    "Censor": 3,
+    "Strata": 209,
+    "Surv": 0.651693481,
+    "Cummlative hazard": 0.428180948
+  },
+  {
+    "Time": 193,
+    "Risk": 40,
+    "Event": 1,
+    "Censor": 3,
+    "Strata": 136,
+    "Surv": 0.636458013,
+    "Cummlative hazard": 0.451836829
+  },
+  {
+    "Time": 194,
+    "Risk": 36,
+    "Event": 0,
+    "Censor": 3,
+    "Strata": 209,
+    "Surv": 0.636458013,
+    "Cummlative hazard": 0.451836829
+  },
+  {
+    "Time": 195,
+    "Risk": 33,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.636458013,
+    "Cummlative hazard": 0.451836829
+  },
+  {
+    "Time": 196,
+    "Risk": 31,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.636458013,
+    "Cummlative hazard": 0.451836829
+  },
+  {
+    "Time": 197,
+    "Risk": 29,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.636458013,
+    "Cummlative hazard": 0.451836829
+  },
+  {
+    "Time": 199,
+    "Risk": 27,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.636458013,
+    "Cummlative hazard": 0.451836829
+  },
+  {
+    "Time": 200,
+    "Risk": 26,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.636458013,
+    "Cummlative hazard": 0.451836829
+  },
+  {
+    "Time": 201,
+    "Risk": 25,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.614694878,
+    "Cummlative hazard": 0.486629268
+  },
+  {
+    "Time": 202,
+    "Risk": 22,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.614694878,
+    "Cummlative hazard": 0.486629268
+  },
+  {
+    "Time": 204,
+    "Risk": 21,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.614694878,
+    "Cummlative hazard": 0.486629268
+  },
+  {
+    "Time": 205,
+    "Risk": 19,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.614694878,
+    "Cummlative hazard": 0.486629268
+  },
+  {
+    "Time": 208,
+    "Risk": 17,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 209,
+    "Surv": 0.585743834,
+    "Cummlative hazard": 0.534872729
+  },
+  {
+    "Time": 209,
+    "Risk": 16,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.552338942,
+    "Cummlative hazard": 0.593593396
+  },
+  {
+    "Time": 210,
+    "Risk": 13,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.552338942,
+    "Cummlative hazard": 0.593593396
+  },
+  {
+    "Time": 212,
+    "Risk": 11,
+    "Event": 1,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.49388788,
+    "Cummlative hazard": 0.70544675
+  },
+  {
+    "Time": 215,
+    "Risk": 9,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.49388788,
+    "Cummlative hazard": 0.70544675
+  },
+  {
+    "Time": 217,
+    "Risk": 8,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.49388788,
+    "Cummlative hazard": 0.70544675
+  },
+  {
+    "Time": 221,
+    "Risk": 6,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.49388788,
+    "Cummlative hazard": 0.70544675
+  },
+  {
+    "Time": 224,
+    "Risk": 5,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.49388788,
+    "Cummlative hazard": 0.70544675
+  },
+  {
+    "Time": 225,
+    "Risk": 4,
+    "Event": 1,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.363400372,
+    "Cummlative hazard": 1.012250099
+  },
+  {
+    "Time": 232,
+    "Risk": 2,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.363400372,
+    "Cummlative hazard": 1.012250099
+  },
+  {
+    "Time": 243,
+    "Risk": 1,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.363400372,
+    "Cummlative hazard": 1.012250099
+  },
+  {
+    "Time": 2,
+    "Risk": 323,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.997463582,
+    "Cummlative hazard": 0.00253964
+  },
+  {
+    "Time": 3,
+    "Risk": 322,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.997463582,
+    "Cummlative hazard": 0.00253964
+  },
+  {
+    "Time": 4,
+    "Risk": 321,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.997463582,
+    "Cummlative hazard": 0.00253964
+  },
+  {
+    "Time": 12,
+    "Risk": 320,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.997463582,
+    "Cummlative hazard": 0.00253964
+  },
+  {
+    "Time": 15,
+    "Risk": 319,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.997463582,
+    "Cummlative hazard": 0.00253964
+  },
+  {
+    "Time": 16,
+    "Risk": 318,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.997463582,
+    "Cummlative hazard": 0.00253964
+  },
+  {
+    "Time": 17,
+    "Risk": 317,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.994901941,
+    "Cummlative hazard": 0.005111099
+  },
+  {
+    "Time": 19,
+    "Risk": 316,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.994901941,
+    "Cummlative hazard": 0.005111099
+  },
+  {
+    "Time": 29,
+    "Risk": 315,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.994901941,
+    "Cummlative hazard": 0.005111099
+  },
+  {
+    "Time": 33,
+    "Risk": 314,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.994901941,
+    "Cummlative hazard": 0.005111099
+  },
+  {
+    "Time": 36,
+    "Risk": 312,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.992305934,
+    "Cummlative hazard": 0.007723818
+  },
+  {
+    "Time": 37,
+    "Risk": 311,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.989708813,
+    "Cummlative hazard": 0.010344508
+  },
+  {
+    "Time": 40,
+    "Risk": 308,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.989708813,
+    "Cummlative hazard": 0.010344508
+  },
+  {
+    "Time": 42,
+    "Risk": 306,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.989708813,
+    "Cummlative hazard": 0.010344508
+  },
+  {
+    "Time": 43,
+    "Risk": 305,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.989708813,
+    "Cummlative hazard": 0.010344508
+  },
+  {
+    "Time": 44,
+    "Risk": 304,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.989708813,
+    "Cummlative hazard": 0.010344508
+  },
+  {
+    "Time": 47,
+    "Risk": 303,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.987064189,
+    "Cummlative hazard": 0.013020207
+  },
+  {
+    "Time": 49,
+    "Risk": 302,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 209,
+    "Surv": 0.984424456,
+    "Cummlative hazard": 0.015698117
+  },
+  {
+    "Time": 50,
+    "Risk": 301,
+    "Event": 1,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.981779918,
+    "Cummlative hazard": 0.018388111
+  },
+  {
+    "Time": 51,
+    "Risk": 299,
+    "Event": 1,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.979116728,
+    "Cummlative hazard": 0.021104412
+  },
+  {
+    "Time": 52,
+    "Risk": 297,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.976450145,
+    "Cummlative hazard": 0.023831584
+  },
+  {
+    "Time": 54,
+    "Risk": 296,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.97377704,
+    "Cummlative hazard": 0.026572913
+  },
+  {
+    "Time": 55,
+    "Risk": 293,
+    "Event": 1,
+    "Censor": 3,
+    "Strata": 136,
+    "Surv": 0.971080892,
+    "Cummlative hazard": 0.029345506
+  },
+  {
+    "Time": 56,
+    "Risk": 289,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.971080892,
+    "Cummlative hazard": 0.029345506
+  },
+  {
+    "Time": 57,
+    "Risk": 288,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.968344595,
+    "Cummlative hazard": 0.032167269
+  },
+  {
+    "Time": 58,
+    "Risk": 285,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.968344595,
+    "Cummlative hazard": 0.032167269
+  },
+  {
+    "Time": 59,
+    "Risk": 284,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.968344595,
+    "Cummlative hazard": 0.032167269
+  },
+  {
+    "Time": 60,
+    "Risk": 283,
+    "Event": 2,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.962786884,
+    "Cummlative hazard": 0.037923196
+  },
+  {
+    "Time": 61,
+    "Risk": 280,
+    "Event": 0,
+    "Censor": 3,
+    "Strata": 136,
+    "Surv": 0.962786884,
+    "Cummlative hazard": 0.037923196
+  },
+  {
+    "Time": 62,
+    "Risk": 277,
+    "Event": 2,
+    "Censor": 0,
+    "Strata": 209,
+    "Surv": 0.957165714,
+    "Cummlative hazard": 0.043778743
+  },
+  {
+    "Time": 63,
+    "Risk": 275,
+    "Event": 0,
+    "Censor": 3,
+    "Strata": 136,
+    "Surv": 0.957165714,
+    "Cummlative hazard": 0.043778743
+  },
+  {
+    "Time": 64,
+    "Risk": 272,
+    "Event": 3,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.948632698,
+    "Cummlative hazard": 0.052733597
+  },
+  {
+    "Time": 65,
+    "Risk": 267,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.945750189,
+    "Cummlative hazard": 0.055776816
+  },
+  {
+    "Time": 66,
+    "Risk": 266,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.945750189,
+    "Cummlative hazard": 0.055776816
+  },
+  {
+    "Time": 67,
+    "Risk": 265,
+    "Event": 1,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.942843839,
+    "Cummlative hazard": 0.05885461
+  },
+  {
+    "Time": 68,
+    "Risk": 263,
+    "Event": 3,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.93411282,
+    "Cummlative hazard": 0.068158056
+  },
+  {
+    "Time": 69,
+    "Risk": 259,
+    "Event": 2,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.928272527,
+    "Cummlative hazard": 0.074429918
+  },
+  {
+    "Time": 70,
+    "Risk": 257,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 209,
+    "Surv": 0.925333661,
+    "Cummlative hazard": 0.077600891
+  },
+  {
+    "Time": 71,
+    "Risk": 256,
+    "Event": 2,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.919446014,
+    "Cummlative hazard": 0.083983949
+  },
+  {
+    "Time": 72,
+    "Risk": 254,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.919446014,
+    "Cummlative hazard": 0.083983949
+  },
+  {
+    "Time": 74,
+    "Risk": 253,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.916495262,
+    "Cummlative hazard": 0.087198382
+  },
+  {
+    "Time": 75,
+    "Risk": 252,
+    "Event": 2,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.910597259,
+    "Cummlative hazard": 0.093654567
+  },
+  {
+    "Time": 76,
+    "Risk": 248,
+    "Event": 3,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.901656954,
+    "Cummlative hazard": 0.103521148
+  },
+  {
+    "Time": 77,
+    "Risk": 245,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 209,
+    "Surv": 0.898658117,
+    "Cummlative hazard": 0.106852609
+  },
+  {
+    "Time": 78,
+    "Risk": 244,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.895664223,
+    "Cummlative hazard": 0.110189687
+  },
+  {
+    "Time": 79,
+    "Risk": 243,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.895664223,
+    "Cummlative hazard": 0.110189687
+  },
+  {
+    "Time": 80,
+    "Risk": 242,
+    "Event": 2,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.889645554,
+    "Cummlative hazard": 0.11693215
+  },
+  {
+    "Time": 81,
+    "Risk": 238,
+    "Event": 1,
+    "Censor": 3,
+    "Strata": 209,
+    "Surv": 0.886605752,
+    "Cummlative hazard": 0.120354869
+  },
+  {
+    "Time": 82,
+    "Risk": 234,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.886605752,
+    "Cummlative hazard": 0.120354869
+  },
+  {
+    "Time": 83,
+    "Risk": 233,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.886605752,
+    "Cummlative hazard": 0.120354869
+  },
+  {
+    "Time": 84,
+    "Risk": 231,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.886605752,
+    "Cummlative hazard": 0.120354869
+  },
+  {
+    "Time": 85,
+    "Risk": 230,
+    "Event": 0,
+    "Censor": 4,
+    "Strata": 209,
+    "Surv": 0.886605752,
+    "Cummlative hazard": 0.120354869
+  },
+  {
+    "Time": 86,
+    "Risk": 226,
+    "Event": 1,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.883392222,
+    "Cummlative hazard": 0.123985985
+  },
+  {
+    "Time": 87,
+    "Risk": 224,
+    "Event": 0,
+    "Censor": 4,
+    "Strata": 209,
+    "Surv": 0.883392222,
+    "Cummlative hazard": 0.123985985
+  },
+  {
+    "Time": 88,
+    "Risk": 220,
+    "Event": 1,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.880107551,
+    "Cummlative hazard": 0.127711161
+  },
+  {
+    "Time": 89,
+    "Risk": 218,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.876782256,
+    "Cummlative hazard": 0.1314966
+  },
+  {
+    "Time": 90,
+    "Risk": 215,
+    "Event": 2,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.870097309,
+    "Cummlative hazard": 0.139150224
+  },
+  {
+    "Time": 91,
+    "Risk": 212,
+    "Event": 2,
+    "Censor": 3,
+    "Strata": 209,
+    "Surv": 0.863377804,
+    "Cummlative hazard": 0.146902904
+  },
+  {
+    "Time": 92,
+    "Risk": 207,
+    "Event": 3,
+    "Censor": 4,
+    "Strata": 136,
+    "Surv": 0.853209102,
+    "Cummlative hazard": 0.158750624
+  },
+  {
+    "Time": 93,
+    "Risk": 200,
+    "Event": 4,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.83917704,
+    "Cummlative hazard": 0.175333581
+  },
+  {
+    "Time": 94,
+    "Risk": 194,
+    "Event": 1,
+    "Censor": 4,
+    "Strata": 136,
+    "Surv": 0.835613711,
+    "Cummlative hazard": 0.17958884
+  },
+  {
+    "Time": 95,
+    "Risk": 189,
+    "Event": 4,
+    "Censor": 0,
+    "Strata": 209,
+    "Surv": 0.821040857,
+    "Cummlative hazard": 0.197182406
+  },
+  {
+    "Time": 96,
+    "Risk": 185,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.821040857,
+    "Cummlative hazard": 0.197182406
+  },
+  {
+    "Time": 97,
+    "Risk": 184,
+    "Event": 2,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.813700931,
+    "Cummlative hazard": 0.206162387
+  },
+  {
+    "Time": 98,
+    "Risk": 181,
+    "Event": 0,
+    "Censor": 3,
+    "Strata": 136,
+    "Surv": 0.813700931,
+    "Cummlative hazard": 0.206162387
+  },
+  {
+    "Time": 99,
+    "Risk": 178,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.809965757,
+    "Cummlative hazard": 0.210763308
+  },
+  {
+    "Time": 100,
+    "Risk": 175,
+    "Event": 1,
+    "Censor": 3,
+    "Strata": 136,
+    "Surv": 0.806186362,
+    "Cummlative hazard": 0.215440345
+  },
+  {
+    "Time": 101,
+    "Risk": 171,
+    "Event": 0,
+    "Censor": 3,
+    "Strata": 209,
+    "Surv": 0.806186362,
+    "Cummlative hazard": 0.215440345
+  },
+  {
+    "Time": 102,
+    "Risk": 168,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.806186362,
+    "Cummlative hazard": 0.215440345
+  },
+  {
+    "Time": 103,
+    "Risk": 166,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.802262256,
+    "Cummlative hazard": 0.220319722
+  },
+  {
+    "Time": 104,
+    "Risk": 163,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.802262256,
+    "Cummlative hazard": 0.220319722
+  },
+  {
+    "Time": 105,
+    "Risk": 161,
+    "Event": 3,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.790232497,
+    "Cummlative hazard": 0.235428076
+  },
+  {
+    "Time": 106,
+    "Risk": 156,
+    "Event": 3,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.777970526,
+    "Cummlative hazard": 0.25106664
+  },
+  {
+    "Time": 107,
+    "Risk": 153,
+    "Event": 1,
+    "Censor": 3,
+    "Strata": 209,
+    "Surv": 0.773866817,
+    "Cummlative hazard": 0.256355492
+  },
+  {
+    "Time": 108,
+    "Risk": 149,
+    "Event": 2,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.765457413,
+    "Cummlative hazard": 0.267281698
+  },
+  {
+    "Time": 109,
+    "Risk": 147,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.761266429,
+    "Cummlative hazard": 0.272771878
+  },
+  {
+    "Time": 110,
+    "Risk": 144,
+    "Event": 2,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.752664701,
+    "Cummlative hazard": 0.284135435
+  },
+  {
+    "Time": 112,
+    "Risk": 142,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.752664701,
+    "Cummlative hazard": 0.284135435
+  },
+  {
+    "Time": 113,
+    "Risk": 140,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.748256704,
+    "Cummlative hazard": 0.290009173
+  },
+  {
+    "Time": 114,
+    "Risk": 137,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.748256704,
+    "Cummlative hazard": 0.290009173
+  },
+  {
+    "Time": 115,
+    "Risk": 136,
+    "Event": 4,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.730175905,
+    "Cummlative hazard": 0.314469808
+  },
+  {
+    "Time": 116,
+    "Risk": 131,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.725543034,
+    "Cummlative hazard": 0.320834892
+  },
+  {
+    "Time": 117,
+    "Risk": 128,
+    "Event": 3,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.711421553,
+    "Cummlative hazard": 0.340490123
+  },
+  {
+    "Time": 118,
+    "Risk": 123,
+    "Event": 1,
+    "Censor": 3,
+    "Strata": 209,
+    "Surv": 0.706622742,
+    "Cummlative hazard": 0.347258359
+  },
+  {
+    "Time": 119,
+    "Risk": 119,
+    "Event": 3,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.691951441,
+    "Cummlative hazard": 0.368239498
+  },
+  {
+    "Time": 120,
+    "Risk": 115,
+    "Event": 2,
+    "Censor": 0,
+    "Strata": 209,
+    "Surv": 0.682123459,
+    "Cummlative hazard": 0.382544613
+  },
+  {
+    "Time": 121,
+    "Risk": 113,
+    "Event": 1,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.677203636,
+    "Cummlative hazard": 0.38978326
+  },
+  {
+    "Time": 122,
+    "Risk": 111,
+    "Event": 2,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.667225693,
+    "Cummlative hazard": 0.404626921
+  },
+  {
+    "Time": 123,
+    "Risk": 107,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.662148018,
+    "Cummlative hazard": 0.412266155
+  },
+  {
+    "Time": 124,
+    "Risk": 106,
+    "Event": 1,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.657085228,
+    "Cummlative hazard": 0.419941545
+  },
+  {
+    "Time": 125,
+    "Risk": 104,
+    "Event": 3,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.641583648,
+    "Cummlative hazard": 0.44381571
+  },
+  {
+    "Time": 126,
+    "Risk": 101,
+    "Event": 1,
+    "Censor": 3,
+    "Strata": 209,
+    "Surv": 0.636332344,
+    "Cummlative hazard": 0.452034298
+  },
+  {
+    "Time": 127,
+    "Risk": 97,
+    "Event": 3,
+    "Censor": 4,
+    "Strata": 136,
+    "Surv": 0.619977768,
+    "Cummlative hazard": 0.478071659
+  },
+  {
+    "Time": 128,
+    "Risk": 90,
+    "Event": 2,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.608486403,
+    "Cummlative hazard": 0.496780712
+  },
+  {
+    "Time": 129,
+    "Risk": 87,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.608486403,
+    "Cummlative hazard": 0.496780712
+  },
+  {
+    "Time": 130,
+    "Risk": 85,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 209,
+    "Surv": 0.60240797,
+    "Cummlative hazard": 0.506820373
+  },
+  {
+    "Time": 131,
+    "Risk": 84,
+    "Event": 2,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.590161815,
+    "Cummlative hazard": 0.527358516
+  },
+  {
+    "Time": 132,
+    "Risk": 82,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.590161815,
+    "Cummlative hazard": 0.527358516
+  },
+  {
+    "Time": 133,
+    "Risk": 81,
+    "Event": 2,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.577582273,
+    "Cummlative hazard": 0.548904382
+  },
+  {
+    "Time": 135,
+    "Risk": 78,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.571176151,
+    "Cummlative hazard": 0.560057621
+  },
+  {
+    "Time": 136,
+    "Risk": 75,
+    "Event": 1,
+    "Censor": 5,
+    "Strata": 136,
+    "Surv": 0.564650879,
+    "Cummlative hazard": 0.571547652
+  },
+  {
+    "Time": 137,
+    "Risk": 69,
+    "Event": 3,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.543477026,
+    "Cummlative hazard": 0.609767844
+  },
+  {
+    "Time": 138,
+    "Risk": 65,
+    "Event": 4,
+    "Censor": 3,
+    "Strata": 136,
+    "Surv": 0.514350232,
+    "Cummlative hazard": 0.664850861
+  },
+  {
+    "Time": 139,
+    "Risk": 58,
+    "Event": 1,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.506459382,
+    "Cummlative hazard": 0.680311151
+  },
+  {
+    "Time": 140,
+    "Risk": 56,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.506459382,
+    "Cummlative hazard": 0.680311151
+  },
+  {
+    "Time": 141,
+    "Risk": 55,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.506459382,
+    "Cummlative hazard": 0.680311151
+  },
+  {
+    "Time": 142,
+    "Risk": 54,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.506459382,
+    "Cummlative hazard": 0.680311151
+  },
+  {
+    "Time": 144,
+    "Risk": 52,
+    "Event": 0,
+    "Censor": 3,
+    "Strata": 209,
+    "Surv": 0.506459382,
+    "Cummlative hazard": 0.680311151
+  },
+  {
+    "Time": 145,
+    "Risk": 49,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.506459382,
+    "Cummlative hazard": 0.680311151
+  },
+  {
+    "Time": 146,
+    "Risk": 48,
+    "Event": 0,
+    "Censor": 4,
+    "Strata": 209,
+    "Surv": 0.506459382,
+    "Cummlative hazard": 0.680311151
+  },
+  {
+    "Time": 147,
+    "Risk": 44,
+    "Event": 2,
+    "Censor": 3,
+    "Strata": 136,
+    "Surv": 0.486556815,
+    "Cummlative hazard": 0.7204016
+  },
+  {
+    "Time": 148,
+    "Risk": 39,
+    "Event": 1,
+    "Censor": 3,
+    "Strata": 209,
+    "Surv": 0.475833571,
+    "Cummlative hazard": 0.742687127
+  },
+  {
+    "Time": 149,
+    "Risk": 35,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.463989108,
+    "Cummlative hazard": 0.7678942
+  },
+  {
+    "Time": 151,
+    "Risk": 32,
+    "Event": 1,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.451639528,
+    "Cummlative hazard": 0.794870921
+  },
+  {
+    "Time": 152,
+    "Risk": 30,
+    "Event": 2,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.425738146,
+    "Cummlative hazard": 0.853930803
+  },
+  {
+    "Time": 154,
+    "Risk": 28,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 209,
+    "Surv": 0.412663995,
+    "Cummlative hazard": 0.885121588
+  },
+  {
+    "Time": 155,
+    "Risk": 27,
+    "Event": 0,
+    "Censor": 3,
+    "Strata": 136,
+    "Surv": 0.412663995,
+    "Cummlative hazard": 0.885121588
+  },
+  {
+    "Time": 156,
+    "Risk": 24,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.412663995,
+    "Cummlative hazard": 0.885121588
+  },
+  {
+    "Time": 157,
+    "Risk": 23,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.412663995,
+    "Cummlative hazard": 0.885121588
+  },
+  {
+    "Time": 159,
+    "Risk": 22,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 209,
+    "Surv": 0.395727948,
+    "Cummlative hazard": 0.927028303
+  },
+  {
+    "Time": 161,
+    "Risk": 21,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.378041035,
+    "Cummlative hazard": 0.972752531
+  },
+  {
+    "Time": 163,
+    "Risk": 18,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.378041035,
+    "Cummlative hazard": 0.972752531
+  },
+  {
+    "Time": 166,
+    "Risk": 17,
+    "Event": 1,
+    "Censor": 2,
+    "Strata": 136,
+    "Surv": 0.35723419,
+    "Cummlative hazard": 1.029363717
+  },
+  {
+    "Time": 167,
+    "Risk": 14,
+    "Event": 0,
+    "Censor": 2,
+    "Strata": 209,
+    "Surv": 0.35723419,
+    "Cummlative hazard": 1.029363717
+  },
+  {
+    "Time": 169,
+    "Risk": 12,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.35723419,
+    "Cummlative hazard": 1.029363717
+  },
+  {
+    "Time": 170,
+    "Risk": 11,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.35723419,
+    "Cummlative hazard": 1.029363717
+  },
+  {
+    "Time": 177,
+    "Risk": 10,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.323801182,
+    "Cummlative hazard": 1.127625588
+  },
+  {
+    "Time": 178,
+    "Risk": 9,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 209,
+    "Surv": 0.287165909,
+    "Cummlative hazard": 1.247695149
+  },
+  {
+    "Time": 179,
+    "Risk": 8,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.287165909,
+    "Cummlative hazard": 1.247695149
+  },
+  {
+    "Time": 181,
+    "Risk": 7,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 209,
+    "Surv": 0.244922951,
+    "Cummlative hazard": 1.406811605
+  },
+  {
+    "Time": 184,
+    "Risk": 6,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 136,
+    "Surv": 0.244922951,
+    "Cummlative hazard": 1.406811605
+  },
+  {
+    "Time": 185,
+    "Risk": 5,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.244922951,
+    "Cummlative hazard": 1.406811605
+  },
+  {
+    "Time": 188,
+    "Risk": 4,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.18066987,
+    "Cummlative hazard": 1.711083835
+  },
+  {
+    "Time": 190,
+    "Risk": 3,
+    "Event": 0,
+    "Censor": 1,
+    "Strata": 209,
+    "Surv": 0.18066987,
+    "Cummlative hazard": 1.711083835
+  },
+  {
+    "Time": 197,
+    "Risk": 2,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 136,
+    "Surv": 0.094992814,
+    "Cummlative hazard": 2.35395403
+  },
+  {
+    "Time": 224,
+    "Risk": 1,
+    "Event": 1,
+    "Censor": 0,
+    "Strata": 209,
+    "Surv": 0.032379133,
+    "Cummlative hazard": 3.430241104
+  }
+]

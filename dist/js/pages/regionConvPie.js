@@ -1,7 +1,8 @@
 /**
  * Created by KSingh1 on 1/28/2016.
  */
-d3.csv('../../../data/LS_RGN_CONV.csv', function (data) {
+
+d3.csv('data/LS_RGN_CONV.csv', function (data) {
 
     var w = 250;
     var h = 250;
@@ -18,6 +19,12 @@ d3.csv('../../../data/LS_RGN_CONV.csv', function (data) {
             return d3.sum(d, function(g) {return g.count; });
         }).entries(data);
 
+    var div = d3.select("#region-conv-pie").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0)
+        .style('height',20)
+       // .style('margin','10px');
+
     var vis = d3.select('#region-conv-pie').append("svg:svg").data([keyData]).attr("width", w).attr("height", h).append("svg:g").attr("transform", "translate(" + r + "," + r + ")");
     var pie = d3.layout.pie().value(function(d){return d.values;});
 
@@ -30,26 +37,39 @@ d3.csv('../../../data/LS_RGN_CONV.csv', function (data) {
             return color(i);
         })
         .attr("d", function (d) {
-            console.log(arc(d));
+            console.log(d.value);
             return arc(d);
         })
-        .style('stroke','transparent')
+        .on('mouseover', function (d) {
+            div.transition()
+                .duration(200)
+                .style("opacity", .9);
+            div.html('Region : ' + JSON.stringify(d.data.key) + '<br>Total Conversion : ' + d.value + "")
+                .style("left", (d3.mouse(this)[0]+70) + "px")
+                .style("top", (d3.mouse(this)[1]+70) + "px");
+        })
+        .on('mouseout', function (d) {
+            div.transition()
+                .duration(500)
+                .style("opacity", 0);
+        })
+        .style('stroke','white')
         .style('stroke-width', 3);
 
-    var legend = d3.select('#chart').append("svg")
+    var legend = d3.select('#region-conv-pie').append("svg")
         .attr("class", "legend")
-        .attr("width", 200)
-        .attr("height", 100 * 2)
+        .attr("width", 300)
+        .attr("height", 50 * 2)
         .selectAll("g")
         .data(keyData)
         .enter().append("g")
         .attr("transform", function (d, i) {
-            return "translate(50," + i * 20 + ")";
+            return "translate("+i*100+",50 )";
         });
 
     legend.append("rect")
-        .attr("width", 15)
-        .attr("height", 15)
+        .attr("width", 13)
+        .attr("height", 13)
         .style("fill", function (d, i) {
             return color(i);
         });

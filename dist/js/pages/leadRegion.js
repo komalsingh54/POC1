@@ -36,8 +36,8 @@ var svg = d3.select("#lead-region-bar-chart").append("svg")
 
 var div = d3.select("#lead-region-bar-chart").append("div")
     .attr("class", "tooltip")
-    .style("opacity", 0)
-    .style('margin','10px');
+    .style("opacity", 0);
+    //.style('margin','5px');
 
 d3.csv("data/Lead_ReegionCount.csv", function(error, data) {
     if (error) throw error;
@@ -90,8 +90,8 @@ d3.csv("data/Lead_ReegionCount.csv", function(error, data) {
                 .duration(200)
                 .style("opacity", .9);
             div.html('Total Conversion : ' + d.value + "  <br>")
-                .style("left", (d3.event.pageX -250) + "px")
-                .style("top", (d3.event.pageY-320) + "px");
+                .style("left", (d3.event.pageX-200) + "px")
+                .style("top", (d3.mouse(this)[1]) + "px");
         })
         .on('mouseout', function(d,i) {
             div.transition()
