@@ -5,7 +5,8 @@
     "Event": 1,
     "Censor": 7,
     "Surv": 0.999758428,
-    "Cummlative hazard": 0.000241601
+    "Cummlative_hazard": 0.000241601,
+    "Strata": 1
   },
   {
     "Time": 2,
@@ -13,7 +14,8 @@
     "Event": 1,
     "Censor": 0,
     "Surv": 0.999516444,
-    "Cummlative hazard": 0.000483673
+    "Cummlative_hazard": 0.000483673,
+    "Strata": 1
   },
   {
     "Time": 3,
@@ -21,7 +23,8 @@
     "Event": 0,
     "Censor": 5,
     "Surv": 0.999516444,
-    "Cummlative hazard": 0.000483673
+    "Cummlative_hazard": 0.000483673,
+    "Strata": 1
   },
   {
     "Time": 4,
@@ -29,7 +32,8 @@
     "Event": 0,
     "Censor": 1,
     "Surv": 0.999516444,
-    "Cummlative hazard": 0.000483673
+    "Cummlative_hazard": 0.000483673,
+    "Strata": 1
   },
   {
     "Time": 5,
@@ -37,7 +41,8 @@
     "Event": 0,
     "Censor": 1,
     "Surv": 0.999516444,
-    "Cummlative hazard": 0.000483673
+    "Cummlative_hazard": 0.000483673,
+    "Strata": 1
   },
   {
     "Time": 6,
@@ -45,7 +50,8 @@
     "Event": 0,
     "Censor": 2,
     "Surv": 0.999516444,
-    "Cummlative hazard": 0.000483673
+    "Cummlative_hazard": 0.000483673,
+    "Strata": 1
   },
   {
     "Time": 7,
@@ -53,7 +59,8 @@
     "Event": 0,
     "Censor": 2,
     "Surv": 0.999516444,
-    "Cummlative hazard": 0.000483673
+    "Cummlative_hazard": 0.000483673,
+    "Strata": 1
   },
   {
     "Time": 8,
@@ -61,7 +68,8 @@
     "Event": 0,
     "Censor": 1,
     "Surv": 0.999516444,
-    "Cummlative hazard": 0.000483673
+    "Cummlative_hazard": 0.000483673,
+    "Strata": 1
   },
   {
     "Time": 9,
@@ -69,7 +77,8 @@
     "Event": 0,
     "Censor": 3,
     "Surv": 0.999516444,
-    "Cummlative hazard": 0.000483673
+    "Cummlative_hazard": 0.000483673,
+    "Strata": 1
   },
   {
     "Time": 10,
@@ -77,7 +86,8 @@
     "Event": 0,
     "Censor": 3,
     "Surv": 0.999516444,
-    "Cummlative hazard": 0.000483673
+    "Cummlative_hazard": 0.000483673,
+    "Strata": 1
   },
   {
     "Time": 11,
@@ -85,7 +95,8 @@
     "Event": 0,
     "Censor": 4,
     "Surv": 0.999516444,
-    "Cummlative hazard": 0.000483673
+    "Cummlative_hazard": 0.000483673,
+    "Strata": 1
   },
   {
     "Time": 12,
@@ -93,7 +104,8 @@
     "Event": 1,
     "Censor": 2,
     "Surv": 0.999272953,
-    "Cummlative hazard": 0.000727311
+    "Cummlative_hazard": 0.000727311,
+    "Strata": 1
   },
   {
     "Time": 13,
@@ -101,7 +113,8 @@
     "Event": 1,
     "Censor": 8,
     "Surv": 0.999029248,
-    "Cummlative hazard": 0.000971224
+    "Cummlative_hazard": 0.000971224,
+    "Strata": 1
   },
   {
     "Time": 15,
@@ -109,7 +122,8 @@
     "Event": 0,
     "Censor": 3,
     "Surv": 0.999029248,
-    "Cummlative hazard": 0.000971224
+    "Cummlative_hazard": 0.000971224,
+    "Strata": 1
   },
   {
     "Time": 16,
@@ -117,7 +131,8 @@
     "Event": 1,
     "Censor": 7,
     "Surv": 0.998784511,
-    "Cummlative hazard": 0.001216229
+    "Cummlative_hazard": 0.001216229,
+    "Strata": 1
   },
   {
     "Time": 17,
@@ -125,7 +140,8 @@
     "Event": 2,
     "Censor": 2,
     "Surv": 0.998294054,
-    "Cummlative hazard": 0.001707403
+    "Cummlative_hazard": 0.001707403,
+    "Strata": 1
   },
   {
     "Time": 18,
@@ -133,7 +149,8 @@
     "Event": 0,
     "Censor": 2,
     "Surv": 0.998294054,
-    "Cummlative hazard": 0.001707403
+    "Cummlative_hazard": 0.001707403,
+    "Strata": 1
   },
   {
     "Time": 19,
@@ -141,7 +158,8 @@
     "Event": 1,
     "Censor": 4,
     "Surv": 0.998048419,
-    "Cummlative hazard": 0.001953488
+    "Cummlative_hazard": 0.001953488,
+    "Strata": 1
   },
   {
     "Time": 20,
@@ -149,7 +167,8 @@
     "Event": 0,
     "Censor": 3,
     "Surv": 0.998048419,
-    "Cummlative hazard": 0.001953488
+    "Cummlative_hazard": 0.001953488,
+    "Strata": 1
   },
   {
     "Time": 21,
@@ -157,7 +176,8 @@
     "Event": 1,
     "Censor": 7,
     "Surv": 0.99780235,
-    "Cummlative hazard": 0.002200068
+    "Cummlative_hazard": 0.002200068,
+    "Strata": 1
   },
   {
     "Time": 22,
@@ -165,7 +185,8 @@
     "Event": 0,
     "Censor": 6,
     "Surv": 0.99780235,
-    "Cummlative hazard": 0.002200068
+    "Cummlative_hazard": 0.002200068,
+    "Strata": 1
   },
   {
     "Time": 23,
@@ -173,7 +194,8 @@
     "Event": 2,
     "Censor": 2,
     "Surv": 0.997308397,
-    "Cummlative hazard": 0.002695232
+    "Cummlative_hazard": 0.002695232,
+    "Strata": 1
   },
   {
     "Time": 24,
@@ -181,7 +203,8 @@
     "Event": 3,
     "Censor": 5,
     "Surv": 0.996566088,
-    "Cummlative hazard": 0.003439821
+    "Cummlative_hazard": 0.003439821,
+    "Strata": 1
   },
   {
     "Time": 25,
@@ -189,7 +212,8 @@
     "Event": 1,
     "Censor": 4,
     "Surv": 0.996318189,
-    "Cummlative hazard": 0.003688605
+    "Cummlative_hazard": 0.003688605,
+    "Strata": 1
   },
   {
     "Time": 26,
@@ -197,7 +221,8 @@
     "Event": 0,
     "Censor": 1,
     "Surv": 0.996318189,
-    "Cummlative hazard": 0.003688605
+    "Cummlative_hazard": 0.003688605,
+    "Strata": 1
   },
   {
     "Time": 27,
@@ -205,7 +230,8 @@
     "Event": 1,
     "Censor": 8,
     "Surv": 0.996069782,
-    "Cummlative hazard": 0.003937962
+    "Cummlative_hazard": 0.003937962,
+    "Strata": 1
   },
   {
     "Time": 28,
@@ -213,7 +239,8 @@
     "Event": 1,
     "Censor": 5,
     "Surv": 0.995820602,
-    "Cummlative hazard": 0.004188156
+    "Cummlative_hazard": 0.004188156,
+    "Strata": 1
   },
   {
     "Time": 29,
@@ -221,7 +248,8 @@
     "Event": 1,
     "Censor": 4,
     "Surv": 0.995570913,
-    "Cummlative hazard": 0.004438924
+    "Cummlative_hazard": 0.004438924,
+    "Strata": 1
   },
   {
     "Time": 30,
@@ -229,7 +257,8 @@
     "Event": 0,
     "Censor": 8,
     "Surv": 0.995570913,
-    "Cummlative hazard": 0.004438924
+    "Cummlative_hazard": 0.004438924,
+    "Strata": 1
   },
   {
     "Time": 31,
@@ -237,7 +266,8 @@
     "Event": 0,
     "Censor": 7,
     "Surv": 0.995570913,
-    "Cummlative hazard": 0.004438924
+    "Cummlative_hazard": 0.004438924,
+    "Strata": 1
   },
   {
     "Time": 32,
@@ -245,7 +275,8 @@
     "Event": 0,
     "Censor": 7,
     "Surv": 0.995570913,
-    "Cummlative hazard": 0.004438924
+    "Cummlative_hazard": 0.004438924,
+    "Strata": 1
   },
   {
     "Time": 33,
@@ -253,7 +284,8 @@
     "Event": 1,
     "Censor": 9,
     "Surv": 0.995319497,
-    "Cummlative hazard": 0.004691491
+    "Cummlative_hazard": 0.004691491,
+    "Strata": 1
   },
   {
     "Time": 34,
@@ -261,7 +293,8 @@
     "Event": 1,
     "Censor": 6,
     "Surv": 0.99506739,
-    "Cummlative hazard": 0.004944816
+    "Cummlative_hazard": 0.004944816,
+    "Strata": 1
   },
   {
     "Time": 35,
@@ -269,7 +302,8 @@
     "Event": 1,
     "Censor": 8,
     "Surv": 0.994814875,
-    "Cummlative hazard": 0.005198614
+    "Cummlative_hazard": 0.005198614,
+    "Strata": 1
   },
   {
     "Time": 36,
@@ -277,7 +311,8 @@
     "Event": 1,
     "Censor": 13,
     "Surv": 0.994561761,
-    "Cummlative hazard": 0.00545308
+    "Cummlative_hazard": 0.00545308,
+    "Strata": 1
   },
   {
     "Time": 37,
@@ -285,7 +320,8 @@
     "Event": 2,
     "Censor": 11,
     "Surv": 0.994053671,
-    "Cummlative hazard": 0.005964079
+    "Cummlative_hazard": 0.005964079,
+    "Strata": 1
   },
   {
     "Time": 38,
@@ -293,7 +329,8 @@
     "Event": 1,
     "Censor": 8,
     "Surv": 0.993798505,
-    "Cummlative hazard": 0.006220804
+    "Cummlative_hazard": 0.006220804,
+    "Strata": 1
   },
   {
     "Time": 39,
@@ -301,7 +338,8 @@
     "Event": 1,
     "Censor": 6,
     "Surv": 0.993542789,
-    "Cummlative hazard": 0.006478149
+    "Cummlative_hazard": 0.006478149,
+    "Strata": 1
   },
   {
     "Time": 40,
@@ -309,7 +347,8 @@
     "Event": 3,
     "Censor": 6,
     "Surv": 0.992774464,
-    "Cummlative hazard": 0.007251767
+    "Cummlative_hazard": 0.007251767,
+    "Strata": 1
   },
   {
     "Time": 41,
@@ -317,7 +356,8 @@
     "Event": 1,
     "Censor": 13,
     "Surv": 0.992517939,
-    "Cummlative hazard": 0.007510192
+    "Cummlative_hazard": 0.007510192,
+    "Strata": 1
   },
   {
     "Time": 42,
@@ -325,7 +365,8 @@
     "Event": 1,
     "Censor": 9,
     "Surv": 0.992260201,
-    "Cummlative hazard": 0.007769907
+    "Cummlative_hazard": 0.007769907,
+    "Strata": 1
   },
   {
     "Time": 43,
@@ -333,7 +374,8 @@
     "Event": 0,
     "Censor": 12,
     "Surv": 0.992260201,
-    "Cummlative hazard": 0.007769907
+    "Cummlative_hazard": 0.007769907,
+    "Strata": 1
   },
   {
     "Time": 44,
@@ -341,7 +383,8 @@
     "Event": 4,
     "Censor": 6,
     "Surv": 0.991222589,
-    "Cummlative hazard": 0.00881616
+    "Cummlative_hazard": 0.00881616,
+    "Strata": 1
   },
   {
     "Time": 45,
@@ -349,7 +392,8 @@
     "Event": 1,
     "Censor": 12,
     "Surv": 0.990962411,
-    "Cummlative hazard": 0.009078676
+    "Cummlative_hazard": 0.009078676,
+    "Strata": 1
   },
   {
     "Time": 46,
@@ -357,7 +401,8 @@
     "Event": 2,
     "Censor": 12,
     "Surv": 0.990440882,
-    "Cummlative hazard": 0.0096051
+    "Cummlative_hazard": 0.0096051,
+    "Strata": 1
   },
   {
     "Time": 47,
@@ -365,7 +410,8 @@
     "Event": 1,
     "Censor": 8,
     "Surv": 0.990179218,
-    "Cummlative hazard": 0.009869324
+    "Cummlative_hazard": 0.009869324,
+    "Strata": 1
   },
   {
     "Time": 48,
@@ -373,7 +419,8 @@
     "Event": 1,
     "Censor": 16,
     "Surv": 0.989917133,
-    "Cummlative hazard": 0.010134044
+    "Cummlative_hazard": 0.010134044,
+    "Strata": 1
   },
   {
     "Time": 49,
@@ -381,7 +428,8 @@
     "Event": 2,
     "Censor": 5,
     "Surv": 0.989389719,
-    "Cummlative hazard": 0.010666971
+    "Cummlative_hazard": 0.010666971,
+    "Strata": 1
   },
   {
     "Time": 50,
@@ -389,7 +437,8 @@
     "Event": 2,
     "Censor": 13,
     "Surv": 0.988861251,
-    "Cummlative hazard": 0.01120125
+    "Cummlative_hazard": 0.01120125,
+    "Strata": 1
   },
   {
     "Time": 51,
@@ -397,7 +446,8 @@
     "Event": 2,
     "Censor": 13,
     "Surv": 0.988329444,
-    "Cummlative hazard": 0.011739191
+    "Cummlative_hazard": 0.011739191,
+    "Strata": 1
   },
   {
     "Time": 52,
@@ -405,7 +455,8 @@
     "Event": 2,
     "Censor": 16,
     "Surv": 0.98779571,
-    "Cummlative hazard": 0.012279374
+    "Cummlative_hazard": 0.012279374,
+    "Strata": 1
   },
   {
     "Time": 53,
@@ -413,7 +464,8 @@
     "Event": 2,
     "Censor": 12,
     "Surv": 0.9872587,
-    "Cummlative hazard": 0.012823167
+    "Cummlative_hazard": 0.012823167,
+    "Strata": 1
   },
   {
     "Time": 54,
@@ -421,7 +473,8 @@
     "Event": 4,
     "Censor": 13,
     "Surv": 0.986178033,
-    "Cummlative hazard": 0.01391838
+    "Cummlative_hazard": 0.01391838,
+    "Strata": 1
   },
   {
     "Time": 55,
@@ -429,7 +482,8 @@
     "Event": 3,
     "Censor": 16,
     "Surv": 0.985363742,
-    "Cummlative hazard": 0.014744425
+    "Cummlative_hazard": 0.014744425,
+    "Strata": 1
   },
   {
     "Time": 56,
@@ -437,7 +491,8 @@
     "Event": 2,
     "Censor": 15,
     "Surv": 0.984818019,
-    "Cummlative hazard": 0.015298407
+    "Cummlative_hazard": 0.015298407,
+    "Strata": 1
   },
   {
     "Time": 57,
@@ -445,7 +500,8 @@
     "Event": 2,
     "Censor": 17,
     "Surv": 0.984269926,
-    "Cummlative hazard": 0.015855104
+    "Cummlative_hazard": 0.015855104,
+    "Strata": 1
   },
   {
     "Time": 58,
@@ -453,7 +509,8 @@
     "Event": 2,
     "Censor": 14,
     "Surv": 0.983718904,
-    "Cummlative hazard": 0.016415089
+    "Cummlative_hazard": 0.016415089,
+    "Strata": 1
   },
   {
     "Time": 59,
@@ -461,7 +518,8 @@
     "Event": 0,
     "Censor": 18,
     "Surv": 0.983718904,
-    "Cummlative hazard": 0.016415089
+    "Cummlative_hazard": 0.016415089,
+    "Strata": 1
   },
   {
     "Time": 60,
@@ -469,7 +527,8 @@
     "Event": 4,
     "Censor": 13,
     "Surv": 0.982605828,
-    "Cummlative hazard": 0.017547229
+    "Cummlative_hazard": 0.017547229,
+    "Strata": 1
   },
   {
     "Time": 61,
@@ -477,7 +536,8 @@
     "Event": 4,
     "Censor": 13,
     "Surv": 0.98148741,
-    "Cummlative hazard": 0.018686093
+    "Cummlative_hazard": 0.018686093,
+    "Strata": 1
   },
   {
     "Time": 62,
@@ -485,7 +545,8 @@
     "Event": 5,
     "Censor": 15,
     "Surv": 0.980080762,
-    "Cummlative hazard": 0.0201203
+    "Cummlative_hazard": 0.0201203,
+    "Strata": 1
   },
   {
     "Time": 63,
@@ -493,7 +554,8 @@
     "Event": 2,
     "Censor": 25,
     "Surv": 0.979514601,
-    "Cummlative hazard": 0.020698135
+    "Cummlative_hazard": 0.020698135,
+    "Strata": 1
   },
   {
     "Time": 64,
@@ -501,7 +563,8 @@
     "Event": 4,
     "Censor": 28,
     "Surv": 0.978374366,
-    "Cummlative hazard": 0.021862895
+    "Cummlative_hazard": 0.021862895,
+    "Strata": 1
   },
   {
     "Time": 65,
@@ -509,7 +572,8 @@
     "Event": 3,
     "Censor": 18,
     "Surv": 0.977508107,
-    "Cummlative hazard": 0.022748694
+    "Cummlative_hazard": 0.022748694,
+    "Strata": 1
   },
   {
     "Time": 66,
@@ -517,7 +581,8 @@
     "Event": 2,
     "Censor": 19,
     "Surv": 0.976926702,
-    "Cummlative hazard": 0.023343654
+    "Cummlative_hazard": 0.023343654,
+    "Strata": 1
   },
   {
     "Time": 67,
@@ -525,7 +590,8 @@
     "Event": 1,
     "Censor": 26,
     "Surv": 0.97663425,
-    "Cummlative hazard": 0.023643057
+    "Cummlative_hazard": 0.023643057,
+    "Strata": 1
   },
   {
     "Time": 68,
@@ -533,7 +599,8 @@
     "Event": 6,
     "Censor": 24,
     "Surv": 0.974861151,
-    "Cummlative hazard": 0.025460227
+    "Cummlative_hazard": 0.025460227,
+    "Strata": 1
   },
   {
     "Time": 69,
@@ -541,7 +608,8 @@
     "Event": 2,
     "Censor": 15,
     "Surv": 0.974265033,
-    "Cummlative hazard": 0.026071904
+    "Cummlative_hazard": 0.026071904,
+    "Strata": 1
   },
   {
     "Time": 70,
@@ -549,7 +617,8 @@
     "Event": 2,
     "Censor": 24,
     "Surv": 0.973665243,
-    "Cummlative hazard": 0.026687728
+    "Cummlative_hazard": 0.026687728,
+    "Strata": 1
   },
   {
     "Time": 71,
@@ -557,7 +626,8 @@
     "Event": 5,
     "Censor": 14,
     "Surv": 0.97215342,
-    "Cummlative hazard": 0.028241647
+    "Cummlative_hazard": 0.028241647,
+    "Strata": 1
   },
   {
     "Time": 72,
@@ -565,7 +635,8 @@
     "Event": 2,
     "Censor": 23,
     "Surv": 0.971544506,
-    "Cummlative hazard": 0.0288682
+    "Cummlative_hazard": 0.0288682,
+    "Strata": 1
   },
   {
     "Time": 73,
@@ -573,7 +644,8 @@
     "Event": 3,
     "Censor": 29,
     "Surv": 0.970623644,
-    "Cummlative hazard": 0.029816482
+    "Cummlative_hazard": 0.029816482,
+    "Strata": 1
   },
   {
     "Time": 74,
@@ -581,7 +653,8 @@
     "Event": 5,
     "Censor": 27,
     "Surv": 0.969071866,
-    "Cummlative hazard": 0.031416505
+    "Cummlative_hazard": 0.031416505,
+    "Strata": 1
   },
   {
     "Time": 75,
@@ -589,7 +662,8 @@
     "Event": 5,
     "Censor": 27,
     "Surv": 0.967501165,
-    "Cummlative hazard": 0.03303865
+    "Cummlative_hazard": 0.03303865,
+    "Strata": 1
   },
   {
     "Time": 76,
@@ -597,7 +671,8 @@
     "Event": 8,
     "Censor": 16,
     "Surv": 0.96495852,
-    "Cummlative hazard": 0.035670163
+    "Cummlative_hazard": 0.035670163,
+    "Strata": 1
   },
   {
     "Time": 77,
@@ -605,7 +680,8 @@
     "Event": 6,
     "Censor": 16,
     "Surv": 0.963040938,
-    "Cummlative hazard": 0.037659357
+    "Cummlative_hazard": 0.037659357,
+    "Strata": 1
   },
   {
     "Time": 78,
@@ -613,7 +689,8 @@
     "Event": 3,
     "Censor": 28,
     "Surv": 0.962074633,
-    "Cummlative hazard": 0.03866325
+    "Cummlative_hazard": 0.03866325,
+    "Strata": 1
   },
   {
     "Time": 79,
@@ -621,7 +698,8 @@
     "Event": 3,
     "Censor": 20,
     "Surv": 0.961097781,
-    "Cummlative hazard": 0.039679126
+    "Cummlative_hazard": 0.039679126,
+    "Strata": 1
   },
   {
     "Time": 80,
@@ -629,7 +707,8 @@
     "Event": 4,
     "Censor": 29,
     "Surv": 0.959783083,
-    "Cummlative hazard": 0.041047975
+    "Cummlative_hazard": 0.041047975,
+    "Strata": 1
   },
   {
     "Time": 81,
@@ -637,7 +716,8 @@
     "Event": 4,
     "Censor": 21,
     "Surv": 0.958453951,
-    "Cummlative hazard": 0.04243376
+    "Cummlative_hazard": 0.04243376,
+    "Strata": 1
   },
   {
     "Time": 82,
@@ -645,7 +725,8 @@
     "Event": 5,
     "Censor": 20,
     "Surv": 0.956776202,
-    "Cummlative hazard": 0.044185769
+    "Cummlative_hazard": 0.044185769,
+    "Strata": 1
   },
   {
     "Time": 83,
@@ -653,7 +734,8 @@
     "Event": 1,
     "Censor": 23,
     "Surv": 0.956437275,
-    "Cummlative hazard": 0.04454007
+    "Cummlative_hazard": 0.04454007,
+    "Strata": 1
   },
   {
     "Time": 84,
@@ -661,7 +743,8 @@
     "Event": 3,
     "Censor": 24,
     "Surv": 0.95541012,
-    "Cummlative hazard": 0.045614586
+    "Cummlative_hazard": 0.045614586,
+    "Strata": 1
   },
   {
     "Time": 85,
@@ -669,7 +752,8 @@
     "Event": 3,
     "Censor": 27,
     "Surv": 0.954372523,
-    "Cummlative hazard": 0.046701198
+    "Cummlative_hazard": 0.046701198,
+    "Strata": 1
   },
   {
     "Time": 86,
@@ -677,7 +761,8 @@
     "Event": 2,
     "Censor": 36,
     "Surv": 0.953670159,
-    "Cummlative hazard": 0.047437413
+    "Cummlative_hazard": 0.047437413,
+    "Strata": 1
   },
   {
     "Time": 87,
@@ -685,7 +770,8 @@
     "Event": 3,
     "Censor": 39,
     "Surv": 0.952600873,
-    "Cummlative hazard": 0.048559275
+    "Cummlative_hazard": 0.048559275,
+    "Strata": 1
   },
   {
     "Time": 88,
@@ -693,7 +779,8 @@
     "Event": 7,
     "Censor": 27,
     "Surv": 0.950056425,
-    "Cummlative hazard": 0.051233901
+    "Cummlative_hazard": 0.051233901,
+    "Strata": 1
   },
   {
     "Time": 89,
@@ -701,7 +788,8 @@
     "Event": 5,
     "Censor": 21,
     "Surv": 0.94821371,
-    "Cummlative hazard": 0.053175369
+    "Cummlative_hazard": 0.053175369,
+    "Strata": 1
   },
   {
     "Time": 90,
@@ -709,7 +797,8 @@
     "Event": 2,
     "Censor": 37,
     "Surv": 0.947471371,
-    "Cummlative hazard": 0.053958558
+    "Cummlative_hazard": 0.053958558,
+    "Strata": 1
   },
   {
     "Time": 91,
@@ -717,7 +806,8 @@
     "Event": 4,
     "Censor": 24,
     "Surv": 0.945966716,
-    "Cummlative hazard": 0.055547894
+    "Cummlative_hazard": 0.055547894,
+    "Strata": 1
   },
   {
     "Time": 92,
@@ -725,7 +815,8 @@
     "Event": 6,
     "Censor": 27,
     "Surv": 0.943685452,
-    "Cummlative hazard": 0.057962376
+    "Cummlative_hazard": 0.057962376,
+    "Strata": 1
   },
   {
     "Time": 93,
@@ -733,7 +824,8 @@
     "Event": 8,
     "Censor": 32,
     "Surv": 0.940600622,
-    "Cummlative hazard": 0.061236648
+    "Cummlative_hazard": 0.061236648,
+    "Strata": 1
   },
   {
     "Time": 94,
@@ -741,7 +833,8 @@
     "Event": 5,
     "Censor": 28,
     "Surv": 0.938637743,
-    "Cummlative hazard": 0.063325664
+    "Cummlative_hazard": 0.063325664,
+    "Strata": 1
   },
   {
     "Time": 95,
@@ -749,7 +842,8 @@
     "Event": 6,
     "Censor": 32,
     "Surv": 0.936243393,
-    "Cummlative hazard": 0.065879802
+    "Cummlative_hazard": 0.065879802,
+    "Strata": 1
   },
   {
     "Time": 96,
@@ -757,7 +851,8 @@
     "Event": 3,
     "Censor": 23,
     "Surv": 0.935025671,
-    "Cummlative hazard": 0.067181295
+    "Cummlative_hazard": 0.067181295,
+    "Strata": 1
   },
   {
     "Time": 97,
@@ -765,7 +860,8 @@
     "Event": 7,
     "Censor": 22,
     "Surv": 0.93214451,
-    "Cummlative hazard": 0.070267423
+    "Cummlative_hazard": 0.070267423,
+    "Strata": 1
   },
   {
     "Time": 98,
@@ -773,7 +869,8 @@
     "Event": 6,
     "Censor": 26,
     "Surv": 0.92964233,
-    "Cummlative hazard": 0.072955358
+    "Cummlative_hazard": 0.072955358,
+    "Strata": 1
   },
   {
     "Time": 99,
@@ -781,7 +878,8 @@
     "Event": 5,
     "Censor": 31,
     "Surv": 0.927520359,
-    "Cummlative hazard": 0.075240535
+    "Cummlative_hazard": 0.075240535,
+    "Strata": 1
   },
   {
     "Time": 100,
@@ -789,7 +887,8 @@
     "Event": 7,
     "Censor": 30,
     "Surv": 0.92449428,
-    "Cummlative hazard": 0.078508416
+    "Cummlative_hazard": 0.078508416,
+    "Strata": 1
   },
   {
     "Time": 101,
@@ -797,7 +896,8 @@
     "Event": 5,
     "Censor": 35,
     "Surv": 0.922297993,
-    "Cummlative hazard": 0.080886905
+    "Cummlative_hazard": 0.080886905,
+    "Strata": 1
   },
   {
     "Time": 102,
@@ -805,7 +905,8 @@
     "Event": 2,
     "Censor": 21,
     "Surv": 0.921399614,
-    "Cummlative hazard": 0.081861446
+    "Cummlative_hazard": 0.081861446,
+    "Strata": 1
   },
   {
     "Time": 103,
@@ -813,7 +914,8 @@
     "Event": 6,
     "Censor": 27,
     "Surv": 0.918664052,
-    "Cummlative hazard": 0.084834781
+    "Cummlative_hazard": 0.084834781,
+    "Strata": 1
   },
   {
     "Time": 104,
@@ -821,7 +923,8 @@
     "Event": 1,
     "Censor": 27,
     "Surv": 0.918200529,
-    "Cummlative hazard": 0.085339471
+    "Cummlative_hazard": 0.085339471,
+    "Strata": 1
   },
   {
     "Time": 105,
@@ -829,7 +932,8 @@
     "Event": 9,
     "Censor": 34,
     "Surv": 0.913941635,
-    "Cummlative hazard": 0.089988567
+    "Cummlative_hazard": 0.089988567,
+    "Strata": 1
   },
   {
     "Time": 106,
@@ -837,7 +941,8 @@
     "Event": 4,
     "Censor": 30,
     "Surv": 0.912004106,
-    "Cummlative hazard": 0.092110786
+    "Cummlative_hazard": 0.092110786,
+    "Strata": 1
   },
   {
     "Time": 107,
@@ -845,7 +950,8 @@
     "Event": 3,
     "Censor": 33,
     "Surv": 0.910524073,
-    "Cummlative hazard": 0.093734941
+    "Cummlative_hazard": 0.093734941,
+    "Strata": 1
   },
   {
     "Time": 108,
@@ -853,7 +959,8 @@
     "Event": 8,
     "Censor": 22,
     "Surv": 0.906480554,
-    "Cummlative hazard": 0.098185701
+    "Cummlative_hazard": 0.098185701,
+    "Strata": 1
   },
   {
     "Time": 109,
@@ -861,7 +968,8 @@
     "Event": 4,
     "Censor": 20,
     "Surv": 0.90442142,
-    "Cummlative hazard": 0.100459854
+    "Cummlative_hazard": 0.100459854,
+    "Strata": 1
   },
   {
     "Time": 110,
@@ -869,7 +977,8 @@
     "Event": 3,
     "Censor": 26,
     "Surv": 0.902849859,
-    "Cummlative hazard": 0.102199008
+    "Cummlative_hazard": 0.102199008,
+    "Strata": 1
   },
   {
     "Time": 111,
@@ -877,7 +986,8 @@
     "Event": 7,
     "Censor": 22,
     "Surv": 0.899112027,
-    "Cummlative hazard": 0.10634764
+    "Cummlative_hazard": 0.10634764,
+    "Strata": 1
   },
   {
     "Time": 112,
@@ -885,7 +995,8 @@
     "Event": 5,
     "Censor": 31,
     "Surv": 0.896388459,
-    "Cummlative hazard": 0.109381412
+    "Cummlative_hazard": 0.109381412,
+    "Strata": 1
   },
   {
     "Time": 113,
@@ -893,7 +1004,8 @@
     "Event": 8,
     "Censor": 24,
     "Surv": 0.89190727,
-    "Cummlative hazard": 0.114393109
+    "Cummlative_hazard": 0.114393109,
+    "Strata": 1
   },
   {
     "Time": 114,
@@ -901,7 +1013,8 @@
     "Event": 1,
     "Censor": 22,
     "Surv": 0.891337673,
-    "Cummlative hazard": 0.115031941
+    "Cummlative_hazard": 0.115031941,
+    "Strata": 1
   },
   {
     "Time": 115,
@@ -909,7 +1022,8 @@
     "Event": 8,
     "Censor": 23,
     "Surv": 0.88669148,
-    "Cummlative hazard": 0.120258181
+    "Cummlative_hazard": 0.120258181,
+    "Strata": 1
   },
   {
     "Time": 116,
@@ -917,7 +1031,8 @@
     "Event": 4,
     "Censor": 33,
     "Surv": 0.884315113,
-    "Cummlative hazard": 0.122941818
+    "Cummlative_hazard": 0.122941818,
+    "Strata": 1
   },
   {
     "Time": 117,
@@ -925,7 +1040,8 @@
     "Event": 4,
     "Censor": 28,
     "Surv": 0.881866427,
-    "Cummlative hazard": 0.125714678
+    "Cummlative_hazard": 0.125714678,
+    "Strata": 1
   },
   {
     "Time": 118,
@@ -933,7 +1049,8 @@
     "Event": 3,
     "Censor": 21,
     "Surv": 0.879994291,
-    "Cummlative hazard": 0.127839859
+    "Cummlative_hazard": 0.127839859,
+    "Strata": 1
   },
   {
     "Time": 119,
@@ -941,7 +1058,8 @@
     "Event": 9,
     "Censor": 23,
     "Surv": 0.874241258,
-    "Cummlative hazard": 0.134398902
+    "Cummlative_hazard": 0.134398902,
+    "Strata": 1
   },
   {
     "Time": 120,
@@ -949,7 +1067,8 @@
     "Event": 3,
     "Censor": 32,
     "Surv": 0.872287657,
-    "Cummlative hazard": 0.136636028
+    "Cummlative_hazard": 0.136636028,
+    "Strata": 1
   },
   {
     "Time": 121,
@@ -957,7 +1076,8 @@
     "Event": 5,
     "Censor": 26,
     "Surv": 0.868943254,
-    "Cummlative hazard": 0.140477456
+    "Cummlative_hazard": 0.140477456,
+    "Strata": 1
   },
   {
     "Time": 122,
@@ -965,7 +1085,8 @@
     "Event": 6,
     "Censor": 28,
     "Surv": 0.864801134,
-    "Cummlative hazard": 0.145255701
+    "Cummlative_hazard": 0.145255701,
+    "Strata": 1
   },
   {
     "Time": 123,
@@ -973,7 +1094,8 @@
     "Event": 4,
     "Censor": 31,
     "Surv": 0.861930878,
-    "Cummlative hazard": 0.148580199
+    "Cummlative_hazard": 0.148580199,
+    "Strata": 1
   },
   {
     "Time": 124,
@@ -981,7 +1103,8 @@
     "Event": 3,
     "Censor": 25,
     "Surv": 0.859699991,
-    "Cummlative hazard": 0.151171799
+    "Cummlative_hazard": 0.151171799,
+    "Strata": 1
   },
   {
     "Time": 125,
@@ -989,7 +1112,8 @@
     "Event": 6,
     "Censor": 22,
     "Surv": 0.855113676,
-    "Cummlative hazard": 0.156520865
+    "Cummlative_hazard": 0.156520865,
+    "Strata": 1
   },
   {
     "Time": 126,
@@ -997,7 +1121,8 @@
     "Event": 5,
     "Censor": 16,
     "Surv": 0.851210792,
-    "Cummlative hazard": 0.161095482
+    "Cummlative_hazard": 0.161095482,
+    "Strata": 1
   },
   {
     "Time": 127,
@@ -1005,7 +1130,8 @@
     "Event": 5,
     "Censor": 30,
     "Surv": 0.847224215,
-    "Cummlative hazard": 0.165789903
+    "Cummlative_hazard": 0.165789903,
+    "Strata": 1
   },
   {
     "Time": 128,
@@ -1013,7 +1139,8 @@
     "Event": 4,
     "Censor": 18,
     "Surv": 0.843939902,
-    "Cummlative hazard": 0.169673993
+    "Cummlative_hazard": 0.169673993,
+    "Strata": 1
   },
   {
     "Time": 129,
@@ -1021,7 +1148,8 @@
     "Event": 2,
     "Censor": 24,
     "Surv": 0.842263126,
-    "Cummlative hazard": 0.171662813
+    "Cummlative_hazard": 0.171662813,
+    "Strata": 1
   },
   {
     "Time": 130,
@@ -1029,7 +1157,8 @@
     "Event": 4,
     "Censor": 26,
     "Surv": 0.838807587,
-    "Cummlative hazard": 0.175773935
+    "Cummlative_hazard": 0.175773935,
+    "Strata": 1
   },
   {
     "Time": 131,
@@ -1037,7 +1166,8 @@
     "Event": 3,
     "Censor": 22,
     "Surv": 0.83613198,
-    "Cummlative hazard": 0.178968807
+    "Cummlative_hazard": 0.178968807,
+    "Strata": 1
   },
   {
     "Time": 132,
@@ -1045,7 +1175,8 @@
     "Event": 4,
     "Censor": 23,
     "Surv": 0.832450655,
-    "Cummlative hazard": 0.183381332
+    "Cummlative_hazard": 0.183381332,
+    "Strata": 1
   },
   {
     "Time": 133,
@@ -1053,7 +1184,8 @@
     "Event": 6,
     "Censor": 11,
     "Surv": 0.826767886,
-    "Cummlative hazard": 0.190231293
+    "Cummlative_hazard": 0.190231293,
+    "Strata": 1
   },
   {
     "Time": 134,
@@ -1061,7 +1193,8 @@
     "Event": 2,
     "Censor": 19,
     "Surv": 0.82482853,
-    "Cummlative hazard": 0.192579757
+    "Cummlative_hazard": 0.192579757,
+    "Strata": 1
   },
   {
     "Time": 135,
@@ -1069,7 +1202,8 @@
     "Event": 3,
     "Censor": 15,
     "Surv": 0.821830016,
-    "Cummlative hazard": 0.196221699
+    "Cummlative_hazard": 0.196221699,
+    "Strata": 1
   },
   {
     "Time": 136,
@@ -1077,7 +1211,8 @@
     "Event": 4,
     "Censor": 21,
     "Surv": 0.817718572,
-    "Cummlative hazard": 0.201237046
+    "Cummlative_hazard": 0.201237046,
+    "Strata": 1
   },
   {
     "Time": 137,
@@ -1085,7 +1220,8 @@
     "Event": 3,
     "Censor": 22,
     "Surv": 0.814525778,
-    "Cummlative hazard": 0.205149202
+    "Cummlative_hazard": 0.205149202,
+    "Strata": 1
   },
   {
     "Time": 138,
@@ -1093,7 +1229,8 @@
     "Event": 4,
     "Censor": 21,
     "Surv": 0.810131845,
-    "Cummlative hazard": 0.210558273
+    "Cummlative_hazard": 0.210558273,
+    "Strata": 1
   },
   {
     "Time": 139,
@@ -1101,7 +1238,8 @@
     "Event": 3,
     "Censor": 16,
     "Surv": 0.806708485,
-    "Cummlative hazard": 0.214792909
+    "Cummlative_hazard": 0.214792909,
+    "Strata": 1
   },
   {
     "Time": 140,
@@ -1109,7 +1247,8 @@
     "Event": 1,
     "Censor": 14,
     "Surv": 0.805535589,
-    "Cummlative hazard": 0.216247895
+    "Cummlative_hazard": 0.216247895,
+    "Strata": 1
   },
   {
     "Time": 141,
@@ -1117,7 +1256,8 @@
     "Event": 1,
     "Censor": 21,
     "Surv": 0.804335416,
-    "Cummlative hazard": 0.217738913
+    "Cummlative_hazard": 0.217738913,
+    "Strata": 1
   },
   {
     "Time": 142,
@@ -1125,7 +1265,8 @@
     "Event": 0,
     "Censor": 15,
     "Surv": 0.804335416,
-    "Cummlative hazard": 0.217738913
+    "Cummlative_hazard": 0.217738913,
+    "Strata": 1
   },
   {
     "Time": 143,
@@ -1133,7 +1274,8 @@
     "Event": 2,
     "Censor": 14,
     "Surv": 0.801747348,
-    "Cummlative hazard": 0.220961748
+    "Cummlative_hazard": 0.220961748,
+    "Strata": 1
   },
   {
     "Time": 144,
@@ -1141,7 +1283,8 @@
     "Event": 3,
     "Censor": 12,
     "Surv": 0.797783916,
-    "Cummlative hazard": 0.225917501
+    "Cummlative_hazard": 0.225917501,
+    "Strata": 1
   },
   {
     "Time": 145,
@@ -1149,7 +1292,8 @@
     "Event": 2,
     "Censor": 11,
     "Surv": 0.795086278,
-    "Cummlative hazard": 0.229304644
+    "Cummlative_hazard": 0.229304644,
+    "Strata": 1
   },
   {
     "Time": 146,
@@ -1157,7 +1301,8 @@
     "Event": 2,
     "Censor": 16,
     "Surv": 0.792325789,
-    "Cummlative hazard": 0.232782622
+    "Cummlative_hazard": 0.232782622,
+    "Strata": 1
   },
   {
     "Time": 147,
@@ -1165,7 +1310,8 @@
     "Event": 4,
     "Censor": 14,
     "Surv": 0.786610315,
-    "Cummlative hazard": 0.240022306
+    "Cummlative_hazard": 0.240022306,
+    "Strata": 1
   },
   {
     "Time": 148,
@@ -1173,7 +1319,8 @@
     "Event": 2,
     "Censor": 24,
     "Surv": 0.783614654,
-    "Cummlative hazard": 0.243837892
+    "Cummlative_hazard": 0.243837892,
+    "Strata": 1
   },
   {
     "Time": 149,
@@ -1181,7 +1328,8 @@
     "Event": 3,
     "Censor": 18,
     "Surv": 0.778853579,
-    "Cummlative hazard": 0.249932211
+    "Cummlative_hazard": 0.249932211,
+    "Strata": 1
   },
   {
     "Time": 150,
@@ -1189,7 +1337,8 @@
     "Event": 2,
     "Censor": 9,
     "Surv": 0.77550687,
-    "Cummlative hazard": 0.254238438
+    "Cummlative_hazard": 0.254238438,
+    "Strata": 1
   },
   {
     "Time": 151,
@@ -1197,7 +1346,8 @@
     "Event": 1,
     "Censor": 11,
     "Surv": 0.77379592,
-    "Cummlative hazard": 0.256447109
+    "Cummlative_hazard": 0.256447109,
+    "Strata": 1
   },
   {
     "Time": 152,
@@ -1205,7 +1355,8 @@
     "Event": 3,
     "Censor": 9,
     "Surv": 0.768469465,
-    "Cummlative hazard": 0.26335445
+    "Cummlative_hazard": 0.26335445,
+    "Strata": 1
   },
   {
     "Time": 153,
@@ -1213,7 +1364,8 @@
     "Event": 1,
     "Censor": 10,
     "Surv": 0.766585511,
-    "Cummlative hazard": 0.265809027
+    "Cummlative_hazard": 0.265809027,
+    "Strata": 1
   },
   {
     "Time": 154,
@@ -1221,7 +1373,8 @@
     "Event": 3,
     "Censor": 5,
     "Surv": 0.760806993,
-    "Cummlative hazard": 0.273375576
+    "Cummlative_hazard": 0.273375576,
+    "Strata": 1
   },
   {
     "Time": 155,
@@ -1229,7 +1382,8 @@
     "Event": 1,
     "Censor": 16,
     "Surv": 0.758848197,
-    "Cummlative hazard": 0.275953525
+    "Cummlative_hazard": 0.275953525,
+    "Strata": 1
   },
   {
     "Time": 156,
@@ -1237,7 +1391,8 @@
     "Event": 0,
     "Censor": 8,
     "Surv": 0.758848197,
-    "Cummlative hazard": 0.275953525
+    "Cummlative_hazard": 0.275953525,
+    "Strata": 1
   },
   {
     "Time": 157,
@@ -1245,7 +1400,8 @@
     "Event": 0,
     "Censor": 13,
     "Surv": 0.758848197,
-    "Cummlative hazard": 0.275953525
+    "Cummlative_hazard": 0.275953525,
+    "Strata": 1
   },
   {
     "Time": 158,
@@ -1253,7 +1409,8 @@
     "Event": 0,
     "Censor": 10,
     "Surv": 0.758848197,
-    "Cummlative hazard": 0.275953525
+    "Cummlative_hazard": 0.275953525,
+    "Strata": 1
   },
   {
     "Time": 159,
@@ -1261,7 +1418,8 @@
     "Event": 4,
     "Censor": 7,
     "Surv": 0.749604244,
-    "Cummlative hazard": 0.288209886
+    "Cummlative_hazard": 0.288209886,
+    "Strata": 1
   },
   {
     "Time": 160,
@@ -1269,7 +1427,8 @@
     "Event": 1,
     "Censor": 13,
     "Surv": 0.747233879,
-    "Cummlative hazard": 0.291377052
+    "Cummlative_hazard": 0.291377052,
+    "Strata": 1
   },
   {
     "Time": 161,
@@ -1277,7 +1436,8 @@
     "Event": 6,
     "Censor": 12,
     "Surv": 0.732130686,
-    "Cummlative hazard": 0.311796248
+    "Cummlative_hazard": 0.311796248,
+    "Strata": 1
   },
   {
     "Time": 162,
@@ -1285,7 +1445,8 @@
     "Event": 3,
     "Censor": 8,
     "Surv": 0.724041636,
-    "Cummlative hazard": 0.32290638
+    "Cummlative_hazard": 0.32290638,
+    "Strata": 1
   },
   {
     "Time": 163,
@@ -1293,7 +1454,8 @@
     "Event": 1,
     "Censor": 12,
     "Surv": 0.721273048,
-    "Cummlative hazard": 0.326737506
+    "Cummlative_hazard": 0.326737506,
+    "Strata": 1
   },
   {
     "Time": 164,
@@ -1301,7 +1463,8 @@
     "Event": 0,
     "Censor": 6,
     "Surv": 0.721273048,
-    "Cummlative hazard": 0.326737506
+    "Cummlative_hazard": 0.326737506,
+    "Strata": 1
   },
   {
     "Time": 165,
@@ -1309,7 +1472,8 @@
     "Event": 0,
     "Censor": 9,
     "Surv": 0.721273048,
-    "Cummlative hazard": 0.326737506
+    "Cummlative_hazard": 0.326737506,
+    "Strata": 1
   },
   {
     "Time": 166,
@@ -1317,7 +1481,8 @@
     "Event": 1,
     "Censor": 12,
     "Surv": 0.718081066,
-    "Cummlative hazard": 0.331172811
+    "Cummlative_hazard": 0.331172811,
+    "Strata": 1
   },
   {
     "Time": 167,
@@ -1325,7 +1490,8 @@
     "Event": 2,
     "Censor": 4,
     "Surv": 0.711345651,
-    "Cummlative hazard": 0.340596819
+    "Cummlative_hazard": 0.340596819,
+    "Strata": 1
   },
   {
     "Time": 168,
@@ -1333,7 +1499,8 @@
     "Event": 1,
     "Censor": 4,
     "Surv": 0.7078756,
-    "Cummlative hazard": 0.345486907
+    "Cummlative_hazard": 0.345486907,
+    "Strata": 1
   },
   {
     "Time": 169,
@@ -1341,7 +1508,8 @@
     "Event": 1,
     "Censor": 6,
     "Surv": 0.704347787,
-    "Cummlative hazard": 0.350483029
+    "Cummlative_hazard": 0.350483029,
+    "Strata": 1
   },
   {
     "Time": 170,
@@ -1349,7 +1517,8 @@
     "Event": 2,
     "Censor": 4,
     "Surv": 0.69697939,
-    "Cummlative hazard": 0.360999438
+    "Cummlative_hazard": 0.360999438,
+    "Strata": 1
   },
   {
     "Time": 171,
@@ -1357,7 +1526,8 @@
     "Event": 1,
     "Censor": 5,
     "Surv": 0.693127376,
-    "Cummlative hazard": 0.366541493
+    "Cummlative_hazard": 0.366541493,
+    "Strata": 1
   },
   {
     "Time": 172,
@@ -1365,7 +1535,8 @@
     "Event": 2,
     "Censor": 7,
     "Surv": 0.685057991,
-    "Cummlative hazard": 0.378251786
+    "Cummlative_hazard": 0.378251786,
+    "Strata": 1
   },
   {
     "Time": 173,
@@ -1373,7 +1544,8 @@
     "Event": 1,
     "Censor": 4,
     "Surv": 0.68062558,
-    "Cummlative hazard": 0.384742934
+    "Cummlative_hazard": 0.384742934,
+    "Strata": 1
   },
   {
     "Time": 174,
@@ -1381,7 +1553,8 @@
     "Event": 1,
     "Censor": 7,
     "Surv": 0.676038083,
-    "Cummlative hazard": 0.391505868
+    "Cummlative_hazard": 0.391505868,
+    "Strata": 1
   },
   {
     "Time": 175,
@@ -1389,7 +1562,8 @@
     "Event": 0,
     "Censor": 1,
     "Surv": 0.676038083,
-    "Cummlative hazard": 0.391505868
+    "Cummlative_hazard": 0.391505868,
+    "Strata": 1
   },
   {
     "Time": 176,
@@ -1397,7 +1571,8 @@
     "Event": 0,
     "Censor": 6,
     "Surv": 0.676038083,
-    "Cummlative hazard": 0.391505868
+    "Cummlative_hazard": 0.391505868,
+    "Strata": 1
   },
   {
     "Time": 177,
@@ -1405,7 +1580,8 @@
     "Event": 2,
     "Censor": 7,
     "Surv": 0.665549452,
-    "Cummlative hazard": 0.407142337
+    "Cummlative_hazard": 0.407142337,
+    "Strata": 1
   },
   {
     "Time": 178,
@@ -1413,7 +1589,8 @@
     "Event": 1,
     "Censor": 2,
     "Surv": 0.659868361,
-    "Cummlative hazard": 0.415714917
+    "Cummlative_hazard": 0.415714917,
+    "Strata": 1
   },
   {
     "Time": 179,
@@ -1421,7 +1598,8 @@
     "Event": 1,
     "Censor": 5,
     "Surv": 0.654046768,
-    "Cummlative hazard": 0.424576419
+    "Cummlative_hazard": 0.424576419,
+    "Strata": 1
   },
   {
     "Time": 180,
@@ -1429,7 +1607,8 @@
     "Event": 1,
     "Censor": 4,
     "Surv": 0.647832003,
-    "Cummlative hazard": 0.434123871
+    "Cummlative_hazard": 0.434123871,
+    "Strata": 1
   },
   {
     "Time": 181,
@@ -1437,7 +1616,8 @@
     "Event": 1,
     "Censor": 4,
     "Surv": 0.641289475,
-    "Cummlative hazard": 0.444274325
+    "Cummlative_hazard": 0.444274325,
+    "Strata": 1
   },
   {
     "Time": 182,
@@ -1445,7 +1625,8 @@
     "Event": 2,
     "Censor": 4,
     "Surv": 0.62759292,
-    "Cummlative hazard": 0.465863539
+    "Cummlative_hazard": 0.465863539,
+    "Strata": 1
   },
   {
     "Time": 183,
@@ -1453,7 +1634,8 @@
     "Event": 0,
     "Censor": 5,
     "Surv": 0.62759292,
-    "Cummlative hazard": 0.465863539
+    "Cummlative_hazard": 0.465863539,
+    "Strata": 1
   },
   {
     "Time": 184,
@@ -1461,7 +1643,8 @@
     "Event": 1,
     "Censor": 3,
     "Surv": 0.620086546,
-    "Cummlative hazard": 0.47789622
+    "Cummlative_hazard": 0.47789622,
+    "Strata": 1
   },
   {
     "Time": 185,
@@ -1469,7 +1652,8 @@
     "Event": 0,
     "Censor": 6,
     "Surv": 0.620086546,
-    "Cummlative hazard": 0.47789622
+    "Cummlative_hazard": 0.47789622,
+    "Strata": 1
   },
   {
     "Time": 186,
@@ -1477,7 +1661,8 @@
     "Event": 0,
     "Censor": 2,
     "Surv": 0.620086546,
-    "Cummlative hazard": 0.47789622
+    "Cummlative_hazard": 0.47789622,
+    "Strata": 1
   },
   {
     "Time": 188,
@@ -1485,7 +1670,8 @@
     "Event": 1,
     "Censor": 0,
     "Surv": 0.611688725,
-    "Cummlative hazard": 0.491531745
+    "Cummlative_hazard": 0.491531745,
+    "Strata": 1
   },
   {
     "Time": 189,
@@ -1493,7 +1679,8 @@
     "Event": 0,
     "Censor": 6,
     "Surv": 0.611688725,
-    "Cummlative hazard": 0.491531745
+    "Cummlative_hazard": 0.491531745,
+    "Strata": 1
   },
   {
     "Time": 190,
@@ -1501,7 +1688,8 @@
     "Event": 0,
     "Censor": 7,
     "Surv": 0.611688725,
-    "Cummlative hazard": 0.491531745
+    "Cummlative_hazard": 0.491531745,
+    "Strata": 1
   },
   {
     "Time": 191,
@@ -1509,7 +1697,8 @@
     "Event": 0,
     "Censor": 1,
     "Surv": 0.611688725,
-    "Cummlative hazard": 0.491531745
+    "Cummlative_hazard": 0.491531745,
+    "Strata": 1
   },
   {
     "Time": 192,
@@ -1517,7 +1706,8 @@
     "Event": 0,
     "Censor": 3,
     "Surv": 0.611688725,
-    "Cummlative hazard": 0.491531745
+    "Cummlative_hazard": 0.491531745,
+    "Strata": 1
   },
   {
     "Time": 193,
@@ -1525,7 +1715,8 @@
     "Event": 1,
     "Censor": 3,
     "Surv": 0.599635172,
-    "Cummlative hazard": 0.511433855
+    "Cummlative_hazard": 0.511433855,
+    "Strata": 1
   },
   {
     "Time": 194,
@@ -1533,7 +1724,8 @@
     "Event": 0,
     "Censor": 3,
     "Surv": 0.599635172,
-    "Cummlative hazard": 0.511433855
+    "Cummlative_hazard": 0.511433855,
+    "Strata": 1
   },
   {
     "Time": 195,
@@ -1541,7 +1733,8 @@
     "Event": 0,
     "Censor": 2,
     "Surv": 0.599635172,
-    "Cummlative hazard": 0.511433855
+    "Cummlative_hazard": 0.511433855,
+    "Strata": 1
   },
   {
     "Time": 196,
@@ -1549,7 +1742,8 @@
     "Event": 0,
     "Censor": 2,
     "Surv": 0.599635172,
-    "Cummlative hazard": 0.511433855
+    "Cummlative_hazard": 0.511433855,
+    "Strata": 1
   },
   {
     "Time": 197,
@@ -1557,7 +1751,8 @@
     "Event": 1,
     "Censor": 2,
     "Surv": 0.585882308,
-    "Cummlative hazard": 0.534636349
+    "Cummlative_hazard": 0.534636349,
+    "Strata": 1
   },
   {
     "Time": 199,
@@ -1565,7 +1760,8 @@
     "Event": 0,
     "Censor": 1,
     "Surv": 0.585882308,
-    "Cummlative hazard": 0.534636349
+    "Cummlative_hazard": 0.534636349,
+    "Strata": 1
   },
   {
     "Time": 200,
@@ -1573,7 +1769,8 @@
     "Event": 0,
     "Censor": 1,
     "Surv": 0.585882308,
-    "Cummlative hazard": 0.534636349
+    "Cummlative_hazard": 0.534636349,
+    "Strata": 1
   },
   {
     "Time": 201,
@@ -1581,7 +1778,8 @@
     "Event": 1,
     "Censor": 2,
     "Surv": 0.570482668,
-    "Cummlative hazard": 0.56127249
+    "Cummlative_hazard": 0.56127249,
+    "Strata": 1
   },
   {
     "Time": 202,
@@ -1589,7 +1787,8 @@
     "Event": 0,
     "Censor": 1,
     "Surv": 0.570482668,
-    "Cummlative hazard": 0.56127249
+    "Cummlative_hazard": 0.56127249,
+    "Strata": 1
   },
   {
     "Time": 204,
@@ -1597,7 +1796,8 @@
     "Event": 0,
     "Censor": 2,
     "Surv": 0.570482668,
-    "Cummlative hazard": 0.56127249
+    "Cummlative_hazard": 0.56127249,
+    "Strata": 1
   },
   {
     "Time": 205,
@@ -1605,7 +1805,8 @@
     "Event": 0,
     "Censor": 2,
     "Surv": 0.570482668,
-    "Cummlative hazard": 0.56127249
+    "Cummlative_hazard": 0.56127249,
+    "Strata": 1
   },
   {
     "Time": 208,
@@ -1613,7 +1814,8 @@
     "Event": 1,
     "Censor": 0,
     "Surv": 0.549060362,
-    "Cummlative hazard": 0.599546894
+    "Cummlative_hazard": 0.599546894,
+    "Strata": 1
   },
   {
     "Time": 209,
@@ -1621,7 +1823,8 @@
     "Event": 1,
     "Censor": 2,
     "Surv": 0.524389132,
-    "Cummlative hazard": 0.645521252
+    "Cummlative_hazard": 0.645521252,
+    "Strata": 1
   },
   {
     "Time": 210,
@@ -1629,7 +1832,8 @@
     "Event": 0,
     "Censor": 2,
     "Surv": 0.524389132,
-    "Cummlative hazard": 0.645521252
+    "Cummlative_hazard": 0.645521252,
+    "Strata": 1
   },
   {
     "Time": 212,
@@ -1637,7 +1841,8 @@
     "Event": 1,
     "Censor": 1,
     "Surv": 0.473801597,
-    "Cummlative hazard": 0.746966617
+    "Cummlative_hazard": 0.746966617,
+    "Strata": 1
   },
   {
     "Time": 215,
@@ -1645,7 +1850,8 @@
     "Event": 0,
     "Censor": 1,
     "Surv": 0.473801597,
-    "Cummlative hazard": 0.746966617
+    "Cummlative_hazard": 0.746966617,
+    "Strata": 1
   },
   {
     "Time": 217,
@@ -1653,7 +1859,8 @@
     "Event": 0,
     "Censor": 2,
     "Surv": 0.473801597,
-    "Cummlative hazard": 0.746966617
+    "Cummlative_hazard": 0.746966617,
+    "Strata": 1
   },
   {
     "Time": 221,
@@ -1661,7 +1868,8 @@
     "Event": 0,
     "Censor": 1,
     "Surv": 0.473801597,
-    "Cummlative hazard": 0.746966617
+    "Cummlative_hazard": 0.746966617,
+    "Strata": 1
   },
   {
     "Time": 224,
@@ -1669,7 +1877,8 @@
     "Event": 1,
     "Censor": 1,
     "Surv": 0.375203109,
-    "Cummlative hazard": 0.980287774
+    "Cummlative_hazard": 0.980287774,
+    "Strata": 1
   },
   {
     "Time": 225,
@@ -1677,7 +1886,8 @@
     "Event": 1,
     "Censor": 1,
     "Surv": 0.25801251,
-    "Cummlative hazard": 1.354747209
+    "Cummlative_hazard": 1.354747209,
+    "Strata": 1
   },
   {
     "Time": 232,
@@ -1685,7 +1895,8 @@
     "Event": 0,
     "Censor": 1,
     "Surv": 0.25801251,
-    "Cummlative hazard": 1.354747209
+    "Cummlative_hazard": 1.354747209,
+    "Strata": 1
   },
   {
     "Time": 243,
@@ -1693,6 +1904,7 @@
     "Event": 0,
     "Censor": 1,
     "Surv": 0.25801251,
-    "Cummlative hazard": 1.354747209
+    "Cummlative_hazard": 1.354747209,
+    "Strata": 1
   }
 ]

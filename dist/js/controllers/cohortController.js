@@ -77,9 +77,18 @@ app.directive('cohortGraph', [function () {
                     .append("g")
                     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-                var div = d3.select("body").append("div")
-                    .attr("class", "tooltip")
-                    .style("opacity", 0);
+                var tip = d3.tip()
+                    .attr('class', 'd3-tip')
+                    .offset([120, 20])
+                    .html(function (d) {
+                        var monthName = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+                        var mouseX = d3.mouse(this)[0];
+                        var invertedX = x.invert(mouseX);
+                        var invertedx = invertedX.getMonth();
+                        return '&nbsp;&nbsp;Month: ' + (monthName[invertedx] + ',' + invertedX.getFullYear()) + '<br>&nbsp;&nbsp;Cohort Data- <br>' + getDatas(data, invertedx);
+                    });
+
+                svg.call(tip);
 
                 var nMonths = 12,
                     newPerMonth = 100;
@@ -172,36 +181,24 @@ app.directive('cohortGraph', [function () {
                     .attr('stroke', function (d, i) {
                         return color(i)
                     })
-                    .on("mouseover", function (d, i) {
+                    .on("mouseenter", function (d, i) {
                         svg.selectAll(".area").transition()
                             .duration(250)
                             .attr("opacity", function (d, j) {
                                 return j != i ? 0.8 : 1;
                             })
                     })
-                    .on('mousemove', function (d, i) {
-                        var monthName = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-                        var mouseX = d3.mouse(this)[0];
-                        var invertedX = x.invert(mouseX);
-                        var invertedx = invertedX.getMonth();
-                        div.transition()
-                            .duration(200)
-                            .style("opacity", .9);
-                        div.html('<br>&nbsp;&nbsp;Month: ' + (monthName[invertedx] + ',' + invertedX.getFullYear()) + '<br>&nbsp;&nbsp;Cohort Data- <br>' + getDatas(data, invertedx))
-                            .style("left", (d3.event.pageX + 10 ) + "px")
-                            .style("top", (d3.event.pageY - 28) + "px");
+                    .on('mousemove', tip.show)
+                    .on("mouseout", tip.hide)
+                    .on("mouseleave", changeOpacity);
 
-                    })
-                    .on("mouseout", function (d, i) {
-                        div.transition()
-                            .duration(500)
-                            .style("opacity", 0);
+
+                function changeOpacity(d, i) {
                         svg.selectAll(".area")
                             .transition()
                             .duration(250)
                             .attr("opacity", '1');
-                    });
-
+                    }
 
                 function getDatas(data, invertdx) {
                     var dss = '';

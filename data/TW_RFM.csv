@@ -1,18 +1,18 @@
-"","FeatureID","cart","segm.rec","segm.freq","quantity","client"
-"1","Feature 2","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Poor Recency","Very Low Frequency",1,"client"
-"2","Feature 3","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Moderate Recency","Poor Frequency",1,"client"
-"3","Feature 4","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Poor Recency","Poor Frequency",1,"client"
-"4","Feature 4","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Very Low Recency","Poor Frequency",1,"client"
-"5","Feature 4","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Low Recency","Very Low Frequency",1,"client"
-"6","Feature 4","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Low Recency","Poor Frequency",1,"client"
-"7","Feature 4","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Moderate Recency","Poor Frequency",3,"client"
-"8","Feature 4","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","High Recency","Poor Frequency",3,"client"
-"9","Feature 4","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Very High Recency","Very High Frequency",3,"client"
-"10","Feature 4","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Very High Recency","Moderate Frequency",1,"client"
-"11","Feature 4","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Very High Recency","Very Low Frequency",2,"client"
-"12","Feature 4","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Very High Recency","Poor Frequency",2,"client"
-"13","Feature 5","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Moderate Recency","Poor Frequency",1,"client"
-"14","Feature 555","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Low Recency","Poor Frequency",1,"client"
-"15","Feature 555","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Moderate Recency","Poor Frequency",1,"client"
-"16","Feature 99999","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Very Low Recency","Poor Frequency",1,"client"
-"17","Feature 99999","SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7","Moderate Recency","Very Low Frequency",1,"client"
+FeatureID,cart,recency,requency,quantity,client
+Feature 2,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Poor Recency,Very Low Frequency,1,client
+Feature 3,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Moderate Recency,Poor Frequency,1,client
+Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Poor Recency,Poor Frequency,1,client
+Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Very Low Recency,Poor Frequency,1,client
+Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Low Recency,Very Low Frequency,1,client
+Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Low Recency,Poor Frequency,1,client
+Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Moderate Recency,Poor Frequency,3,client
+Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,High Recency,Poor Frequency,3,client
+Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Very High Recency,Very High Frequency,3,client
+Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Very High Recency,Moderate Frequency,1,client
+Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Very High Recency,Very Low Frequency,2,client
+Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Very High Recency,Poor Frequency,2,client
+Feature 5,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Moderate Recency,Poor Frequency,1,client
+Feature 555,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Low Recency,Poor Frequency,1,client
+Feature 555,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Moderate Recency,Poor Frequency,1,client
+Feature 99999,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Very Low Recency,Poor Frequency,1,client
+Feature 99999,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Moderate Recency,Very Low Frequency,1,client

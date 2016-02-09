@@ -11,9 +11,6 @@
     <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
     <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
     <link rel="stylesheet" href="../../plugins/iCheck/flat/blue.css">
-    <link rel="stylesheet" href="../../plugins/jvectormap/jquery-jvectormap-1.2.2.css">
-    <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
-    <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker-bs3.css">
     <link rel="stylesheet" href="../../plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
     <style type="text/css">
         .axis path,
@@ -65,26 +62,21 @@
             shape-rendering: crispEdges;
         }
 
-        div.tooltip {
-            position: absolute;
-            text-align: center;
-            width: auto;
-            height: auto;
-            font: 12px sans-serif;
-            background: black;
-            border: 0;
-            border-radius: 8px;
-            pointer-events: none;
-            color: whitesmoke;
+        .d3-tip {
+            line-height: 1;
+            font-weight: bold;
+            padding: 12px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            border-radius: 2px;
         }
     </style>
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="../../dist/js/d3.min.js"></script>
+    <script src="../../dist/js/d3.tip.v0.6.3.js"></script>
 </head>
 <body class="hold-transition skin-blue sidebar-mini" ng-controller="lcgController">
 <div class="wrapper">
@@ -104,78 +96,13 @@
                     <li class="dropdown messages-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="fa fa-envelope-o"></i>
-                            <span class="label label-success">4</span>
+                            <!--<span class="label label-success">4</span>-->
                         </a>
                         <ul class="dropdown-menu">
                             <li class="header">You have 4 messages</li>
                             <li>
                                 <ul class="menu">
-                                    <li>
-                                        <a href="#">
-                                            <div class="pull-left">
-                                                <img src="../../dist/img/user2-160x160.jpg" class="img-circle"
-                                                     alt="User Image">
-                                            </div>
-                                            <h4>
-                                                Support Team
-                                                <small><i class="fa fa-clock-o"></i> 5 mins</small>
-                                            </h4>
-                                            <p>Why not buy a new awesome theme?</p>
-                                        </a>
-                                    </li>
-                                    <!-- end message -->
-                                    <li>
-                                        <a href="#">
-                                            <div class="pull-left">
-                                                <img src="../../dist/img/user3-128x128.jpg" class="img-circle"
-                                                     alt="User Image">
-                                            </div>
-                                            <h4>
-                                                AdminLTE Design Team
-                                                <small><i class="fa fa-clock-o"></i> 2 hours</small>
-                                            </h4>
-                                            <p>Why not buy a new awesome theme?</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="pull-left">
-                                                <img src="../../dist/img/user4-128x128.jpg" class="img-circle"
-                                                     alt="User Image">
-                                            </div>
-                                            <h4>
-                                                Developers
-                                                <small><i class="fa fa-clock-o"></i> Today</small>
-                                            </h4>
-                                            <p>Why not buy a new awesome theme?</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="pull-left">
-                                                <img src="../../dist/img/user3-128x128.jpg" class="img-circle"
-                                                     alt="User Image">
-                                            </div>
-                                            <h4>
-                                                Sales Department
-                                                <small><i class="fa fa-clock-o"></i> Yesterday</small>
-                                            </h4>
-                                            <p>Why not buy a new awesome theme?</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="pull-left">
-                                                <img src="../../dist/img/user4-128x128.jpg" class="img-circle"
-                                                     alt="User Image">
-                                            </div>
-                                            <h4>
-                                                Reviewers
-                                                <small><i class="fa fa-clock-o"></i> 2 days</small>
-                                            </h4>
-                                            <p>Why not buy a new awesome theme?</p>
-                                        </a>
-                                    </li>
+
                                 </ul>
                             </li>
                             <li class="footer"><a href="#">See All Messages</a></li>
@@ -185,7 +112,7 @@
                     <li class="dropdown notifications-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="fa fa-bell-o"></i>
-                            <span class="label label-warning">10</span>
+                            <!--<span class="label label-warning">10</span>-->
                         </a>
                         <ul class="dropdown-menu">
                             <li class="header">You have 10 notifications</li>
@@ -227,77 +154,14 @@
                     <li class="dropdown tasks-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="fa fa-flag-o"></i>
-                            <span class="label label-danger">9</span>
+                           <!-- <span class="label label-danger">9</span>-->
                         </a>
                         <ul class="dropdown-menu">
                             <li class="header">You have 9 tasks</li>
                             <li>
                                 <!-- inner menu: contains the actual data -->
                                 <ul class="menu">
-                                    <li><!-- Task item -->
-                                        <a href="#">
-                                            <h3>
-                                                Design some buttons
-                                                <small class="pull-right">20%</small>
-                                            </h3>
-                                            <div class="progress xs">
-                                                <div class="progress-bar progress-bar-aqua" style="width: 20%"
-                                                     role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                                                     aria-valuemax="100">
-                                                    <span class="sr-only">20% Complete</span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <!-- end task item -->
-                                    <li><!-- Task item -->
-                                        <a href="#">
-                                            <h3>
-                                                Create a nice theme
-                                                <small class="pull-right">40%</small>
-                                            </h3>
-                                            <div class="progress xs">
-                                                <div class="progress-bar progress-bar-green" style="width: 40%"
-                                                     role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                                                     aria-valuemax="100">
-                                                    <span class="sr-only">40% Complete</span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <!-- end task item -->
-                                    <li><!-- Task item -->
-                                        <a href="#">
-                                            <h3>
-                                                Some task I need to do
-                                                <small class="pull-right">60%</small>
-                                            </h3>
-                                            <div class="progress xs">
-                                                <div class="progress-bar progress-bar-red" style="width: 60%"
-                                                     role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                                                     aria-valuemax="100">
-                                                    <span class="sr-only">60% Complete</span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <!-- end task item -->
-                                    <li><!-- Task item -->
-                                        <a href="#">
-                                            <h3>
-                                                Make beautiful transitions
-                                                <small class="pull-right">80%</small>
-                                            </h3>
-                                            <div class="progress xs">
-                                                <div class="progress-bar progress-bar-yellow" style="width: 80%"
-                                                     role="progressbar" aria-valuenow="20" aria-valuemin="0"
-                                                     aria-valuemax="100">
-                                                    <span class="sr-only">80% Complete</span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <!-- end task item -->
+
                                 </ul>
                             </li>
                             <li class="footer">
@@ -369,31 +233,30 @@
             <!-- sidebar menu: : style can be found in sidebar.less -->
             <ul class="sidebar-menu">
                 <li class="header">MAIN NAVIGATION</li>
-                <li class="active treeview">
+                <li class="treeview">
                     <a href="#">
                         <i class="fa fa-dashboard"></i> <span>Dashboard</span> <i
                             class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li class="active"><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a>
+                        <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Demo Product</a>
                         </li>
-                        <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+                        <!--<li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>-->
                     </ul>
                 </li>
 
-                <li class="treeview">
+                <li class="active treeview">
                     <a href="#">
                         <i class="fa fa-pie-chart"></i>
                         <span>Charts</span>
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="clc.html"><i class="fa fa-circle-o"></i> Customer Segmentation</a></li>
+                        <li class="active"><a href="clc.html"><i class="fa fa-circle-o"></i> Customer Segmentation</a></li>
                         <li><a href="cohort.html"><i class="fa fa-circle-o"></i> Cohort</a></li>
                         <li><a href="MarketBasket.html"><i class="fa fa-circle-o"></i> Market Basket</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Survival</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Hybrid</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Churn</a></li>
+                        <li><a href="survival.html"><i class="fa fa-circle-o"></i> Survival</a></li>
+                        <li><a href="trail2Production.html"><i class="fa fa-circle-o"></i> Trial to Production</a></li>
                     </ul>
                 </li>
                 <li class="treeview">
@@ -451,7 +314,7 @@
                             <li><a href="#featureSegment" data-toggle="tab">Feature Segment</a></li>
                             <li><a href="#productSegment" data-toggle="tab">Product Segment</a></li>
                             <li><a href="#count" data-toggle="tab">Count Segment</a></li>
-                            <li class="pull-left header"><i class="fa fa-inbox"></i> Usage</li>
+                            <li class="pull-left header"><i class="fa fa-bar-chart"></i> Usage</li>
                         </ul>
 
                         <div class="tab-content no-padding">
@@ -2153,23 +2016,14 @@
                                             <td>Client</td>
                                             <td></td>
                                         </tr>
-
                                     </table>
-
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- /.nav-tabs-custom -->
-
-
                 </section>
-                <!-- /.Left col -->
             </div>
-            <!-- /.row (main row) -->
-
         </section>
-        <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->
     <footer class="main-footer">
@@ -2179,26 +2033,20 @@
         <strong>Copyright &copy; 2015-2016 <a href="http://gemalto.com">Gemalto</a>.</strong> All rights reserved.
     </footer>
 
-    <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
-        <!-- Create the tabs -->
         <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
             <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
             <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
         </ul>
-        <!-- Tab panes -->
         <div class="tab-content">
-            <!-- Home tab content -->
             <div class="tab-pane" id="control-sidebar-home-tab">
                 <h3 class="control-sidebar-heading">Recent Activity</h3>
                 <ul class="control-sidebar-menu">
                     <li>
                         <a href="javascript::;">
                             <i class="menu-icon fa fa-birthday-cake bg-red"></i>
-
                             <div class="menu-info">
                                 <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
-
                                 <p>Will be 23 on April 24th</p>
                             </div>
                         </a>
@@ -2217,10 +2065,8 @@
                     <li>
                         <a href="javascript::;">
                             <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
-
                             <div class="menu-info">
                                 <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
-
                                 <p>nora@example.com</p>
                             </div>
                         </a>
@@ -2237,8 +2083,6 @@
                         </a>
                     </li>
                 </ul>
-                <!-- /.control-sidebar-menu -->
-
                 <h3 class="control-sidebar-heading">Tasks Progress</h3>
                 <ul class="control-sidebar-menu">
                     <li>
@@ -2290,14 +2134,10 @@
                         </a>
                     </li>
                 </ul>
-                <!-- /.control-sidebar-menu -->
-
             </div>
-            <!-- /.tab-pane -->
-            <!-- Stats tab content -->
+
             <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
-            <!-- /.tab-pane -->
-            <!-- Settings tab content -->
+
             <div class="tab-pane" id="control-sidebar-settings-tab">
                 <form method="post">
                     <h3 class="control-sidebar-heading">General Settings</h3>
@@ -2312,8 +2152,6 @@
                             Some information about this general settings option
                         </p>
                     </div>
-                    <!-- /.form-group -->
-
                     <div class="form-group">
                         <label class="control-sidebar-subheading">
                             Allow mail redirect
@@ -2324,7 +2162,6 @@
                             Other sets of options are available
                         </p>
                     </div>
-                    <!-- /.form-group -->
 
                     <div class="form-group">
                         <label class="control-sidebar-subheading">
@@ -2336,8 +2173,6 @@
                             Allow the user to show his name in blog posts
                         </p>
                     </div>
-                    <!-- /.form-group -->
-
                     <h3 class="control-sidebar-heading">Chat Settings</h3>
 
                     <div class="form-group">
@@ -2346,7 +2181,6 @@
                             <input type="checkbox" class="pull-right" checked>
                         </label>
                     </div>
-                    <!-- /.form-group -->
 
                     <div class="form-group">
                         <label class="control-sidebar-subheading">
@@ -2354,32 +2188,20 @@
                             <input type="checkbox" class="pull-right">
                         </label>
                     </div>
-                    <!-- /.form-group -->
-
                     <div class="form-group">
                         <label class="control-sidebar-subheading">
                             Delete chat history
                             <a href="javascript::;" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
                         </label>
                     </div>
-                    <!-- /.form-group -->
                 </form>
             </div>
-            <!-- /.tab-pane -->
         </div>
     </aside>
-    <!-- /.control-sidebar -->
-    <!-- Add the sidebar's background. This div must be placed
-         immediately after the control sidebar -->
     <div class="control-sidebar-bg"></div>
 </div>
-<!-- ./wrapper -->
-
-<!-- jQuery 2.1.4 -->
 <script src="../../plugins/jQuery/jQuery-2.1.4.min.js"></script>
-<!-- jQuery UI 1.11.4 -->
 <script src="../../plugins/jQueryUI/jquery-ui.min.js"></script>
-<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
     /*$.widget.bridge('uibutton', $.ui.button);*/
 </script>
@@ -2387,19 +2209,15 @@
 <script src="../../bootstrap/js/bootstrap.min.js"></script>
 <script src="../../dist/js/raphael-min.js"></script>
 <script src="../../plugins/sparkline/jquery.sparkline.min.js"></script>
-<script src="../../plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="../../plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+
 <script src="../../plugins/knob/jquery.knob.js"></script>
 <script src="../../dist/js/moment.min.js"></script>
-<script src="../../plugins/daterangepicker/daterangepicker.js"></script>
-<script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
+
 <script src="../../plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
 <script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <script src="../../plugins/fastclick/fastclick.min.js"></script>
-<!-- AdminLTE App -->
 <script src="../../dist/js/app.min.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="../../dist/js/pages/dashboard.js"></script>
+<!--<script src="../../dist/js/pages/dashboard.js"></script>-->
 <script src="../../dist/js/demo.js"></script>
 <script src="../../angular/angular.min.js"></script>
 <script src="../../dist/js/controllers/lcgController.js"></script>

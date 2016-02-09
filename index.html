@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" href="dist/css/ionicons.min.css">-->
     <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
-    <!-- AdminLTE Skins. Choose a skin from the css/skins
-         folder instead of downloading all of them to reduce the load. -->
+
     <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
-    <!-- iCheck -->
+
     <link rel="stylesheet" href="plugins/iCheck/flat/blue.css">
     <link rel="stylesheet" href="plugins/morris/morris.css">
     <link rel="stylesheet" href="plugins/jvectormap/jquery-jvectormap-1.2.2.css">
@@ -20,8 +19,6 @@
     <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker-bs3.css">
     <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -328,15 +325,15 @@
                             class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-                        <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+                        <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Demo Product</a></li>
+                        <!--<li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>-->
                     </ul>
                 </li>
 
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-pie-chart"></i>
-                        <span>Charts</span>
+                        <span>Analytics</span>
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
@@ -344,9 +341,9 @@
                         </li>
                         <li><a href="pages/charts/cohort.html"><i class="fa fa-circle-o"></i> Cohort</a></li>
                         <li><a href="pages/charts/MarketBasket.html"><i class="fa fa-circle-o"></i> Market Basket</a></li>
-                        <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> Survival</a></li>
-                        <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> Hybrid</a></li>
-                        <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> Churn</a></li>
+                        <li><a href="pages/charts/survival.html"><i class="fa fa-circle-o"></i> Survival</a></li>
+                        <li><a href="pages/charts/trail2Production.html.html"><i class="fa fa-circle-o"></i> Trial to Production</a></li>
+                       <!-- <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> Churn</a></li>-->
 
                     </ul>
                 </li>
@@ -390,79 +387,12 @@
 
         <!-- Main content -->
         <section class="content">
-            <!-- Small boxes (Stat box) -->
             <div class="row">
-                <div class="col-lg-3 col-xs-6">
-                    <!-- small box -->
-                    <div class="small-box bg-aqua">
-                        <div class="inner">
-                            <h3>150</h3>
-
-                            <p>New Orders</p>
-                        </div>
-                        <div class="icon">
-                            <i class="ion ion-bag"></i>
-                        </div>
-                        <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
-                <!-- ./col -->
-                <div class="col-lg-3 col-xs-6">
-                    <!-- small box -->
-                    <div class="small-box bg-green">
-                        <div class="inner">
-                            <h3>53<sup style="font-size: 20px">%</sup></h3>
-
-                            <p>Bounce Rate</p>
-                        </div>
-                        <div class="icon">
-                            <i class="ion ion-stats-bars"></i>
-                        </div>
-                        <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
-                <!-- ./col -->
-                <div class="col-lg-3 col-xs-6">
-                    <!-- small box -->
-                    <div class="small-box bg-yellow">
-                        <div class="inner">
-                            <h3>44</h3>
-
-                            <p>User Registrations</p>
-                        </div>
-                        <div class="icon">
-                            <i class="ion ion-person-add"></i>
-                        </div>
-                        <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
-                <!-- ./col -->
-                <div class="col-lg-3 col-xs-6">
-                    <!-- small box -->
-                    <div class="small-box bg-red">
-                        <div class="inner">
-                            <h3>65</h3>
-
-                            <p>Unique Visitors</p>
-                        </div>
-                        <div class="icon">
-                            <i class="ion ion-pie-graph"></i>
-                        </div>
-                        <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
-                <!-- ./col -->
-            </div>
-            <!-- /.row -->
-            <!-- Main row -->
-            <div class="row">
-                <!-- Left col -->
                 <section class="col-lg-7 connectedSortable">
-                    <!-- Custom tabs (Charts with tabs)-->
                     <div class="box-info box">
                         <div class="box-header ui-sortable-handle" style="cursor: move">
-                            <i class="fa fa-envelope"></i>
-                            <h3 class="box-title">Types of Customers</h3>
+                            <i class="fa fa-area-chart"></i>
+                            <h3 class="box-title">Performance Statistics of Product</h3>
                             <div class="pull-right box-tools">
                                 <button class="btn btn-info btn-sm" data-widget="remove" data-toggle="tooltip" title="remove">
                                     <i class="fa fa-times"></i>
@@ -497,144 +427,9 @@
                                  style="position: relative; height: 300px;"></div>
                         </div>
                     </div>
-                    <div class="box box-info">
-                        <div class="box-header ui-sortable-handle" style="cursor: move">
-                            <i class="fa fa-envelope"></i>
-                            <h3 class="box-title">Report Parameters</h3>
-                            <div class="pull-right box-tools">
-                                <button class="btn btn-info btn-sm" data-widget="remove" data-toggle="tooltip" title="remove">
-                                    <i class="fa fa-times"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="box-body">
-                                <div id="container" style="position: relative; width: 550px; height:300px;margin: 10px; overflow: visible;"></div>
-                                <script>
-                                    d3.csv('data/data.csv', function(data) {
-                                        var nestedData = d3.nest()
-                                                .key(function(d) {
-                                                    return d.Country;
-                                                })
-                                                .rollup(function(leave) { return leave.length; })
-                                                .key(function(d) {
-                                                    return d.Type_of_customer;
-                                                })
-                                                .rollup(function(leaves) { return leaves.length; })
-                                                .entries(data);
-
-                                        mapping(nestedData);
-                                    });
-                                    function mapping(data) {
-
-
-                                        var map = new Datamap({element: document.getElementById('container'),
-                                            projection: 'mercator',
-                                            geographyConfig: {
-
-                                                popupTemplate: function(geography, data) {
-                                                    return '<div class="hoverinfo" style="overflow: visible;width: 210px;">' + '<b>'+geography.properties.name+'<hr style="margin: 0px;">' + '</b>Best Cusomters :<b>' +  data.BestCustomers + '</b><br>Former Best Customers :<b>' +
-                                                            data.FormerBestCustomers+'</b><br> New Client: <b>' + data.NewUsers+'</b><br> One Time Users: <b>'+data.OneTimeUser+'</b>';
-                                                },
-                                                highlightBorderWidth: 1
-                                            },
-
-                                            fills: {
-                                                defaultFill: "#ABDDA4",
-                                                authorHasTraveledTo: "#92C1DC",
-                                            },
-                                            data: {
-                                                AUS: {
-                                                    fillKey: "authorHasTraveledTo",
-                                                    'BestCustomers': 15,
-                                                    'FormerBestCustomers':45,
-                                                    'NewUsers': 65,
-                                                    'OneTimeUser': 43
-
-                                                },
-                                                FRA: {
-                                                    fillKey: "authorHasTraveledTo",
-                                                    'BestCustomers': 154,
-                                                    'FormerBestCustomers':345,
-                                                    'NewUsers': 655,
-                                                    'OneTimeUser': 434
-                                                },
-                                                DEU: {
-                                                    fillKey: "authorHasTraveledTo",
-                                                    'BestCustomers': 154,
-                                                    'FormerBestCustomers':456,
-                                                    'NewUsers': 652,
-                                                    'OneTimeUser': 543
-                                                },
-                                                GBR: {
-                                                    fillKey: "authorHasTraveledTo",
-                                                    'BestCustomers': 6715,
-                                                    'FormerBestCustomers':245,
-                                                    'NewUsers': 654,
-                                                    'OneTimeUser': 743
-                                                },
-                                                JPN: {
-                                                    fillKey: "authorHasTraveledTo",
-                                                    'BestCustomers': 315,
-                                                    'FormerBestCustomers':445,
-                                                    'NewUsers': 656,
-                                                    'OneTimeUser': 543
-                                                },
-                                                USA: {
-                                                    fillKey: "authorHasTraveledTo",
-                                                    'BestCustomers': 315,
-                                                    'FormerBestCustomers':245,
-                                                    'NewUsers': 465,
-                                                    'OneTimeUser': 743
-                                                },
-                                                ESP: {
-                                                    fillKey: "authorHasTraveledTo",
-                                                    'BestCustomers': 115,
-                                                    'FormerBestCustomers':945,
-                                                    'NewUsers': 652,
-                                                    'OneTimeUser': 443
-                                                },
-                                                BRA: {
-                                                    fillKey: "authorHasTraveledTo",
-                                                    'BestCustomers': 115,
-                                                    'FormerBestCustomers':945,
-                                                    'NewUsers': 652,
-                                                    'OneTimeUser': 443
-                                                },
-                                                CAN: {
-                                                    fillKey: "authorHasTraveledTo",
-                                                    'BestCustomers': 4115,
-                                                    'FormerBestCustomers':6945,
-                                                    'NewUsers': 6522,
-                                                    'OneTimeUser': 4453
-                                                },
-                                                RUS: {
-                                                    fillKey: "authorHasTraveledTo",
-                                                    'BestCustomers': 1125,
-                                                    'FormerBestCustomers':9445,
-                                                    'NewUsers': 6252,
-                                                    'OneTimeUser': 4343
-                                                },
-                                                IND: {
-                                                    fillKey: "authorHasTraveledTo",
-                                                    'BestCustomers': 1135,
-                                                    'FormerBestCustomers':9454,
-                                                    'NewUsers': 6522,
-                                                    'OneTimeUser': 4443
-                                                }
-
-
-                                            }
-
-                                        });
-                                    }
-
-                                </script>
-                        </div>
-                    </div>
-                    <!-- /.nav-tabs-custom -->
                     <div class="box-info box">
                         <div class="box-header ui-sortable-handle" style="cursor: move">
-                            <i class="fa fa-envelope"></i>
+                            <i class="fa fa-bar-chart"></i>
                             <h3 class="box-title">Lead Source vs Region Conversion Count</h3>
                             <div class="pull-right box-tools">
                                 <button class="btn btn-info btn-sm" data-widget="remove" data-toggle="tooltip" title="remove">
@@ -693,8 +488,8 @@
                     </div>
                     <div class="box-info box">
                         <div class="box-header ui-sortable-handle" style="cursor: move">
-                            <i class="fa fa-envelope"></i>
-                            <h3 class="box-title">Lead Source vs Region Conversion Count</h3>
+                            <i class="fa fa-bar-chart"></i>
+                            <h3 class="box-title">Top Operating System wise Conversion</h3>
                             <div class="pull-right box-tools">
                                 <button class="btn btn-info btn-sm" data-widget="remove" data-toggle="tooltip" title="remove">
                                     <i class="fa fa-times"></i>
@@ -715,7 +510,140 @@
                                  style="position: relative; height: 300px;"></div>
                         </div>
                     </div>
-                    <!-- quick email widget -->
+                    <div class="box box-info">
+                        <div class="box-header ui-sortable-handle" style="cursor: move">
+                            <i class="fa fa-map-marker"></i>
+                            <h3 class="box-title">Region wise Distribution of Customers</h3>
+                            <div class="pull-right box-tools">
+                                <button class="btn btn-info btn-sm" data-widget="remove" data-toggle="tooltip" title="remove">
+                                    <i class="fa fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div id="container" style="position: relative; width: 550px; height:300px;margin: 10px; overflow: visible;"></div>
+                            <script>
+                                d3.csv('data/data.csv', function(data) {
+                                    var nestedData = d3.nest()
+                                            .key(function(d) {
+                                                return d.Country;
+                                            })
+                                            .rollup(function(leave) { return leave.length; })
+                                            .key(function(d) {
+                                                return d.Type_of_customer;
+                                            })
+                                            .rollup(function(leaves) { return leaves.length; })
+                                            .entries(data);
+
+                                    mapping(nestedData);
+                                });
+                                function mapping(data) {
+
+
+                                    var map = new Datamap({element: document.getElementById('container'),
+                                        projection: 'mercator',
+                                        geographyConfig: {
+
+                                            popupTemplate: function(geography, data) {
+                                                return '<div class="hoverinfo" style="overflow: visible;width: 210px;">' + '<b>'+geography.properties.name+'<hr style="margin: 0px;">' + '</b>Best Cusomters :<b>' +  data.BestCustomers + '</b><br>Former Best Customers :<b>' +
+                                                        data.FormerBestCustomers+'</b><br> New Client: <b>' + data.NewUsers+'</b><br> One Time Users: <b>'+data.OneTimeUser+'</b>';
+                                            },
+                                            highlightBorderWidth: 1
+                                        },
+
+                                        fills: {
+                                            defaultFill: "#ABDDA4",
+                                            authorHasTraveledTo: "#92C1DC",
+                                        },
+                                        data: {
+                                            AUS: {
+                                                fillKey: "authorHasTraveledTo",
+                                                'BestCustomers': 15,
+                                                'FormerBestCustomers':45,
+                                                'NewUsers': 65,
+                                                'OneTimeUser': 43
+
+                                            },
+                                            FRA: {
+                                                fillKey: "authorHasTraveledTo",
+                                                'BestCustomers': 154,
+                                                'FormerBestCustomers':345,
+                                                'NewUsers': 655,
+                                                'OneTimeUser': 434
+                                            },
+                                            DEU: {
+                                                fillKey: "authorHasTraveledTo",
+                                                'BestCustomers': 154,
+                                                'FormerBestCustomers':456,
+                                                'NewUsers': 652,
+                                                'OneTimeUser': 543
+                                            },
+                                            GBR: {
+                                                fillKey: "authorHasTraveledTo",
+                                                'BestCustomers': 6715,
+                                                'FormerBestCustomers':245,
+                                                'NewUsers': 654,
+                                                'OneTimeUser': 743
+                                            },
+                                            JPN: {
+                                                fillKey: "authorHasTraveledTo",
+                                                'BestCustomers': 315,
+                                                'FormerBestCustomers':445,
+                                                'NewUsers': 656,
+                                                'OneTimeUser': 543
+                                            },
+                                            USA: {
+                                                fillKey: "authorHasTraveledTo",
+                                                'BestCustomers': 315,
+                                                'FormerBestCustomers':245,
+                                                'NewUsers': 465,
+                                                'OneTimeUser': 743
+                                            },
+                                            ESP: {
+                                                fillKey: "authorHasTraveledTo",
+                                                'BestCustomers': 115,
+                                                'FormerBestCustomers':945,
+                                                'NewUsers': 652,
+                                                'OneTimeUser': 443
+                                            },
+                                            BRA: {
+                                                fillKey: "authorHasTraveledTo",
+                                                'BestCustomers': 115,
+                                                'FormerBestCustomers':945,
+                                                'NewUsers': 652,
+                                                'OneTimeUser': 443
+                                            },
+                                            CAN: {
+                                                fillKey: "authorHasTraveledTo",
+                                                'BestCustomers': 4115,
+                                                'FormerBestCustomers':6945,
+                                                'NewUsers': 6522,
+                                                'OneTimeUser': 4453
+                                            },
+                                            RUS: {
+                                                fillKey: "authorHasTraveledTo",
+                                                'BestCustomers': 1125,
+                                                'FormerBestCustomers':9445,
+                                                'NewUsers': 6252,
+                                                'OneTimeUser': 4343
+                                            },
+                                            IND: {
+                                                fillKey: "authorHasTraveledTo",
+                                                'BestCustomers': 1135,
+                                                'FormerBestCustomers':9454,
+                                                'NewUsers': 6522,
+                                                'OneTimeUser': 4443
+                                            }
+
+
+                                        }
+
+                                    });
+                                }
+
+                            </script>
+                        </div>
+                    </div>
                     <div class="box box-info">
                         <div class="box-header">
                             <i class="fa fa-envelope"></i>
@@ -747,10 +675,56 @@
                                     class="fa fa-arrow-circle-right"></i></button>
                         </div>
                     </div>
-
                 </section>
 
                 <section class="col-lg-5 connectedSortable">
+
+                    <div class="box box-info">
+                        <div class="box-header ui-sortable-handle" style="cursor:move;">
+                            <i class="fa fa-table"></i>
+                            <h3 class="box-title">Top 5 Products</h3>
+                            <div class="pull-right box-tools">
+                                <button class="btn btn-sm btn-info" data-toggle="tooltip" title="remove" data-widget="remove">
+                                    <i class="fa fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="table">
+                                        <table class="table">
+                                            <tr><th>Product Name</th><th>Quantity</th></tr>
+                                            <tr><td>HL1</td><td>5</td></tr>
+                                            <tr><td>Safenet Design Office</td><td>3</td></tr>
+                                            <tr><td>Demo HL1</td><td>3</td></tr>
+                                            <tr><td>Safenet Memo Card Plugin</td><td>3</td></tr>
+                                            <tr><td>Demo HL Product</td><td>2</td></tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box box-info">
+                        <div class="box-header ui-sortable-handle" style="cursor:move;">
+                            <i class="fa fa-pie-chart"></i>
+                            <h3 class="box-title">Regionwise Conversion</h3>
+                            <div class="pull-right box-tools">
+                                <button class="btn btn-sm btn-info" data-toggle="tooltip" title="remove" data-widget="remove">
+                                    <i class="fa fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <br><br><br>
+                                    <div id="region-conv-pie" style="margin-left: 17%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="box box-solid bg-light-blue-gradient">
                         <div class="box-header">
@@ -770,36 +744,14 @@
                         <div class="box-body">
                             <div id="world-map" style="height: 250px; width: 100%;"></div>
                         </div>
-                        <!-- /.box-body-->
-                       <!-- <div class="box-footer no-border">
-                            <div class="row">
-                                <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-                                    <div id="sparkline-1"></div>
-                                    <div class="knob-label">Visitors</div>
-                                </div>
-                                &lt;!&ndash; ./col &ndash;&gt;
-                                <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-                                    <div id="sparkline-2"></div>
-                                    <div class="knob-label">Online</div>
-                                </div>
-                                &lt;!&ndash; ./col &ndash;&gt;
-                                <div class="col-xs-4 text-center">
-                                    <div id="sparkline-3"></div>
-                                    <div class="knob-label">Exists</div>
-                                </div>
-                                &lt;!&ndash; ./col &ndash;&gt;
-                            </div>
-                            &lt;!&ndash; /.row &ndash;&gt;
-                        </div>-->
-                    </div>
-                    <!-- /.box -->
 
-                    <!-- solid sales graph -->
+                    </div>
+
                     <div class="box box-solid bg-teal-gradient">
                         <div class="box-header">
-                            <i class="fa fa-th"></i>
+                            <i class="fa fa-line-chart"></i>
 
-                            <h3 class="box-title">New Users Per Month</h3>
+                            <h3 class="box-title">New Users Month wise</h3>
 
                             <div class="box-tools pull-right">
                                 <button class="btn bg-teal btn-sm" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -826,37 +778,35 @@
 
                         </div>
                         <!-- /.box-body -->
-                       <!-- <div class="box-footer no-border">
-                            <div class="row">
-                                <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-                                    <input type="text" class="knob" data-readonly="true" value="20" data-width="60"
-                                           data-height="60" data-fgColor="#39CCCC">
+                        <!-- <div class="box-footer no-border">
+                             <div class="row">
+                                 <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
+                                     <input type="text" class="knob" data-readonly="true" value="20" data-width="60"
+                                            data-height="60" data-fgColor="#39CCCC">
 
-                                    <div class="knob-label">Mail-Orders</div>
-                                </div>
-                                &lt;!&ndash; ./col &ndash;&gt;
-                                <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-                                    <input type="text" class="knob" data-readonly="true" value="50" data-width="60"
-                                           data-height="60" data-fgColor="#39CCCC">
+                                     <div class="knob-label">Mail-Orders</div>
+                                 </div>
+                                 &lt;!&ndash; ./col &ndash;&gt;
+                                 <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
+                                     <input type="text" class="knob" data-readonly="true" value="50" data-width="60"
+                                            data-height="60" data-fgColor="#39CCCC">
 
-                                    <div class="knob-label">Online</div>
-                                </div>
-                                &lt;!&ndash; ./col &ndash;&gt;
-                                <div class="col-xs-4 text-center">
-                                    <input type="text" class="knob" data-readonly="true" value="30" data-width="60"
-                                           data-height="60" data-fgColor="#39CCCC">
+                                     <div class="knob-label">Online</div>
+                                 </div>
+                                 &lt;!&ndash; ./col &ndash;&gt;
+                                 <div class="col-xs-4 text-center">
+                                     <input type="text" class="knob" data-readonly="true" value="30" data-width="60"
+                                            data-height="60" data-fgColor="#39CCCC">
 
-                                    <div class="knob-label">In-Store</div>
-                                </div>
-                                &lt;!&ndash; ./col &ndash;&gt;
-                            </div>
-                            &lt;!&ndash; /.row &ndash;&gt;
-                        </div>-->
+                                     <div class="knob-label">In-Store</div>
+                                 </div>
+                                 &lt;!&ndash; ./col &ndash;&gt;
+                             </div>
+                             &lt;!&ndash; /.row &ndash;&gt;
+                         </div>-->
                         <!-- /.box-footer -->
                     </div>
-                    <!-- /.box -->
 
-                    <!-- Calendar -->
                     <div class="box box-solid bg-green-gradient">
                         <div class="box-header">
                             <i class="fa fa-calendar"></i>
@@ -919,53 +869,6 @@
                                     <div class="progress xs">
                                         <div class="progress-bar progress-bar-green" style="width: 40%;"></div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box box-info">
-                        <div class="box-header ui-sortable-handle" style="cursor:move;">
-                            <i class="fa fa-envelope"></i>
-                            <h3 class="box-title">Top 5 Products</h3>
-                            <div class="pull-right box-tools">
-                                <button class="btn btn-sm btn-info" data-toggle="tooltip" title="remove" data-widget="remove">
-                                    <i class="fa fa-times"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="box-body">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="table">
-                                        <table class="table">
-                                            <tr><th>Product Name</th><th>Quantity</th></tr>
-                                            <tr><td>HL1</td><td>5</td></tr>
-                                            <tr><td>Safenet Design Office</td><td>3</td></tr>
-                                            <tr><td>Demo HL1</td><td>3</td></tr>
-                                            <tr><td>Safenet Memo Card Plugin</td><td>3</td></tr>
-                                            <tr><td>Demo HL Product</td><td>2</td></tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box box-info">
-                        <div class="box-header ui-sortable-handle" style="cursor:move;">
-                            <i class="fa fa-envelope"></i>
-                            <h3 class="box-title">Regionwise Conversion</h3>
-                            <div class="pull-right box-tools">
-                                <button class="btn btn-sm btn-info" data-toggle="tooltip" title="remove" data-widget="remove">
-                                    <i class="fa fa-times"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="box-body">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <br><br><br>
-                                    <div id="region-conv-pie" style="margin-left: 17%"></div>
                                 </div>
                             </div>
                         </div>

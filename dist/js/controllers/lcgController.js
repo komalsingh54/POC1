@@ -4155,7 +4155,14 @@ app.directive('histogramFrequency', ['$filter', function ($filter) {
                 var map = data.map(function (i) {
                     return parseInt(i.frequency);
                 });
+                var tip = d3.tip()
+                    .attr('class', 'd3-tip')
+                    .offset([120, 20])
+                    .html(function (d) {
+                        return '&nbsp;&nbsp;Frequency: ' + d.y;
+                    });
 
+                svg.call(tip);
                 var xScale = d3.scale.linear()
                     .domain([0, d3.max(map)])
                     .range([0, width]);
@@ -4207,19 +4214,8 @@ app.directive('histogramFrequency', ['$filter', function ($filter) {
                         return xBinwidth;
                     })
                     .attr("height", 0)
-                    .on('mouseover', function(d,i) {
-                        div.transition()
-                            .duration(200)
-                            .style("opacity", .9);
-                        div.html(' &nbsp;&nbsp;Recency Counts : ' + d.y + " &nbsp;&nbsp; <br>")
-                            .style("left", (d3.mouse(this)[0]) + "px")
-                            .style("top", (d3.mouse(this)[1]) + "px");
-                    })
-                    .on('mouseout', function(d,i) {
-                        div.transition()
-                            .duration(500)
-                            .style("opacity", 0);
-                    });
+                    .on('mouseover', tip.show)
+                    .on('mouseout', tip.hide);
 
                 tmp.transition()
                     .attr('height', function (d) {

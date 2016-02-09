@@ -100,6 +100,13 @@ app.controller('trailController', function($scope, $http) {
                     .innerTickSize(-width)
                     .outerTickSize(0);
 
+                var tip = d3.tip()
+                    .attr('class', 'd3-tip')
+                    .offset([120, 20])
+                    .html(function (d) {
+                        return "<strong>Total Conversion :  &nbsp;</strong>" +  d.value;
+                    });
+
                 d3.select('#bar-chart').selectAll('svg').remove();
 
                 var svg = d3.select("#bar-chart").append("svg")
@@ -108,9 +115,8 @@ app.controller('trailController', function($scope, $http) {
                     .append("g")
                     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-                var div = d3.select("#bar-chart").append("div")
-                    .attr("class", "tooltip")
-                    .style("opacity", 0);
+
+                svg.call(tip);
 
                 var ageNames = d3.keys(data[0]).filter(function (key) {
                     return key !== "key";
@@ -177,20 +183,8 @@ app.controller('trailController', function($scope, $http) {
                     .style("fill", function (d) {
                         return color(d.name);
                     })
-                    .on('mouseover', function (d, i) {
-
-                        div.transition()
-                            .duration(200)
-                            .style("opacity", .9);
-                        div.html('Total Conversion : ' + d.value + "  ")
-                            .style("left", (d3.event.pageX-250 ) + "px")
-                            .style("top", (d3.mouse(this)[1]) + "px");
-                    })
-                    .on('mouseout', function (d, i) {
-                        div.transition()
-                            .duration(500)
-                            .style("opacity", 0);
-                    });
+                    .on('mouseover', tip.show)
+                    .on('mouseout',  tip.hide);
 
                 state_rect.transition()
                     .attr('height', function (d) {

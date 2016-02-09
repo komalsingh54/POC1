@@ -18,5 +18,9 @@
   "homepage": "https://github.com/komalsingh54/POC1#readme",
   "dependencies": {
     "datamaps": "^0.4.2"
+  },
+  "devDependencies": {
+    "requirejs": "^2.1.22",
+    "tape": "^4.2.2"
   }
 }
