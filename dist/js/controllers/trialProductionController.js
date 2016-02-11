@@ -225,40 +225,9 @@ app.controller('trailController', function($scope, $http) {
             text: 'Prediction',
             arcColor: "skyblue"
         };
-        $http.get('../../data/trial2Production.json').success(function (datas) {
+        $http.get('../../data/trial2Production.json').success(function (data) {
 
 
-            data = datas.filter(function (d) {
-                if($scope.x_axis1 == 'Windows7')
-                    return d.Operating_system == 'Windows7';
-                if($scope.x_axis1 == 'Windows8')
-                    return d.Operating_system == 'Windows8';
-                if($scope.x_axis1 == 'Windows10')
-                    return d.Operating_system == 'Windows10';
-                if($scope.x_axis1 == 'Android')
-                    return d.Operating_system == 'Android';
-                if($scope.x_axis1 == 'iOS')
-                    return d.Operating_system == 'iOS';
-                if($scope.x_axis1 == 'Linux')
-                    return d.Operating_system == 'Linux';
-            });
-
-            $scope.$watch('x_axis1', function (x_axis1) {
-                data = datas.filter(function (d) {
-                    if(x_axis1 == 'Windows7')
-                        return d.Operating_system == 'Windows7';
-                    if(x_axis1 == 'Windows8')
-                        return d.Operating_system == 'Windows8';
-                    if(x_axis1 == 'Windows10')
-                        return d.Operating_system == 'Windows10';
-                    if(x_axis1 == 'Android')
-                        return d.Operating_system == 'Android';
-                    if(x_axis1 == 'iOS')
-                        return d.Operating_system == 'iOS';
-                    if(x_axis1 == 'Linux')
-                        return d.Operating_system == 'Linux';
-                });
-            });
             var mapdata = data.map(function (d) { return { count: d.Day1_Feature1, Device: d.Device, Operating_system: d.Operating_system, predict: d.Predict};});
 
             var mapdata2 = data.map(function (d) {return { count: d.Day2_Feature2, Device: d.Device, Operating_system: d.Operating_system, predict: d.Predict};});

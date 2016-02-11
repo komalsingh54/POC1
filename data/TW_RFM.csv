@@ -1,11 +1,11 @@
-FeatureID,cart,recency,requency,quantity,client
+FeatureID,cart,recency,frequency,quantity,client
 Feature 2,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Poor Recency,Very Low Frequency,1,client
 Feature 3,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Moderate Recency,Poor Frequency,1,client
 Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Poor Recency,Poor Frequency,1,client
 Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Very Low Recency,Poor Frequency,1,client
 Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Low Recency,Very Low Frequency,1,client
 Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Low Recency,Poor Frequency,1,client
-Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Moderate Recency,Poor Frequency,3,client
+Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Moderate Recency,High Frequency,3,client
 Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,High Recency,Poor Frequency,3,client
 Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Very High Recency,Very High Frequency,3,client
 Feature 4,SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7,Very High Recency,Moderate Frequency,1,client

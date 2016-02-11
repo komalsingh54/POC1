@@ -22,7 +22,7 @@ app.controller('survivalController', function ($scope, $http) {
     });
 
     var engagement = function(data, id, title) {
-        var margin = {top: 50, right: 90, bottom: 45, left: 50},
+        var margin = {top: 50, right: 130, bottom: 45, left: 40},
             width = $('#'+id).width() - margin.left - margin.right,
             height = $('#'+id).height() - margin.top - margin.bottom;
 
@@ -70,7 +70,7 @@ app.controller('survivalController', function ($scope, $http) {
         });
 
         x.domain([0,d3.max(data, function(d) { return d.Time+15; })]);
-        y.domain([0,d3.max(data, function(d) { return d.Cummlative_hazard; })]);
+        y.domain([0,1/*d3.max(data, function(d) { return d.Cummlative_hazard; })*/]);
 
         var dataNest = d3.nest()
             .key(function(d) {return d.Strata;})
@@ -95,7 +95,7 @@ app.controller('survivalController', function ($scope, $http) {
         else if( title == '')
             titles = 'Survival Deistribution by Postpaid or Others';
         else
-            titles = 'Rate of Customer Engagement';
+            titles = 'Rate of Customer Churn';
 
         svg.append("text")
             .attr("class", "graphtitle")
@@ -160,7 +160,7 @@ app.controller('survivalController', function ($scope, $http) {
         //silver low cc
         var legendDiv = svg.append('g')
             .attr("class", "legendDiv")
-            .style('width', '280px')
+            .style('width', '300px')
             .style('height', '100px')
             .attr('y', height)
             .style("background", "#E9F0FC");
@@ -171,7 +171,7 @@ app.controller('survivalController', function ($scope, $http) {
             .attr("class", "legend")
             .style("background", "#E9F0FC")
             .attr("transform", function (d, i) {
-                return "translate(30," + i * 18 + ")";
+                return "translate(10," + i * 18 + ")";
             });
 
         legend.append("rect")
@@ -183,7 +183,7 @@ app.controller('survivalController', function ($scope, $http) {
             });
 
         legend.append("text")
-            .attr("x", width + 18)
+            .attr("x", width +15)
             .attr("y", 7)
             .attr("dy", ".35em")
             .style("font-size", "12")
@@ -194,7 +194,7 @@ app.controller('survivalController', function ($scope, $http) {
                     else if(title == 'pre_post_survival')
                         return 'Low ' + 'Postpaid or Others';
                     else
-                        return 'Rate of Customer Engagement';
+                        return 'Rate of Customer Churn';
                 }
                 else
                 {
@@ -203,7 +203,7 @@ app.controller('survivalController', function ($scope, $http) {
                     else if(title == 'pre_post_survival')
                         return 'High ' + 'Postpaid or Others';
                     else
-                        return 'Rate of Customer Engagement';
+                        return 'Rate of Customer Churn';
                 }
             });
     };
@@ -344,7 +344,7 @@ app.controller('survivalController', function ($scope, $http) {
 
         var legendDiv = svg.append('g')
             .attr("class", "legendDiv")
-            .style('width', '280px')
+            .style('width', '3000px')
             .style('height', '100px')
             .attr('y', height)
             .style("background", "#E9F0FC");
@@ -359,7 +359,7 @@ app.controller('survivalController', function ($scope, $http) {
             });
 
         legend.append("rect")
-            .attr("x", width)
+            .attr("x", width-5)
             .attr("width", 12)
             .attr("height", 12)
             .style("fill", function (d) {
@@ -378,7 +378,7 @@ app.controller('survivalController', function ($scope, $http) {
                     else if(title == '')
                         return 'Low ' + 'Postpaid or Others';
                     else
-                        return 'Rate of Customer Churn';
+                        return 'Rate of Customer Engaged';
                 }
                 else
                 {
@@ -387,7 +387,7 @@ app.controller('survivalController', function ($scope, $http) {
                     else if(title == 'pre_post_survival')
                         return 'High ' + 'Postpaid or Others';
                     else
-                        return 'Rate of Customer Churn';
+                        return 'Rate of Customer Engaged';
                 }
 
             });
@@ -427,7 +427,7 @@ app.controller('survivalController', function ($scope, $http) {
         });
         $http.get('../../data/fullSurvival.json').success(function (data1) {
             $scope.data1 = data1;
-            churn(data1, 'miles2', 'Rate of Customer Churn');
+            churn(data1, 'miles2', 'Rate of Customer Engaged');
 
         });
 

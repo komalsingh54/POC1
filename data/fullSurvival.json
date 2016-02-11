@@ -1861,50 +1861,5 @@
     "Surv": 0.473801597,
     "Cummlative_hazard": 0.746966617,
     "Strata": 1
-  },
-  {
-    "Time": 221,
-    "Risk": 7,
-    "Event": 0,
-    "Censor": 1,
-    "Surv": 0.473801597,
-    "Cummlative_hazard": 0.746966617,
-    "Strata": 1
-  },
-  {
-    "Time": 224,
-    "Risk": 6,
-    "Event": 1,
-    "Censor": 1,
-    "Surv": 0.375203109,
-    "Cummlative_hazard": 0.980287774,
-    "Strata": 1
-  },
-  {
-    "Time": 225,
-    "Risk": 4,
-    "Event": 1,
-    "Censor": 1,
-    "Surv": 0.25801251,
-    "Cummlative_hazard": 1.354747209,
-    "Strata": 1
-  },
-  {
-    "Time": 232,
-    "Risk": 2,
-    "Event": 0,
-    "Censor": 1,
-    "Surv": 0.25801251,
-    "Cummlative_hazard": 1.354747209,
-    "Strata": 1
-  },
-  {
-    "Time": 243,
-    "Risk": 1,
-    "Event": 0,
-    "Censor": 1,
-    "Surv": 0.25801251,
-    "Cummlative_hazard": 1.354747209,
-    "Strata": 1
   }
 ]

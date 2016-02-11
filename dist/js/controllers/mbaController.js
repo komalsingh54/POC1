@@ -44,6 +44,8 @@ mbaApp.controller('mbaController', function ($scope, mbaService, $http) {
                 return d.FeatureID;
             }).entries(data);
 
+        console.log(nestedData);
+
         $scope.ddData = {selectedID: 3};
         $scope.mbaData = nestedData;
 
@@ -209,7 +211,7 @@ mbaApp.controller('mbaController', function ($scope, mbaService, $http) {
             var div_width = $("#bar-chart").width();
             var div_height = $("#bar-chart").height();
 
-            var margin = {top: 20, right: 130, bottom: 100, left: 30},
+            var margin = {top: 20, right: 130, bottom: 120, left: 30},
                 width = div_width - margin.left - margin.right,
                 height = div_height - margin.top - margin.bottom;
 
@@ -381,6 +383,15 @@ mbaApp.controller('mbaController', function ($scope, mbaService, $http) {
                     .attr("transform", function (d) {
                         return "rotate(-45)"
                     });
+
+                svg.append("text")
+                    .attr("x", width/3)
+                    .attr("y", height+(margin.bottom/1.5))
+                    .attr('class', 'titles')
+                    .attr("dy", ".35em")
+                    .text('Top 5 Recommend Products')
+                    .style('text-anchor', 'mid')
+                    .style('font-size', 17);
 
                 var legendDiv = svg.append('g')
                     .attr("class", "legendDiv")
@@ -632,7 +643,7 @@ mbaApp.controller('mbaController', function ($scope, mbaService, $http) {
             var div_width = $("#bar-chart").width();
             var div_height = $("#bar-chart").height();
 
-            var margin = {top: 20, right: 130, bottom: 100, left: 30},
+            var margin = {top: 20, right: 130, bottom: 120, left: 30},
                 width = div_width - margin.left - margin.right,
                 height = div_height - margin.top - margin.bottom;
 
@@ -804,6 +815,14 @@ mbaApp.controller('mbaController', function ($scope, mbaService, $http) {
                     .attr("transform", function (d) {
                         return "rotate(-45)"
                     });
+                svg.append("text")
+                    .attr("x", width/3)
+                    .attr("y", height+(margin.bottom/1.5))
+                    .attr('class', 'titles')
+                    .attr("dy", ".35em")
+                    .text('Top 5 Recommend Feature')
+                    .style('text-anchor', 'mid')
+                    .style('font-size', 17);
 
                 var legendDiv = svg.append('g')
                     .attr("class", "legendDiv")

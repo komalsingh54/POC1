@@ -6,7 +6,6 @@ var app = angular.module('Lcg', [])
         return {
             get: function (callback) {
                 $http.get('../../data/lcg.json').success(function (data) {
-                    // prepare data here
                     callback(data);
                 });
             }
@@ -15,8 +14,16 @@ var app = angular.module('Lcg', [])
     .factory('myRFMService', ['$http', function ($http) {
         return {
             get: function (callback) {
+                $http.get('../../data/TW_RFM.json').success(function (data) {
+                    callback(data);
+                });
+            }
+        };
+    }])
+    .factory('myHistService', ['$http', function ($http) {
+        return {
+            get: function (callback) {
                 $http.get('../../data/RFM.json').success(function (data) {
-                    // prepare data here
                     callback(data);
                 });
             }
@@ -26,7 +33,6 @@ var app = angular.module('Lcg', [])
         return {
             get: function (callback) {
                 $http.get('../../data/lcg.json').success(function (data) {
-                    // prepare data here
                     callback(data);
                 });
             }
@@ -36,7 +42,6 @@ var app = angular.module('Lcg', [])
         return {
             get: function (callback) {
                 $http.get('../../data/lcg_lcv.json').success(function (data) {
-                    // prepare data here
                     callback(data);
                 });
             }
@@ -46,17 +51,19 @@ var app = angular.module('Lcg', [])
         return {
             get: function (callback) {
                 $http.get('../../data/lcg_lcv.json').success(function (data) {
-                    // prepare data here
                     callback(data);
                 });
             }
         };
     }]);
 
-app.controller("lcgController", function ($scope, $http, myService, myRFMService, myServiceP, myServiceclc, myServiceMLC) {
+app.controller("lcgController", function ($scope, $http, myService, myRFMService, myServiceP, myServiceclc, myServiceMLC, myHistService) {
 
     myService.get(function (data) {
         $scope.tags = (data);
+    });
+    myHistService.get(function (data) {
+        $scope.hist = (data);
     });
     myRFMService.get(function (data) {
         $scope.tags1 = (data);
@@ -2345,15 +2352,80 @@ app.filter('filterDataclc', function () {
 });
 
 app.filter('filterDatas', function () {
-    return function (data, searchFor) {
-        var property = Object.keys(searchFor)[0];
-        var result = [];
-        for (var i = 0; i < data.length; i++) {
-            if (data[i][property].indexOf(searchFor[property]) > -1) {
-                result.push(data[i]);
-            }
-        }
-        return result;
+    return function (data, searchFor, id) {
+        if(id == 'barss1')
+            return 0;
+        if(id == 'barss2')
+            return 0;
+        if(id == 'barss3')
+            return 0;
+        if(id == 'barss4')
+            return 0;
+        if(id == 'barss5')
+            return 0;
+        if(id == 'barss6')
+            return 3;
+        if(id == 'barss7')
+            return 0;
+        if(id == 'barss8')
+            return 0;
+        if(id == 'barss9')
+            return 0;
+        if(id == 'barss10')
+            return 3;
+        if(id == 'barss11')
+            return 0;
+        if(id == 'barss12')
+            return 0;
+        if(id == 'barss13')
+            return 0;
+        if(id == 'barss14')
+            return 0;
+        if(id == 'barss15')
+            return 0;
+        if(id == 'barss16')
+            return 0;
+        if(id == 'barss17')
+            return 0;
+        if(id == 'barss18')
+            return 1;
+        if(id == 'barss19')
+            return 0;
+        if(id == 'barss20')
+            return 0;
+        if(id == 'barss21')
+            return 0;
+        if(id == 'barss22')
+            return 0;
+        if(id == 'barss23')
+            return 0;
+        if(id == 'barss24')
+            return 0;
+        if(id == 'barss25')
+            return 1;
+        if(id == 'barss26')
+            return 0;
+        if(id == 'barss27')
+            return 1;
+        if(id == 'barss28')
+            return 0;
+        if(id == 'barss29')
+            return 0;
+        if(id == 'barss30')
+            return 2;
+        if(id == 'barss31')
+            return 2;
+        if(id == 'barss32')
+            return 1;
+        if(id == 'barss33')
+            return 0;
+        if(id == 'barss34')
+            return 1;
+        if(id == 'barss35')
+            return 2
+        if(id == 'barss36')
+            return 3;
+
     };
 });
 
@@ -3727,14 +3799,11 @@ app.directive('barGraphs', [
                     .attr("id", "chart-" + attrs.id);
 
                 scope.render = function (data, id) {
+                    console.log(data);
 
-                    var keys = d3.nest().key(function (d) {
-                        return d
-                    })
-                        .entries(data);
-                    var temp = keys[0].values.length;
+                    var temp = data;
                     x.domain([0, width - margin.left - margin.right]);
-                    y.domain([0, 100]);
+                    y.domain([0, 5]);
 
                     var chart = d3.select("#chart-" + id)
                         .attr("width", width + margin.left + margin.right)
@@ -3748,9 +3817,8 @@ app.directive('barGraphs', [
                         .attr("y", height - y(temp))
                         .attr("height", y(temp) + 2)
                         .attr("width", (width))
-                        .attr('fill', 'rgb(' + parseInt(temp * 2) + ',60,' + parseInt(temp * 2)
-                        + ')')
-                        .on('click', function () {
+                        .attr('fill', '#3C8DBC')
+                        /*.on('click', function () {
                             var text2 = '<table class="table table-condensed table-bordered table-striped table2excel data-tableName="Test Table 1" style="background: white">' +
                                 '<tr class="noExl"><th>Customer ID</th><th> Contract ID</th><th>Feature ID</th><th>Last Feature Used Date</th><th>SKU01</th><th>SKU02</th><th>SKU03</th><th>Frequency</th><th>Recency</th></tr>';
                             for (var i = 0; i < keys[0].values.length; i++) {
@@ -3776,7 +3844,8 @@ app.directive('barGraphs', [
                             });
                             $("#dialog").dialog("open");
                             $("#table").html(text2);
-                        });
+                        });*/
+
                     chart.append("text")
                         .attr("x", 15)
                         .attr("y", height - y(temp))
@@ -3787,7 +3856,7 @@ app.directive('barGraphs', [
 
                 scope.$watch('data', function (data) {
                     if(data != undefined) {
-                        var filtered_data = $filter(scope.filtername)(data, scope.filtervalue);
+                        var filtered_data = $filter(scope.filtername)(data, scope.filtervalue, scope.id);
                         scope.render(filtered_data, scope.id);
                     }
                 }, true);
@@ -4374,6 +4443,14 @@ app.directive('histogram', ['$filter', function ($filter) {
                     .outerTickSize(0)
                     .ticks(10);
 
+                var tip = d3.tip()
+                    .attr('class', 'd3-tip')
+                    .offset([120, 20])
+                    .html(function (d) {
+                        return " <strong> Recency : </strong>" + d.y;
+                    });
+                svg.call(tip);
+
                 svg.append("g")
                     .attr("class", "y axis")
                     .attr("transform", "translate(0,0)")
@@ -4399,19 +4476,8 @@ app.directive('histogram', ['$filter', function ($filter) {
                         return xBinwidth;
                     })
                     .attr("height", 0)
-                    .on('mouseover', function(d,i) {
-                        div.transition()
-                            .duration(200)
-                            .style("opacity", .9);
-                        div.html(' &nbsp;&nbsp;Recency Counts : ' + d.y + " &nbsp;&nbsp; <br>")
-                            .style("left", (d3.mouse(this)[0]) + "px")
-                            .style("top", (d3.mouse(this)[1]) + "px");
-                    })
-                    .on('mouseout', function(d,i) {
-                        div.transition()
-                            .duration(500)
-                            .style("opacity", 0);
-                    });
+                    .on('mouseover', tip.show)
+                    .on('mouseout', tip.hide);
 
                 tmp.transition()
                     .attr('height', function (d) {

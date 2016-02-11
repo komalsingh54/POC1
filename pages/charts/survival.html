@@ -210,7 +210,7 @@
                 <li class="active treeview">
                     <a href="#">
                         <i class="fa fa-pie-chart"></i>
-                        <span>Charts</span>
+                        <span>Analytics</span>
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
@@ -227,9 +227,9 @@
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Sales Report</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Usage Report</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Activity Report</a></li>
+                        <li><a href="../reports/entitlementReport.html"><i class="fa fa-circle-o"></i> Sales Report</a></li>
+                        <li><a href="../reports/usageReports.html"><i class="fa fa-circle-o"></i> Usage Report</a></li>
+                        <li><a href="../reports/activationReport.html"><i class="fa fa-circle-o"></i> Activity Report</a></li>
                     </ul>
                 </li>
                 <li><a href="documentation/index.html"><i class="fa fa-book"></i>
@@ -261,8 +261,8 @@
                     <div class="nav-tabs-custom">
                         <!-- Tabs within a box -->
                         <ul class="nav nav-tabs pull-right">
-                            <li class="active"><a href="#churn" data-toggle="tab">Churn</a></li>
-                            <li><a href="#Engangement" data-toggle="tab">Engagement</a></li>
+                            <li class="active"><a href="#churn" data-toggle="tab">Engagement</a></li>
+                            <li><a href="#Engangement" data-toggle="tab">Churn</a></li>
                             <li class="pull-left header"><i class="fa fa-line-chart"></i> User Engagement and Churn Statistics &nbsp; &nbsp;
                                 <span class="tooltip-wide"><i class="fa fa-info-circle" data-html="true" data-toggle="tooltip" data-placement="bottom" title="Get a view of the number of users that are engaged and churn. The Churn number tell you that how long
 it takes user to drop your product.<br>
@@ -290,7 +290,7 @@ At what stage in the evaluation lifecycle are you losing your users?
                                                 <div class="panel-body">
                                                    <!-- <div id="miles4" class="graph" style="width: auto;height: auto"></div>-->
                                                     <lable>Split By : </lable>
-                                                    <select ng-model="selectChurn" ng-init="selectChurn='cc'">
+                                                    <select ng-model="selectChurn" ng-init="selectChurn='pre_post_survival'">
                                                         <option value="cc">No of Customer Care Calls</option>
                                                         <option value="pre_post_survival">Post Paid vs Others</option>
                                                     </select>
@@ -302,7 +302,7 @@ At what stage in the evaluation lifecycle are you losing your users?
                                                         <tr ng-repeat="days in dates track by $index">
                                                             <td ng-repeat="day in days">
                                                                 <div class="col-md-12" style="display: inline-block; white-space: nowrap"> Risk :{{ day.Risk }},<br> Survival :{{day.Surv * 100 | number}}%</div>
-                                                                
+
                                                             </td>
                                                         </tr>
                                                         </tbody>
@@ -335,8 +335,8 @@ At what stage in the evaluation lifecycle are you losing your users?
                                 </div>
                                 <div class="col-md-6">
                                     <div class="panel panel-default">
-                                        <div class="panel-body" ng-init="selectEngage='cc'">
-                                            <label>Select : </label>
+                                        <div class="panel-body" ng-init="selectEngage='pre_post_survival'">
+                                            <label>Split By : </label>
                                             <select ng-model="selectEngage">
                                                 <option value="cc">No of Customer Care Calls</option>
                                                 <option value="pre_post_survival">Post Paid or others</option>

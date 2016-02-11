@@ -1,0 +1,138 @@
+[
+  {
+    "FeatureID": "Feature 2",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Poor Recency",
+    "frequency": "Very Low Frequency",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 3",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Moderate Recency",
+    "frequency": "Poor Frequency",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 4",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Poor Recency",
+    "frequency": "Poor Frequency",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 4",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Very Low Recency",
+    "frequency": "Poor Frequency",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 4",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Low Recency",
+    "frequency": "Very Low Frequency",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 4",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Low Recency",
+    "frequency": "Poor Frequency",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 4",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Moderate Recency",
+    "frequency": "High Frequency",
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 4",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "High Recency",
+    "frequency": "Poor Frequency",
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 4",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Very High Recency",
+    "frequency": "Very High Frequency",
+    "quantity": 3,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 4",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Very High Recency",
+    "frequency": "Moderate Frequency",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 4",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Very High Recency",
+    "frequency": "Very Low Frequency",
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 4",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Very High Recency",
+    "frequency": "Poor Frequency",
+    "quantity": 2,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 5",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Moderate Recency",
+    "frequency": "Poor Frequency",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 555",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Low Recency",
+    "frequency": "Poor Frequency",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 555",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Moderate Recency",
+    "frequency": "Poor Frequency",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 99999",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Very Low Recency",
+    "frequency": "Poor Frequency",
+    "quantity": 1,
+    "client": "client"
+  },
+  {
+    "FeatureID": "Feature 99999",
+    "cart": "SKU 1SKU 2SKU 3SKU 4SKU 5SKU 6SKU 7",
+    "recency": "Moderate Recency",
+    "frequency": "Very Low Frequency",
+    "quantity": 1,
+    "client": "client"
+  }
+]

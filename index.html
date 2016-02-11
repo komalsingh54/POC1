@@ -7,11 +7,8 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="dist/css/ionicons.min.css">-->
     <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
-
     <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
-
     <link rel="stylesheet" href="plugins/iCheck/flat/blue.css">
     <link rel="stylesheet" href="plugins/morris/morris.css">
     <link rel="stylesheet" href="plugins/jvectormap/jquery-jvectormap-1.2.2.css">
@@ -29,7 +26,6 @@
 </head>
 <body class="hold-transition skin-blue sidebar-mini"  ng-controller="dashboardController">
 <div class="wrapper">
-
     <header class="main-header">
         <a href="index2.html" class="logo">
             <span class="logo-mini"><b>A</b>LT</span>
@@ -44,7 +40,6 @@
                     <li class="dropdown messages-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="fa fa-envelope-o"></i>
-                           <!-- <span class="label label-success">4</span>-->
                         </a>
                         <ul class="dropdown-menu">
                             <li class="header">You have 4 messages</li>
@@ -121,7 +116,6 @@
                             <li class="footer"><a href="#">See All Messages</a></li>
                         </ul>
                     </li>
-                    <!-- Notifications: style can be found in dropdown.less -->
                     <li class="dropdown notifications-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="fa fa-bell-o"></i>
@@ -342,7 +336,7 @@
                         <li><a href="pages/charts/cohort.html"><i class="fa fa-circle-o"></i> Cohort</a></li>
                         <li><a href="pages/charts/MarketBasket.html"><i class="fa fa-circle-o"></i> Market Basket</a></li>
                         <li><a href="pages/charts/survival.html"><i class="fa fa-circle-o"></i> Survival</a></li>
-                        <li><a href="pages/charts/trail2Production.html.html"><i class="fa fa-circle-o"></i> Trial to Production</a></li>
+                        <li><a href="pages/charts/trail2Production.html"><i class="fa fa-circle-o"></i> Trial to Production</a></li>
                        <!-- <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> Churn</a></li>-->
 
                     </ul>
@@ -486,10 +480,30 @@
                                  style="position: relative; height: 300px;"></div>
                         </div>
                     </div>
+                    <div class="box box-info">
+                        <div class="box-header ui-sortable-handle" style="cursor: move">
+                            <i class="fa fa-bar-chart"></i>
+                            <h3 class="box-title"> Top Features wise Conversion</h3>
+                            <div class="pull-right box-tools">
+                                <button class="btn btn-info btn-sm" data-widget="remove" data-toggle="tooltip" title="remove">
+                                    <i class="fa fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tab-content no-padding">
+                            <div class="box-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <conversion-chart data="data" id="feature-chart" width="580"></conversion-chart>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="box-info box">
                         <div class="box-header ui-sortable-handle" style="cursor: move">
                             <i class="fa fa-bar-chart"></i>
-                            <h3 class="box-title">Top Operating System wise Conversion</h3>
+                            <h3 class="box-title">Top selling Product wise Conversion</h3>
                             <div class="pull-right box-tools">
                                 <button class="btn btn-info btn-sm" data-widget="remove" data-toggle="tooltip" title="remove">
                                     <i class="fa fa-times"></i>
@@ -500,11 +514,10 @@
 
                             <div class="box-body">
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <div id="os-chart" style="width: 550px"></div>
+                                    <div class="col-md-12" ng-init="loadConversionData()" style="height: 420px; width: 100%">
+                                        <conversion-chart data="productData" id="product-chart" width="580"></conversion-chart>
                                     </div>
                                 </div>
-
                             </div>
                             <div class="chart tab-pane"
                                  style="position: relative; height: 300px;"></div>
