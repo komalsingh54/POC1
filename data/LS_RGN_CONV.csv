@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 region,fruit,count
 Americas SRM,Electronic Direct Mail,29
 APAC SRM,Electronic Direct Mail,18
@@ -17,3 +18,24 @@ EMEA SRM,Social Media,6
 Americas SRM,Website,32
 APAC SRM,Website,29
 EMEA SRM,Website,23
+=======
+region,fruit,count
+Americas SRM,Electronic Direct Mail,29
+APAC SRM,Electronic Direct Mail,18
+EMEA SRM,Electronic Direct Mail,18
+Americas SRM,Online Advertising,26
+APAC SRM,Online Advertising,23
+EMEA SRM,Online Advertising,33
+Americas SRM,Phone Inbound,31
+APAC SRM,Phone Inbound,15
+EMEA SRM,Phone Inbound,23
+Americas SRM,Sales Referral,68
+APAC SRM,Sales Referral,33
+EMEA SRM,Sales Referral,34
+Americas SRM,Social Media,6
+APAC SRM,Social Media,4
+EMEA SRM,Social Media,6
+Americas SRM,Website,32
+APAC SRM,Website,29
+EMEA SRM,Website,23
+>>>>>>> origin/master
